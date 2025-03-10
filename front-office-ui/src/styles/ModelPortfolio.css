@@ -1,0 +1,468 @@
+/* ---------------------Consumed on 10/2/25----------------------- */
+ /* ModelPortfolio 29-1-25 */
+ .backbtnmodalport {
+    margin: 0px !important;
+    padding: 4px !important;
+    width: 75px !important;
+    font-size: 12px !important;
+    top: -5px !important;
+  }
+ 
+  .uppersearport {
+    padding: 20px 0px 0px 0px;
+    min-height: 35px;
+  }
+ 
+  .basefortabels th,
+  .basefortabels td {
+    font-family: "Poppins", sans-serif !important;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 8px 16px 8px 16px;
+  }
+ 
+  .tabheadsinall th {
+    color: #9F8F8F;
+    padding: 16px 16px 16px 15px;
+    font-weight: normal;
+  }
+ 
+  .parentcss {
+    background-color: #7351D5;
+    color: #fff;
+    padding: 0px 8px 1px 8px;
+    float: left;
+    border-radius: 15px;
+    width: 40px
+  }
+ 
+  .childcss {
+    background-color: #A489F1;
+    color: #fff;
+    padding: 0px 8px 1px 8px;
+    float: left;
+    border-radius: 15px;
+    width: 40px
+  }
+ 
+  .exclaimgcss {
+    margin: 3px 0px 0px 5px;
+  }
+ 
+  .clitoedit {
+    color: #7351D5;
+    text-transform: capitalize;
+    font-weight: 400;
+    display: block;
+    padding: 0px 0px 0px 0px;
+    text-align: left;
+  }
+ 
+  .modalcreatbtn {
+    background-color: #A35CFB !important;
+    border-radius: 5px !important;
+    color: #fff !important;
+    font-size: 12px !important;
+    padding: 3px 10px 3px 10px !important;
+    margin: -2px 10px 0px 0px !important;
+    text-transform: capitalize;
+  }
+ 
+  .all12font {
+    font-size: 12px !important;
+  }
+ 
+  .newposicon {
+    top: 8px
+  }
+ 
+  .fortxtboxes {
+    padding: 15px 10px 15px 10px;
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, -0.86), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+  }
+ 
+  .tabheadersgry {
+    background-color: #F4F2F2;
+  }
+ 
+  .tabheadersgry tr th {
+    padding: 0px 0px 0px 11px;
+  }
+ 
+  .popinfontimp {
+    font-family: "Poppins" !important;
+  }
+ 
+  .tabelsinsadd {
+    width: 47%;
+    float: left;
+    margin: 0px 0px 0px 00px !important;
+  }
+ 
+  .tabelsinsadd1 {
+    width: 80%;
+    float: left;
+    margin: 0px 0px 0px 00px !important;
+  }
+ 
+  .tabelsinsadd2 {
+    width: 82%;
+    float: left;
+    margin: 0px 0px 0px 00px !important;
+  }
+ 
+  .addtablerows {
+    width: 92%;
+    float: left;
+    padding: 0px 0px 0px 10px !important;
+  }
+ 
+  .addtablerows1 {
+    width: 81%;
+    float: left;
+    padding: 0px 0px 0px 10px !important;
+  }
+ 
+  .tabelsinsaddsingle {
+    width: 96%;
+    float: left;
+    margin: 0px 0px 0px 00px !important;
+  }
+ 
+  .marleftin {
+    margin: 0px 0px 0px 20px !important
+  }
+ 
+  .modeltabelcss th {
+    border-right: 1px solid #ddd !important;
+    padding: 5px 0px 0px 0px;
+    font-weight: 500;
+    font-family: "Poppins" !important;
+    font-size: 12px !important;
+  }
+ 
+  .modeltabelcss tbody tr td {
+    height: 45px;
+    border-right: 1px solid #ddd !important;
+    padding: 0px 0px 0px 10px;
+  }
+ 
+  .forallspacecss svg {
+    width: 15px !important;
+    height: 15px !important;
+    fill: #a35cfb !important;
+  }
+ 
+  .forallspacecss span {
+    font-family: "Poppins" !important;
+    font-size: 12px !important;
+    padding-top: 5px;
+  }
+ 
+  .mainL2select {
+    width: 92% !important;
+    margin-left: 10px !important;
+    font-family: "Poppins" !important;
+    height: 30px;
+    font-size: 12px !important;
+    font-weight: 500 !important;
+  }
+ 
+  .mainL2funds {
+    width: 200px !important;
+    margin-left: 10px !important;
+    margin-top: 30px;
+  }
+ 
+  .slectwithclose {
+    width: 46% !important;
+    margin-left: 10px !important;
+    margin-top: 30px;
+  }
+ 
+  .slectwithcloseinparent {
+    width: 80% !important;
+  }
+ 
+  .slectmaindd {
+    width: 220px !important;
+    margin-top: 3px !important;
+    float: left;
+  }
+ 
+  .slectmaindd1 {
+    width: 93% !important;
+    margin-top: 3px !important;
+    float: left;
+  }
+ 
+  .closico {
+    margin-top: -20px !important;
+  }
+ 
+  .paddingforheaders {
+    padding: 5px 10px 5px 10px !important;
+    font-size: 12px !important;
+    color: #8A8484 !important;
+  }
+ 
+  .paddingforheaderszero {
+    padding: 5px 0px 5px 0px !important;
+    font-size: 12px !important;
+    color: #8A8484 !important;
+  }
+ 
+  .tgswitch {
+    padding: 25px 0px 0px 10px;
+  }
+ 
+  .tgswitch div {
+    font-weight: normal !important;
+    padding: 0px;text-transform: capitalize;
+  }
+ 
+  .threebords {
+    border-bottom: 1px solid #ddd !important;
+    border-right: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+  }
+ 
+  .extbottomgray {
+    border-bottom: 1px solid #ddd;
+  }
+ 
+  .addrowbtns {
+    background-color: #fff !important;
+    font-family: "Poppins" !important;
+    font-size: 12px !important;
+    border: 1px solid #A35CFB !important;
+    color: #A35CFB !important;
+    border-radius: 5px !important;
+    font-size: 12px !important;
+    padding: 3px 3px 3px 3px !important;
+    box-shadow: none !important;
+    text-transform: capitalize;
+  }
+ 
+  .l2labels {
+    font-family: "Poppins" !important;
+    font-size: 12px !important;
+    padding: 5px 0px 0px 10px;
+    color: #8A8484 !important;
+  }
+ 
+  .l2labels1 {
+    font-family: "Poppins" !important;
+    font-size: 12px !important;
+    padding: 55px 0px 0px 10px;
+    color: #8A8484 !important;
+  }
+ 
+  .borsleft {
+    border-left: 1px solid #ddd;
+  }
+ 
+  .disgray {
+    background-color: #EEE9E9;
+    width: 100% !important;
+    margin: 0px 0px 0px 0px !important;
+  }
+ 
+  .disgray80 {
+    background-color: #EEE9E9;
+    width: 82% !important;
+    margin: 0px 0px 0px 0px !important;
+  }
+ 
+  .changespans {
+    background-color: #fff;
+    padding: 0px;
+    margin-left: 10px !important;
+    border-radius: 5px;
+    color: #000 !important;
+  }
+ 
+  .pergapstpnabove {
+    padding: 20px 0px 0px 0px;
+  }
+ 
+  .secondtabinmodel {
+    padding: 10px 0px 0px 15px;
+  }
+ 
+  .mainL2selectdropdown {
+    width: 92% !important;
+    margin-left: 10px !important;
+    font-family: "Poppins" !important;
+    height: 35px;
+    font-size: 12px !important;
+    font-weight: 500 !important;
+  }
+ 
+  .newposcss {
+    margin-left: 0px !important;
+  }
+ 
+  .tbrowhead {
+    padding: 15px 0px 15px 10px !important;
+    font-weight: 600 !important;
+    color: #8A8484 !important;
+    font-family: "Poppins" !important;
+    font-size: 12px !important;
+  }
+ 
+  .tbrowheadblack {
+    padding: 15px 0px 15px 10px !important;
+    font-weight: 600 !important;
+    color: #000000 !important;
+    font-family: "Poppins" !important;
+    font-size: 12px !important;
+  }
+ 
+  .Generatebtn {
+    font-family: "Poppins" !important;
+    font-size: 12px !important;
+    border-radius: 5px !important;
+    padding: 3px 9px 3px 9px !important;
+    box-shadow: none !important;
+    text-transform: capitalize;
+  }
+ 
+  .lfroats {
+    margin-left: 10px !important;
+    float: left;
+    margin-bottom: 15px;
+  }
+ 
+  .extzeroallside {
+    padding: 5px 10px 5px 10px !important;
+  }
+ 
+  .changespans input {
+    padding: 4px 2px 2px 7px !important;
+    width: 35px;
+    text-align: center;
+    font-family: "Poppins", sans-serif !important;
+    font-weight: 600;
+  }
+ 
+  .slectwithclose input {
+    font-family: "Poppins", sans-serif !important;
+    font-weight: 600 !important;
+  }
+ 
+  .largepopcss {
+    width: 1000px !important
+  }
+ 
+  .newblaccol {
+    font-family: "Poppins", sans-serif !important;
+    font-size: 13px;
+    padding: 0px 0px 0px 7px;
+    color: #000;
+  }
+ 
+  .basefortabels1 th,
+  .basefortabels1 td {
+    font-family: "Poppins", sans-serif !important;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 5px 5px 5px 5px;
+  }
+ 
+  .starpos {
+    padding: 0px 0px 0px 0px !important
+  }
+ 
+  .maxtabel500 {
+    height: 350px !important;
+    overflow-y: scroll;
+  }
+ 
+  .addmodelbtn {
+    margin-top: 15px !important;
+  }
+ 
+  .herarpop {
+    width: 100%;
+    text-align: right;
+    cursor: pointer;
+    padding-bottom: 10px;
+  }
+ 
+  .smallspaces {
+    padding: 10px 0px 0px 0px;
+  }
+  .smallspaces button{
+    background-color: #A35CFB;
+    text-transform: capitalize;
+  }
+
+  .floris {
+    float: right;
+    padding: 0px 0px 0px 0px;
+    margin-right: 20px;
+  }
+ 
+  .displaymodelfolio th,
+  .displaymodelfolio td {
+    font-family: "Poppins", sans-serif !important;
+    border: 1px solid #ddd;
+    font-size: 12px;
+    padding: 8px 5px 8px 10px;
+    font-weight: 500;
+  }
+ 
+  .lightgrcol {
+    color: #9F8F8F !important;
+  }
+ 
+  .intextbox input {
+    font-family: "Poppins", sans-serif !important;
+    font-size: 12px;
+    text-align: center !important;
+  }
+ 
+  .orangewhitebluemain {
+    color: #fff;
+    padding: 0px 10px 2px 10px;
+    border-radius: 50px;
+  }
+ 
+  .orangecss {
+    background-color: #FCD633;
+  }
+ 
+  .lightskycss {
+    background-color: #9E7FF6;
+  }
+ 
+  .skycss {
+    background-color: #2DB5BE;
+  }
+  .width50 {
+    width: auto;
+    float: left;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 13px;
+}
+.fon13nrl {
+    font-size: 12px;
+    color: #AB9D9D;
+    font-weight: normal;
+}
+.tpsspacegp{padding-top: 0px !important;} 
+.leftfloats  button{background-color: #A35CFB;}
+
+.topzeroimp {
+    padding-top: 0px !important;
+    padding-left: 0px !important;
+  }
+  .newspacesinblock1 button{text-transform: capitalize;}
+  /* .tableBackground{
+    background-color: #fff !important;
+  } */
+ 

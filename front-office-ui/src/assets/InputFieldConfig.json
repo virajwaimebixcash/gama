@@ -1,0 +1,2317 @@
+[
+  {
+    "value": "text",
+    "label": "Text Input",
+    "fields": [
+      {
+        "type": "text",
+        "label": "Label",
+        "placeholder": "Enter label here"
+      },
+      {
+        "type": "text",
+        "label": "Placeholder",
+        "placeholder": "Enter Placeholder"
+      },
+      {
+        "type": "text",
+        "label": "defaultValue",
+        "placeholder": "Enter Default Value"
+      },
+      {
+        "type": "checkbox",
+        "label": "Mandatory"
+      },
+      {
+        "type": "number",
+        "label": "Min character",
+        "placeholder": "Enter Minimum character"
+      },
+      {
+        "type": "number",
+        "label": "Max character",
+        "placeholder": "Enter Min character"
+      },
+      {
+        "type": "select",
+        "label": "Select Validation Type",
+        "options": [
+          "Select",
+          "Numbers Only",
+          "Alphabets Only",
+          "Alphanumeric"
+        ]
+      },
+      {
+        "type": "checkbox",
+        "label": "Disable",
+        "isDynamic": true,
+        "fields": [
+          {
+            "type": "select",
+            "label": "Disable Depends On",
+            "placeholder": "Enter Depends on",
+            "isDynamic": true,
+            "listType": "dynamic"
+          },
+          {
+            "type": "select",
+            "label": "Disable Condition",
+            "placeholder": "Select Condition on",
+            "list": [
+              {
+                "name": "Greater Than",
+                "value": "greaterThan"
+              },
+              {
+                "name": "Less Than",
+                "value": "lessThan"
+              },
+              {
+                "name": "Equals",
+                "value": "equals"
+              },
+              {
+                "name": "Not Equals",
+                "value": "notEquals"
+              },
+              {
+                "name": "Greater Than Or Equals",
+                "value": "greaterThanOrEquals"
+              },
+              {
+                "name": "Less Than Or Equals",
+                "value": "lessThanOrEquals"
+              }
+            ],
+            "isDynamic": true
+          },
+          {
+            "type": "select",
+            "label": "Disable value Type",
+            "placeholder": "Select Value Type",
+            "list": [
+              {
+                "name": "String",
+                "value": "String"
+              },
+              {
+                "name": "Number",
+                "value": "Number"
+              },
+              {
+                "name": "Date",
+                "value": "Date"
+              },
+              {
+                "name": "Boolean",
+                "value": "Boolean"
+              }
+            ],
+            "isDynamic": true
+          },
+          {
+            "type": "text",
+            "label": "Disable value",
+            "placeholder": "Enter Depends value",
+            "isDynamic": true
+          }
+        ]
+      },
+      {
+        "type": "checkbox",
+        "label": "Reset",
+        "isDynamic": true,
+        "fields": [
+          {
+            "type": "select",
+            "label": "Reset Depends On",
+            "placeholder": "Enter Depends on",
+            "isDynamic": true,
+            "listType": "dynamic"
+          },
+          {
+            "type": "select",
+            "label": "Reset Condition",
+            "placeholder": "Select Condition on",
+            "list": [
+              {
+                "name": "Greater Than",
+                "value": "greaterThan"
+              },
+              {
+                "name": "Less Than",
+                "value": "lessThan"
+              },
+              {
+                "name": "Equals",
+                "value": "equals"
+              },
+              {
+                "name": "Not Equals",
+                "value": "notEquals"
+              },
+              {
+                "name": "Greater Than Or Equals",
+                "value": "greaterThanOrEquals"
+              },
+              {
+                "name": "Less Than Or Equals",
+                "value": "lessThanOrEquals"
+              }
+            ],
+            "isDynamic": true
+          },
+          {
+            "type": "select",
+            "label": "Reset value Type",
+            "placeholder": "Select Value Type",
+            "list": [
+              {
+                "name": "String",
+                "value": "String"
+              },
+              {
+                "name": "Number",
+                "value": "Number"
+              },
+              {
+                "name": "Date",
+                "value": "Date"
+              },
+              {
+                "name": "Boolean",
+                "value": "Boolean"
+              }
+            ],
+            "isDynamic": true
+          },
+          {
+            "type": "text",
+            "label": "Reset value",
+            "placeholder": "Enter Depends value",
+            "isDynamic": true
+          }
+        ]
+      },
+      {
+        "type": "checkbox",
+        "label": "Mandatory Rule",
+        "isDynamic": true,
+        "fields": [
+          {
+            "type": "select",
+            "label": "Mandatory Depends On",
+            "placeholder": "Enter Depends on",
+            "isDynamic": true,
+            "listType": "dynamic"
+          },
+          {
+            "type": "select",
+            "label": "Mandatory Condition",
+            "placeholder": "Select Condition on",
+            "list": [
+              {
+                "name": "Greater Than",
+                "value": "greaterThan"
+              },
+              {
+                "name": "Less Than",
+                "value": "lessThan"
+              },
+              {
+                "name": "Equals",
+                "value": "equals"
+              },
+              {
+                "name": "Not Equals",
+                "value": "notEquals"
+              },
+              {
+                "name": "Greater Than Or Equals",
+                "value": "greaterThanOrEquals"
+              },
+              {
+                "name": "Less Than Or Equals",
+                "value": "lessThanOrEquals"
+              }
+            ],
+            "isDynamic": true
+          },
+          {
+            "type": "select",
+            "label": "Mandatory value Type",
+            "placeholder": "Select Value Type",
+            "list": [
+              {
+                "name": "String",
+                "value": "String"
+              },
+              {
+                "name": "Number",
+                "value": "Number"
+              },
+              {
+                "name": "Date",
+                "value": "Date"
+              },
+              {
+                "name": "Boolean",
+                "value": "Boolean"
+              }
+            ],
+            "isDynamic": true
+          },
+          {
+            "type": "text",
+            "label": "Mandatory value",
+            "placeholder": "Enter Depends value",
+            "isDynamic": true
+          }
+        ]
+      }
+    ],
+    "submitData": {
+      "label": "",
+      "component": "text",
+      "placeholder": "",
+      "dispatchername": "",
+      "validation": {
+        "required": {
+          "value": true,
+          "message": "ID is required"
+        },
+        "pattern": {
+          "value": "^[\\p{L}\\p{M}\\s]+$",
+          "message": "Only alphabets are allowed"
+        }
+      }
+    }
+  },
+  {
+    "value": "radio",
+    "label": "Radio Input",
+    "canAddMore": true,
+    "fields": [
+      {
+        "type": "text",
+        "label": "Label",
+        "placeholder": "Enter label here"
+      },
+      {
+        "type": "text",
+        "label": "Option 1",
+        "placeholder": "Enter label for option 1",
+        "condition": "Option 1"
+      },
+      {
+        "type": "text",
+        "label": "Option 2",
+        "placeholder": "Enter label for option 2",
+        "condition": "Option 2"
+      }
+    ]
+  },
+  {
+    "value": "dropdown",
+    "label": "Dropdown API Input",
+    "fields": [
+      {
+        "type": "text",
+        "label": "Label",
+        "placeholder": "Enter label here"
+      },
+      {
+        "type": "checkbox",
+        "label": "Mandatory"
+      },
+      {
+        "type": "checkbox",
+        "label": "Disable",
+        "isDynamic": true,
+        "fields": [
+          {
+            "type": "select",
+            "label": "Disable Depends On",
+            "placeholder": "Enter Depends on",
+            "isDynamic": true,
+            "listType": "dynamic"
+          },
+          {
+            "type": "select",
+            "label": "Disable Condition",
+            "placeholder": "Select Condition on",
+            "list": [
+              {
+                "name": "Greater Than",
+                "value": "greaterThan"
+              },
+              {
+                "name": "Less Than",
+                "value": "lessThan"
+              },
+              {
+                "name": "Equals",
+                "value": "equals"
+              },
+              {
+                "name": "Not Equals",
+                "value": "notEquals"
+              },
+              {
+                "name": "Greater Than Or Equals",
+                "value": "greaterThanOrEquals"
+              },
+              {
+                "name": "Less Than Or Equals",
+                "value": "lessThanOrEquals"
+              }
+            ],
+            "isDynamic": true
+          },
+          {
+            "type": "select",
+            "label": "Disable value Type",
+            "placeholder": "Select Value Type",
+            "list": [
+              {
+                "name": "String",
+                "value": "String"
+              },
+              {
+                "name": "Number",
+                "value": "Number"
+              },
+              {
+                "name": "Date",
+                "value": "Date"
+              },
+              {
+                "name": "Boolean",
+                "value": "Boolean"
+              }
+            ],
+            "isDynamic": true
+          },
+          {
+            "type": "text",
+            "label": "Disable value",
+            "placeholder": "Enter Depends value",
+            "isDynamic": true
+          }
+        ]
+      },
+      {
+        "type": "checkbox",
+        "label": "Reset",
+        "isDynamic": true,
+        "fields": [
+          {
+            "type": "select",
+            "label": "Reset Depends On",
+            "placeholder": "Enter Depends on",
+            "isDynamic": true,
+            "listType": "dynamic"
+          },
+          {
+            "type": "select",
+            "label": "Reset Condition",
+            "placeholder": "Select Condition on",
+            "list": [
+              {
+                "name": "Greater Than",
+                "value": "greaterThan"
+              },
+              {
+                "name": "Less Than",
+                "value": "lessThan"
+              },
+              {
+                "name": "Equals",
+                "value": "equals"
+              },
+              {
+                "name": "Not Equals",
+                "value": "notEquals"
+              },
+              {
+                "name": "Greater Than Or Equals",
+                "value": "greaterThanOrEquals"
+              },
+              {
+                "name": "Less Than Or Equals",
+                "value": "lessThanOrEquals"
+              }
+            ],
+            "isDynamic": true
+          },
+          {
+            "type": "select",
+            "label": "Reset value Type",
+            "placeholder": "Select Value Type",
+            "list": [
+              {
+                "name": "String",
+                "value": "String"
+              },
+              {
+                "name": "Number",
+                "value": "Number"
+              },
+              {
+                "name": "Date",
+                "value": "Date"
+              },
+              {
+                "name": "Boolean",
+                "value": "Boolean"
+              }
+            ],
+            "isDynamic": true
+          },
+          {
+            "type": "text",
+            "label": "Reset value",
+            "placeholder": "Enter Depends value",
+            "isDynamic": true
+          }
+        ]
+      },
+      {
+        "type": "checkbox",
+        "label": "Mandatory Rule",
+        "isDynamic": true,
+        "fields": [
+          {
+            "type": "select",
+            "label": "Mandatory Depends On",
+            "placeholder": "Enter Depends on",
+            "isDynamic": true,
+            "listType": "dynamic"
+          },
+          {
+            "type": "select",
+            "label": "Mandatory Condition",
+            "placeholder": "Select Condition on",
+            "list": [
+              {
+                "name": "Greater Than",
+                "value": "greaterThan"
+              },
+              {
+                "name": "Less Than",
+                "value": "lessThan"
+              },
+              {
+                "name": "Equals",
+                "value": "equals"
+              },
+              {
+                "name": "Not Equals",
+                "value": "notEquals"
+              },
+              {
+                "name": "Greater Than Or Equals",
+                "value": "greaterThanOrEquals"
+              },
+              {
+                "name": "Less Than Or Equals",
+                "value": "lessThanOrEquals"
+              }
+            ],
+            "isDynamic": true
+          },
+          {
+            "type": "select",
+            "label": "Mandatory value Type",
+            "placeholder": "Select Value Type",
+            "list": [
+              {
+                "name": "String",
+                "value": "String"
+              },
+              {
+                "name": "Number",
+                "value": "Number"
+              },
+              {
+                "name": "Date",
+                "value": "Date"
+              },
+              {
+                "name": "Boolean",
+                "value": "Boolean"
+              }
+            ],
+            "isDynamic": true
+          },
+          {
+            "type": "text",
+            "label": "Mandatory value",
+            "placeholder": "Enter Depends value",
+            "isDynamic": true
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "label": "Relative Third Party API Url",
+        "placeholder": "Enter Relative Third Party API Url"
+      }
+    ]
+  },
+  {
+    "value": "staticDropdown",
+    "label": "Dropdown User Input",
+    "fields": [
+      {
+        "type": "text",
+        "label": "Label",
+        "placeholder": "Enter label here"
+      },
+      {
+        "type": "checkbox",
+        "label": "Mandatory"
+      },
+      {
+        "type": "checkbox",
+        "label": "Disable",
+        "isDynamic": true,
+        "fields": [
+          {
+            "type": "select",
+            "label": "Disable Depends On",
+            "placeholder": "Enter Depends on",
+            "isDynamic": true,
+            "listType": "dynamic"
+          },
+          {
+            "type": "select",
+            "label": "Disable Condition",
+            "placeholder": "Select Condition on",
+            "list": [
+              {
+                "name": "Greater Than",
+                "value": "greaterThan"
+              },
+              {
+                "name": "Less Than",
+                "value": "lessThan"
+              },
+              {
+                "name": "Equals",
+                "value": "equals"
+              },
+              {
+                "name": "Not Equals",
+                "value": "notEquals"
+              },
+              {
+                "name": "Greater Than Or Equals",
+                "value": "greaterThanOrEquals"
+              },
+              {
+                "name": "Less Than Or Equals",
+                "value": "lessThanOrEquals"
+              }
+            ],
+            "isDynamic": true
+          },
+          {
+            "type": "select",
+            "label": "Disable value Type",
+            "placeholder": "Select Value Type",
+            "list": [
+              {
+                "name": "String",
+                "value": "String"
+              },
+              {
+                "name": "Number",
+                "value": "Number"
+              },
+              {
+                "name": "Date",
+                "value": "Date"
+              },
+              {
+                "name": "Boolean",
+                "value": "Boolean"
+              }
+            ],
+            "isDynamic": true
+          },
+          {
+            "type": "text",
+            "label": "Disable value",
+            "placeholder": "Enter Depends value",
+            "isDynamic": true
+          }
+        ]
+      },
+      {
+        "type": "checkbox",
+        "label": "Reset",
+        "isDynamic": true,
+        "fields": [
+          {
+            "type": "select",
+            "label": "Reset Depends On",
+            "placeholder": "Enter Depends on",
+            "isDynamic": true,
+            "listType": "dynamic"
+          },
+          {
+            "type": "select",
+            "label": "Reset Condition",
+            "placeholder": "Select Condition on",
+            "list": [
+              {
+                "name": "Greater Than",
+                "value": "greaterThan"
+              },
+              {
+                "name": "Less Than",
+                "value": "lessThan"
+              },
+              {
+                "name": "Equals",
+                "value": "equals"
+              },
+              {
+                "name": "Not Equals",
+                "value": "notEquals"
+              },
+              {
+                "name": "Greater Than Or Equals",
+                "value": "greaterThanOrEquals"
+              },
+              {
+                "name": "Less Than Or Equals",
+                "value": "lessThanOrEquals"
+              }
+            ],
+            "isDynamic": true
+          },
+          {
+            "type": "select",
+            "label": "Reset value Type",
+            "placeholder": "Select Value Type",
+            "list": [
+              {
+                "name": "String",
+                "value": "String"
+              },
+              {
+                "name": "Number",
+                "value": "Number"
+              },
+              {
+                "name": "Date",
+                "value": "Date"
+              },
+              {
+                "name": "Boolean",
+                "value": "Boolean"
+              }
+            ],
+            "isDynamic": true
+          },
+          {
+            "type": "text",
+            "label": "Reset value",
+            "placeholder": "Enter Depends value",
+            "isDynamic": true
+          }
+        ]
+      },
+      {
+        "type": "checkbox",
+        "label": "Mandatory Rule",
+        "isDynamic": true,
+        "fields": [
+          {
+            "type": "select",
+            "label": "Mandatory Depends On",
+            "placeholder": "Enter Depends on",
+            "isDynamic": true,
+            "listType": "dynamic"
+          },
+          {
+            "type": "select",
+            "label": "Mandatory Condition",
+            "placeholder": "Select Condition on",
+            "list": [
+              {
+                "name": "Greater Than",
+                "value": "greaterThan"
+              },
+              {
+                "name": "Less Than",
+                "value": "lessThan"
+              },
+              {
+                "name": "Equals",
+                "value": "equals"
+              },
+              {
+                "name": "Not Equals",
+                "value": "notEquals"
+              },
+              {
+                "name": "Greater Than Or Equals",
+                "value": "greaterThanOrEquals"
+              },
+              {
+                "name": "Less Than Or Equals",
+                "value": "lessThanOrEquals"
+              }
+            ],
+            "isDynamic": true
+          },
+          {
+            "type": "select",
+            "label": "Mandatory value Type",
+            "placeholder": "Select Value Type",
+            "list": [
+              {
+                "name": "String",
+                "value": "String"
+              },
+              {
+                "name": "Number",
+                "value": "Number"
+              },
+              {
+                "name": "Date",
+                "value": "Date"
+              },
+              {
+                "name": "Boolean",
+                "value": "Boolean"
+              }
+            ],
+            "isDynamic": true
+          },
+          {
+            "type": "text",
+            "label": "Mandatory value",
+            "placeholder": "Enter Depends value",
+            "isDynamic": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "value": "date",
+    "label": "Date Input",
+    "fields": [
+      {
+        "type": "text",
+        "label": "Label",
+        "placeholder": "Enter label here"
+      },
+      {
+        "type": "checkbox",
+        "label": "Mandatory"
+      },
+      {
+        "type": "number",
+        "label": "Min Age",
+        "placeholder": "Select minimum age"
+      },
+      {
+        "type": "number",
+        "label": "Max Age",
+        "placeholder": "Select maximum age"
+      },
+      {
+        "type": "checkbox",
+        "label": "Max Rules",
+        "isDynamic": true,
+        "fields": [
+          {
+            "type": "select",
+            "label": "Max value Depends On",
+            "placeholder": "Enter Depends on",
+            "isDynamic": true,
+            "listType": "dynamic"
+          },
+          {
+            "type": "select",
+            "label": "Max value Condition",
+            "placeholder": "Select Condition",
+            "list": [
+              {
+                "name": "Equals",
+                "value": "equals"
+              },
+              {
+                "name": "Less Than",
+                "value": "lessThan"
+              }
+            ],
+            "isDynamic": true
+          },
+          {
+            "type": "select",
+            "label": "Max value Compute logic",
+            "placeholder": "Select Condition",
+            "list": [
+              {
+                "name": "Add Days",
+                "value": "date.addDays"
+              },
+              {
+                "name": "Subtract Days",
+                "value": "date.subtractDays"
+              }
+            ],
+            "isDynamic": true
+          },
+          {
+            "type": "text",
+            "label": "Max value in days",
+            "placeholder": "Enter value",
+            "isDynamic": true
+          }
+        ]
+      },
+      {
+        "type": "checkbox",
+        "label": "Min Rules",
+        "isDynamic": true,
+        "fields": [
+          {
+            "type": "select",
+            "label": "Min value Depends On",
+            "placeholder": "Enter Depends on",
+            "isDynamic": true,
+            "listType": "dynamic"
+          },
+          {
+            "type": "select",
+            "label": "Min value Condition",
+            "placeholder": "Select Condition",
+            "list": [
+              {
+                "name": "Equals",
+                "value": "equals"
+              },
+              {
+                "name": "Less Than",
+                "value": "lessThan"
+              }
+            ],
+            "isDynamic": true
+          },
+          {
+            "type": "select",
+            "label": "Min value Compute logic",
+            "placeholder": "Select Condition",
+            "list": [
+              {
+                "name": "Add Days",
+                "value": "date.addDays"
+              },
+              {
+                "name": "Subtract Days",
+                "value": "date.subtractDays"
+              }
+            ],
+            "isDynamic": true
+          },
+          {
+            "type": "text",
+            "label": "Min value in days",
+            "placeholder": "Enter value",
+            "isDynamic": true
+          }
+        ]
+      },
+      {
+        "type": "checkbox",
+        "label": "Disable",
+        "isDynamic": true,
+        "fields": [
+          {
+            "type": "select",
+            "label": "Disable Depends On",
+            "placeholder": "Enter Depends on",
+            "isDynamic": true,
+            "listType": "dynamic"
+          },
+          {
+            "type": "select",
+            "label": "Disable Condition",
+            "placeholder": "Select Condition on",
+            "list": [
+              {
+                "name": "Greater Than",
+                "value": "greaterThan"
+              },
+              {
+                "name": "Less Than",
+                "value": "lessThan"
+              },
+              {
+                "name": "Equals",
+                "value": "equals"
+              },
+              {
+                "name": "Not Equals",
+                "value": "notEquals"
+              },
+              {
+                "name": "Greater Than Or Equals",
+                "value": "greaterThanOrEquals"
+              },
+              {
+                "name": "Less Than Or Equals",
+                "value": "lessThanOrEquals"
+              }
+            ],
+            "isDynamic": true
+          },
+          {
+            "type": "select",
+            "label": "Disable value Type",
+            "placeholder": "Select Value Type",
+            "list": [
+              {
+                "name": "String",
+                "value": "String"
+              },
+              {
+                "name": "Number",
+                "value": "Number"
+              },
+              {
+                "name": "Date",
+                "value": "Date"
+              },
+              {
+                "name": "Boolean",
+                "value": "Boolean"
+              }
+            ],
+            "isDynamic": true
+          },
+          {
+            "type": "text",
+            "label": "Disable value",
+            "placeholder": "Enter Depends value",
+            "isDynamic": true
+          }
+        ]
+      },
+      {
+        "type": "checkbox",
+        "label": "Reset",
+        "isDynamic": true,
+        "fields": [
+          {
+            "type": "select",
+            "label": "Reset Depends On",
+            "placeholder": "Enter Depends on",
+            "isDynamic": true,
+            "listType": "dynamic"
+          },
+          {
+            "type": "select",
+            "label": "Reset Condition",
+            "placeholder": "Select Condition on",
+            "list": [
+              {
+                "name": "Greater Than",
+                "value": "greaterThan"
+              },
+              {
+                "name": "Less Than",
+                "value": "lessThan"
+              },
+              {
+                "name": "Equals",
+                "value": "equals"
+              },
+              {
+                "name": "Not Equals",
+                "value": "notEquals"
+              },
+              {
+                "name": "Greater Than Or Equals",
+                "value": "greaterThanOrEquals"
+              },
+              {
+                "name": "Less Than Or Equals",
+                "value": "lessThanOrEquals"
+              }
+            ],
+            "isDynamic": true
+          },
+          {
+            "type": "select",
+            "label": "Reset value Type",
+            "placeholder": "Select Value Type",
+            "list": [
+              {
+                "name": "String",
+                "value": "String"
+              },
+              {
+                "name": "Number",
+                "value": "Number"
+              },
+              {
+                "name": "Date",
+                "value": "Date"
+              },
+              {
+                "name": "Boolean",
+                "value": "Boolean"
+              }
+            ],
+            "isDynamic": true
+          },
+          {
+            "type": "text",
+            "label": "Reset value",
+            "placeholder": "Enter Depends value",
+            "isDynamic": true
+          }
+        ]
+      },
+      {
+        "type": "checkbox",
+        "label": "Mandatory Rule",
+        "isDynamic": true,
+        "fields": [
+          {
+            "type": "select",
+            "label": "Mandatory Depends On",
+            "placeholder": "Enter Depends on",
+            "isDynamic": true,
+            "listType": "dynamic"
+          },
+          {
+            "type": "select",
+            "label": "Mandatory Condition",
+            "placeholder": "Select Condition on",
+            "list": [
+              {
+                "name": "Greater Than",
+                "value": "greaterThan"
+              },
+              {
+                "name": "Less Than",
+                "value": "lessThan"
+              },
+              {
+                "name": "Equals",
+                "value": "equals"
+              },
+              {
+                "name": "Not Equals",
+                "value": "notEquals"
+              },
+              {
+                "name": "Greater Than Or Equals",
+                "value": "greaterThanOrEquals"
+              },
+              {
+                "name": "Less Than Or Equals",
+                "value": "lessThanOrEquals"
+              }
+            ],
+            "isDynamic": true
+          },
+          {
+            "type": "select",
+            "label": "Mandatory value Type",
+            "placeholder": "Select Value Type",
+            "list": [
+              {
+                "name": "String",
+                "value": "String"
+              },
+              {
+                "name": "Number",
+                "value": "Number"
+              },
+              {
+                "name": "Date",
+                "value": "Date"
+              },
+              {
+                "name": "Boolean",
+                "value": "Boolean"
+              }
+            ],
+            "isDynamic": true
+          },
+          {
+            "type": "text",
+            "label": "Mandatory value",
+            "placeholder": "Enter Depends value",
+            "isDynamic": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "value": "multiselect",
+    "label": "Multiselect Input",
+    "fields": [
+      {
+        "type": "text",
+        "label": "Label",
+        "placeholder": "Enter label here"
+      },
+      {
+        "type": "text",
+        "label": "Placeholder",
+        "placeholder": "Enter placeholder here"
+      },
+      {
+        "type": "text",
+        "label": "API URL",
+        "placeholder": "Enter API URL here"
+      },
+      {
+        "type": "checkbox",
+        "label": "Mandatory"
+      },
+      {
+        "type": "number",
+        "label": "Min Selections",
+        "placeholder": "Enter minimum number of selections"
+      },
+      {
+        "type": "checkbox",
+        "label": "Disable",
+        "isDynamic": true,
+        "fields": [
+          {
+            "type": "select",
+            "label": "Disable Depends On",
+            "placeholder": "Enter Depends on",
+            "isDynamic": true,
+            "listType": "dynamic"
+          },
+          {
+            "type": "select",
+            "label": "Disable Condition",
+            "placeholder": "Select Condition on",
+            "list": [
+              {
+                "name": "Greater Than",
+                "value": "greaterThan"
+              },
+              {
+                "name": "Less Than",
+                "value": "lessThan"
+              },
+              {
+                "name": "Equals",
+                "value": "equals"
+              },
+              {
+                "name": "Not Equals",
+                "value": "notEquals"
+              },
+              {
+                "name": "Greater Than Or Equals",
+                "value": "greaterThanOrEquals"
+              },
+              {
+                "name": "Less Than Or Equals",
+                "value": "lessThanOrEquals"
+              }
+            ],
+            "isDynamic": true
+          },
+          {
+            "type": "select",
+            "label": "Disable value Type",
+            "placeholder": "Select Value Type",
+            "list": [
+              {
+                "name": "String",
+                "value": "String"
+              },
+              {
+                "name": "Number",
+                "value": "Number"
+              },
+              {
+                "name": "Date",
+                "value": "Date"
+              },
+              {
+                "name": "Boolean",
+                "value": "Boolean"
+              }
+            ],
+            "isDynamic": true
+          },
+          {
+            "type": "text",
+            "label": "Disable value",
+            "placeholder": "Enter Depends value",
+            "isDynamic": true
+          }
+        ]
+      },
+      {
+        "type": "checkbox",
+        "label": "Reset",
+        "isDynamic": true,
+        "fields": [
+          {
+            "type": "select",
+            "label": "Reset Depends On",
+            "placeholder": "Enter Depends on",
+            "isDynamic": true,
+            "listType": "dynamic"
+          },
+          {
+            "type": "select",
+            "label": "Reset Condition",
+            "placeholder": "Select Condition on",
+            "list": [
+              {
+                "name": "Greater Than",
+                "value": "greaterThan"
+              },
+              {
+                "name": "Less Than",
+                "value": "lessThan"
+              },
+              {
+                "name": "Equals",
+                "value": "equals"
+              },
+              {
+                "name": "Not Equals",
+                "value": "notEquals"
+              },
+              {
+                "name": "Greater Than Or Equals",
+                "value": "greaterThanOrEquals"
+              },
+              {
+                "name": "Less Than Or Equals",
+                "value": "lessThanOrEquals"
+              }
+            ],
+            "isDynamic": true
+          },
+          {
+            "type": "select",
+            "label": "Reset value Type",
+            "placeholder": "Select Value Type",
+            "list": [
+              {
+                "name": "String",
+                "value": "String"
+              },
+              {
+                "name": "Number",
+                "value": "Number"
+              },
+              {
+                "name": "Date",
+                "value": "Date"
+              },
+              {
+                "name": "Boolean",
+                "value": "Boolean"
+              }
+            ],
+            "isDynamic": true
+          },
+          {
+            "type": "text",
+            "label": "Reset value",
+            "placeholder": "Enter Depends value",
+            "isDynamic": true
+          }
+        ]
+      },
+      {
+        "type": "checkbox",
+        "label": "Mandatory Rule",
+        "isDynamic": true,
+        "fields": [
+          {
+            "type": "select",
+            "label": "Mandatory Depends On",
+            "placeholder": "Enter Depends on",
+            "isDynamic": true,
+            "listType": "dynamic"
+          },
+          {
+            "type": "select",
+            "label": "Mandatory Condition",
+            "placeholder": "Select Condition on",
+            "list": [
+              {
+                "name": "Greater Than",
+                "value": "greaterThan"
+              },
+              {
+                "name": "Less Than",
+                "value": "lessThan"
+              },
+              {
+                "name": "Equals",
+                "value": "equals"
+              },
+              {
+                "name": "Not Equals",
+                "value": "notEquals"
+              },
+              {
+                "name": "Greater Than Or Equals",
+                "value": "greaterThanOrEquals"
+              },
+              {
+                "name": "Less Than Or Equals",
+                "value": "lessThanOrEquals"
+              }
+            ],
+            "isDynamic": true
+          },
+          {
+            "type": "select",
+            "label": "Mandatory value Type",
+            "placeholder": "Select Value Type",
+            "list": [
+              {
+                "name": "String",
+                "value": "String"
+              },
+              {
+                "name": "Number",
+                "value": "Number"
+              },
+              {
+                "name": "Date",
+                "value": "Date"
+              },
+              {
+                "name": "Boolean",
+                "value": "Boolean"
+              }
+            ],
+            "isDynamic": true
+          },
+          {
+            "type": "text",
+            "label": "Mandatory value",
+            "placeholder": "Enter Depends value",
+            "isDynamic": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "value": "checkbox",
+    "label": "Checkbox Input",
+    "fields": [
+      {
+        "type": "text",
+        "label": "Label",
+        "placeholder": "Enter label here"
+      },
+      {
+        "type": "text",
+        "label": "Check box text",
+        "placeholder": "Enter text for check box",
+        "condition": "Check box text"
+      },
+      {
+        "type": "checkbox",
+        "label": "Mandatory"
+      },
+      {
+        "type": "select",
+        "label": "Default Value",
+        "options": [
+          "Checked",
+          "Unchecked"
+        ]
+      },
+      {
+        "type": "checkbox",
+        "label": "Disable",
+        "isDynamic": true,
+        "fields": [
+          {
+            "type": "select",
+            "label": "Disable Depends On",
+            "placeholder": "Enter Depends on",
+            "isDynamic": true,
+            "listType": "dynamic"
+          },
+          {
+            "type": "select",
+            "label": "Disable Condition",
+            "placeholder": "Select Condition on",
+            "list": [
+              {
+                "name": "Greater Than",
+                "value": "greaterThan"
+              },
+              {
+                "name": "Less Than",
+                "value": "lessThan"
+              },
+              {
+                "name": "Equals",
+                "value": "equals"
+              },
+              {
+                "name": "Not Equals",
+                "value": "notEquals"
+              },
+              {
+                "name": "Greater Than Or Equals",
+                "value": "greaterThanOrEquals"
+              },
+              {
+                "name": "Less Than Or Equals",
+                "value": "lessThanOrEquals"
+              }
+            ],
+            "isDynamic": true
+          },
+          {
+            "type": "select",
+            "label": "Disable value Type",
+            "placeholder": "Select Value Type",
+            "list": [
+              {
+                "name": "String",
+                "value": "String"
+              },
+              {
+                "name": "Number",
+                "value": "Number"
+              },
+              {
+                "name": "Date",
+                "value": "Date"
+              },
+              {
+                "name": "Boolean",
+                "value": "Boolean"
+              }
+            ],
+            "isDynamic": true
+          },
+          {
+            "type": "text",
+            "label": "Disable value",
+            "placeholder": "Enter Depends value",
+            "isDynamic": true
+          }
+        ]
+      },
+      {
+        "type": "checkbox",
+        "label": "Reset",
+        "isDynamic": true,
+        "fields": [
+          {
+            "type": "select",
+            "label": "Reset Depends On",
+            "placeholder": "Enter Depends on",
+            "isDynamic": true,
+            "listType": "dynamic"
+          },
+          {
+            "type": "select",
+            "label": "Reset Condition",
+            "placeholder": "Select Condition on",
+            "list": [
+              {
+                "name": "Greater Than",
+                "value": "greaterThan"
+              },
+              {
+                "name": "Less Than",
+                "value": "lessThan"
+              },
+              {
+                "name": "Equals",
+                "value": "equals"
+              },
+              {
+                "name": "Not Equals",
+                "value": "notEquals"
+              },
+              {
+                "name": "Greater Than Or Equals",
+                "value": "greaterThanOrEquals"
+              },
+              {
+                "name": "Less Than Or Equals",
+                "value": "lessThanOrEquals"
+              }
+            ],
+            "isDynamic": true
+          },
+          {
+            "type": "select",
+            "label": "Reset value Type",
+            "placeholder": "Select Value Type",
+            "list": [
+              {
+                "name": "String",
+                "value": "String"
+              },
+              {
+                "name": "Number",
+                "value": "Number"
+              },
+              {
+                "name": "Date",
+                "value": "Date"
+              },
+              {
+                "name": "Boolean",
+                "value": "Boolean"
+              }
+            ],
+            "isDynamic": true
+          },
+          {
+            "type": "text",
+            "label": "Reset value",
+            "placeholder": "Enter Depends value",
+            "isDynamic": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "value": "autoSuggestion",
+    "label": "AutoSuggestion Dropdown",
+    "fields": [
+      {
+        "type": "text",
+        "label": "Label",
+        "placeholder": "Enter label here"
+      },
+      {
+        "type": "text",
+        "label": "API Url",
+        "placeholder": "Enter API Url"
+      },
+      {
+        "type": "text",
+        "label": "API Query Parameter Name",
+        "placeholder": "Enter Parameter Name"
+      },
+      {
+        "type": "number",
+        "label": "Min Selections",
+        "placeholder": "Enter minimum characters for searching"
+      },
+      {
+        "type": "checkbox",
+        "label": "Mandatory"
+      },
+      {
+        "type": "text",
+        "label": "Relative Third Party API Url",
+        "placeholder": "Enter Relative Third Party API Url"
+      }
+    ]
+  },
+  {
+    "value": "featuredtext",
+    "label": " Featured Text Input",
+    "fields": [
+      {
+        "type": "text",
+        "label": "Label",
+        "placeholder": "Enter label here"
+      },
+      {
+        "type": "text",
+        "label": "Placeholder",
+        "placeholder": "Enter Placeholder"
+      },
+      {
+        "type": "checkbox",
+        "label": "Mandatory"
+      },
+      {
+        "type": "number",
+        "label": "Min character",
+        "placeholder": "Enter Minimum character"
+      },
+      {
+        "type": "number",
+        "label": "Max character",
+        "placeholder": "Enter Min character"
+      },
+      {
+        "type": "select",
+        "label": "Type",
+        "placeholder": "Enter type",
+        "options": [
+          {
+            "name": "Select",
+            "value": ""
+          },
+          {
+            "name": "Numbers Only",
+            "value": "numeric"
+          },
+          {
+            "name": "Alphabets Only",
+            "value": "alphabetical"
+          },
+          {
+            "name": "Decimals Only",
+            "value": "decimal"
+          }
+        ]
+      },
+      {
+        "type": "number",
+        "label": "Decimal Precision",
+        "placeholder": "Enter decimalPrecision"
+      },
+      {
+        "type": "checkbox",
+        "label": "Thousand Separator"
+      },
+      {
+        "type": "text",
+        "label": "Prefix",
+        "placeholder": "Enter prefix"
+      },
+      {
+        "type": "text",
+        "label": "Suffix",
+        "placeholder": "Enter suffix"
+      },
+      {
+        "type": "select",
+        "label": "Select Validation Type",
+        "options": [
+          "Select",
+          "Numbers Only",
+          "Alphabets Only",
+          "Alphanumeric"
+        ]
+      },
+      {
+        "type": "checkbox",
+        "label": "Disable",
+        "isDynamic": true,
+        "fields": [
+          {
+            "type": "select",
+            "label": "Disable Depends On",
+            "placeholder": "Enter Depends on",
+            "isDynamic": true,
+            "listType": "dynamic"
+          },
+          {
+            "type": "select",
+            "label": "Disable Condition",
+            "placeholder": "Select Condition on",
+            "list": [
+              {
+                "name": "Greater Than",
+                "value": "greaterThan"
+              },
+              {
+                "name": "Less Than",
+                "value": "lessThan"
+              },
+              {
+                "name": "Equals",
+                "value": "equals"
+              },
+              {
+                "name": "Not Equals",
+                "value": "notEquals"
+              },
+              {
+                "name": "Greater Than Or Equals",
+                "value": "greaterThanOrEquals"
+              },
+              {
+                "name": "Less Than Or Equals",
+                "value": "lessThanOrEquals"
+              }
+            ],
+            "isDynamic": true
+          },
+          {
+            "type": "select",
+            "label": "Disable value Type",
+            "placeholder": "Select Value Type",
+            "list": [
+              {
+                "name": "String",
+                "value": "String"
+              },
+              {
+                "name": "Number",
+                "value": "Number"
+              },
+              {
+                "name": "Date",
+                "value": "Date"
+              },
+              {
+                "name": "Boolean",
+                "value": "Boolean"
+              }
+            ],
+            "isDynamic": true
+          },
+          {
+            "type": "text",
+            "label": "Disable value",
+            "placeholder": "Enter Depends value",
+            "isDynamic": true
+          }
+        ]
+      },
+      {
+        "type": "checkbox",
+        "label": "Reset",
+        "isDynamic": true,
+        "fields": [
+          {
+            "type": "select",
+            "label": "Reset Depends On",
+            "placeholder": "Enter Depends on",
+            "isDynamic": true,
+            "listType": "dynamic"
+          },
+          {
+            "type": "select",
+            "label": "Reset Condition",
+            "placeholder": "Select Condition on",
+            "list": [
+              {
+                "name": "Greater Than",
+                "value": "greaterThan"
+              },
+              {
+                "name": "Less Than",
+                "value": "lessThan"
+              },
+              {
+                "name": "Equals",
+                "value": "equals"
+              },
+              {
+                "name": "Not Equals",
+                "value": "notEquals"
+              },
+              {
+                "name": "Greater Than Or Equals",
+                "value": "greaterThanOrEquals"
+              },
+              {
+                "name": "Less Than Or Equals",
+                "value": "lessThanOrEquals"
+              }
+            ],
+            "isDynamic": true
+          },
+          {
+            "type": "select",
+            "label": "Reset value Type",
+            "placeholder": "Select Value Type",
+            "list": [
+              {
+                "name": "String",
+                "value": "String"
+              },
+              {
+                "name": "Number",
+                "value": "Number"
+              },
+              {
+                "name": "Date",
+                "value": "Date"
+              },
+              {
+                "name": "Boolean",
+                "value": "Boolean"
+              }
+            ],
+            "isDynamic": true
+          },
+          {
+            "type": "text",
+            "label": "Reset value",
+            "placeholder": "Enter Depends value",
+            "isDynamic": true
+          }
+        ]
+      },
+      {
+        "type": "checkbox",
+        "label": "Mandatory Rule",
+        "isDynamic": true,
+        "fields": [
+          {
+            "type": "select",
+            "label": "Mandatory Depends On",
+            "placeholder": "Enter Depends on",
+            "isDynamic": true,
+            "listType": "dynamic"
+          },
+          {
+            "type": "select",
+            "label": "Mandatory Condition",
+            "placeholder": "Select Condition on",
+            "list": [
+              {
+                "name": "Greater Than",
+                "value": "greaterThan"
+              },
+              {
+                "name": "Less Than",
+                "value": "lessThan"
+              },
+              {
+                "name": "Equals",
+                "value": "equals"
+              },
+              {
+                "name": "Not Equals",
+                "value": "notEquals"
+              },
+              {
+                "name": "Greater Than Or Equals",
+                "value": "greaterThanOrEquals"
+              },
+              {
+                "name": "Less Than Or Equals",
+                "value": "lessThanOrEquals"
+              }
+            ],
+            "isDynamic": true
+          },
+          {
+            "type": "select",
+            "label": "Mandatory value Type",
+            "placeholder": "Select Value Type",
+            "list": [
+              {
+                "name": "String",
+                "value": "String"
+              },
+              {
+                "name": "Number",
+                "value": "Number"
+              },
+              {
+                "name": "Date",
+                "value": "Date"
+              },
+              {
+                "name": "Boolean",
+                "value": "Boolean"
+              }
+            ],
+            "isDynamic": true
+          },
+          {
+            "type": "text",
+            "label": "Mandatory value",
+            "placeholder": "Enter Depends value",
+            "isDynamic": true
+          }
+        ]
+      }
+    ],
+    "submitData": {
+      "label": "",
+      "component": "text",
+      "placeholder": "",
+      "dispatchername": "",
+      "validation": {
+        "required": {
+          "value": true,
+          "message": "ID is required"
+        },
+        "pattern": {
+          "value": "^[\\p{L}\\p{M}\\s]+$",
+          "message": "Only alphabets are allowed"
+        }
+      }
+    }
+  },
+  {
+    "value": "hidden",
+    "label": "Hidden Input",
+    "fields": [
+      {
+        "type": "text",
+        "label": "Label",
+        "placeholder": "Enter Label"
+      },
+      {
+        "type": "text",
+        "label": "ID",
+        "placeholder": "Enter ID"
+      },
+      {
+        "type": "text",
+        "label": "defaultValue",
+        "placeholder": "Enter Default Value"
+      },
+      {
+        "type": "checkbox",
+        "label": "Disable",
+        "isDynamic": true,
+        "fields": [
+          {
+            "type": "select",
+            "label": "Disable Depends On",
+            "placeholder": "Enter Depends on",
+            "isDynamic": true,
+            "listType": "dynamic"
+          },
+          {
+            "type": "select",
+            "label": "Disable Condition",
+            "placeholder": "Select Condition on",
+            "list": [
+              {
+                "name": "Greater Than",
+                "value": "greaterThan"
+              },
+              {
+                "name": "Less Than",
+                "value": "lessThan"
+              },
+              {
+                "name": "Equals",
+                "value": "equals"
+              },
+              {
+                "name": "Not Equals",
+                "value": "notEquals"
+              },
+              {
+                "name": "Greater Than Or Equals",
+                "value": "greaterThanOrEquals"
+              },
+              {
+                "name": "Less Than Or Equals",
+                "value": "lessThanOrEquals"
+              }
+            ],
+            "isDynamic": true
+          },
+          {
+            "type": "select",
+            "label": "Disable value Type",
+            "placeholder": "Select Value Type",
+            "list": [
+              {
+                "name": "String",
+                "value": "String"
+              },
+              {
+                "name": "Number",
+                "value": "Number"
+              },
+              {
+                "name": "Date",
+                "value": "Date"
+              },
+              {
+                "name": "Boolean",
+                "value": "Boolean"
+              }
+            ],
+            "isDynamic": true
+          },
+          {
+            "type": "text",
+            "label": "Disable value",
+            "placeholder": "Enter Depends value",
+            "isDynamic": true
+          }
+        ]
+      },
+      {
+        "type": "checkbox",
+        "label": "Reset",
+        "isDynamic": true,
+        "fields": [
+          {
+            "type": "select",
+            "label": "Reset Depends On",
+            "placeholder": "Enter Depends on",
+            "isDynamic": true,
+            "listType": "dynamic"
+          },
+          {
+            "type": "select",
+            "label": "Reset Condition",
+            "placeholder": "Select Condition on",
+            "list": [
+              {
+                "name": "Greater Than",
+                "value": "greaterThan"
+              },
+              {
+                "name": "Less Than",
+                "value": "lessThan"
+              },
+              {
+                "name": "Equals",
+                "value": "equals"
+              },
+              {
+                "name": "Not Equals",
+                "value": "notEquals"
+              },
+              {
+                "name": "Greater Than Or Equals",
+                "value": "greaterThanOrEquals"
+              },
+              {
+                "name": "Less Than Or Equals",
+                "value": "lessThanOrEquals"
+              }
+            ],
+            "isDynamic": true
+          },
+          {
+            "type": "select",
+            "label": "Reset value Type",
+            "placeholder": "Select Value Type",
+            "list": [
+              {
+                "name": "String",
+                "value": "String"
+              },
+              {
+                "name": "Number",
+                "value": "Number"
+              },
+              {
+                "name": "Date",
+                "value": "Date"
+              },
+              {
+                "name": "Boolean",
+                "value": "Boolean"
+              }
+            ],
+            "isDynamic": true
+          },
+          {
+            "type": "text",
+            "label": "Reset value",
+            "placeholder": "Enter Depends value",
+            "isDynamic": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "value": "fileUpload",
+    "label": "Upload Image",
+    "fields": [
+      {
+        "type": "text",
+        "label": "Label",
+        "placeholder": "Enter Label"
+      },
+      {
+        "type": "checkbox",
+        "label": "Mandatory"
+      },
+      {
+        "type": "dropdown",
+        "label": "Allow Type",
+        "options": [
+          "image/jpeg",
+          "image/png",
+          "image/jpg"
+        ]
+      },
+      {
+        "type": "number",
+        "label": "Max Size (MB)",
+        "placeholder": "Enter Max Size"
+      },
+      {
+        "type": "checkbox",
+        "label": "Disable",
+        "isDynamic": true,
+        "fields": [
+          {
+            "type": "select",
+            "label": "Disable Depends On",
+            "placeholder": "Enter Depends on",
+            "isDynamic": true,
+            "listType": "dynamic"
+          },
+          {
+            "type": "select",
+            "label": "Disable Condition",
+            "placeholder": "Select Condition on",
+            "list": [
+              {
+                "name": "Greater Than",
+                "value": "greaterThan"
+              },
+              {
+                "name": "Less Than",
+                "value": "lessThan"
+              },
+              {
+                "name": "Equals",
+                "value": "equals"
+              },
+              {
+                "name": "Not Equals",
+                "value": "notEquals"
+              },
+              {
+                "name": "Greater Than Or Equals",
+                "value": "greaterThanOrEquals"
+              },
+              {
+                "name": "Less Than Or Equals",
+                "value": "lessThanOrEquals"
+              }
+            ],
+            "isDynamic": true
+          },
+          {
+            "type": "select",
+            "label": "Disable value Type",
+            "placeholder": "Select Value Type",
+            "list": [
+              {
+                "name": "String",
+                "value": "String"
+              },
+              {
+                "name": "Number",
+                "value": "Number"
+              },
+              {
+                "name": "Date",
+                "value": "Date"
+              },
+              {
+                "name": "Boolean",
+                "value": "Boolean"
+              }
+            ],
+            "isDynamic": true
+          },
+          {
+            "type": "text",
+            "label": "Disable value",
+            "placeholder": "Enter Depends value",
+            "isDynamic": true
+          }
+        ]
+      },
+      {
+        "type": "checkbox",
+        "label": "Reset",
+        "isDynamic": true,
+        "fields": [
+          {
+            "type": "select",
+            "label": "Reset Depends On",
+            "placeholder": "Enter Depends on",
+            "isDynamic": true,
+            "listType": "dynamic"
+          },
+          {
+            "type": "select",
+            "label": "Reset Condition",
+            "placeholder": "Select Condition on",
+            "list": [
+              {
+                "name": "Greater Than",
+                "value": "greaterThan"
+              },
+              {
+                "name": "Less Than",
+                "value": "lessThan"
+              },
+              {
+                "name": "Equals",
+                "value": "equals"
+              },
+              {
+                "name": "Not Equals",
+                "value": "notEquals"
+              },
+              {
+                "name": "Greater Than Or Equals",
+                "value": "greaterThanOrEquals"
+              },
+              {
+                "name": "Less Than Or Equals",
+                "value": "lessThanOrEquals"
+              }
+            ],
+            "isDynamic": true
+          },
+          {
+            "type": "select",
+            "label": "Reset value Type",
+            "placeholder": "Select Value Type",
+            "list": [
+              {
+                "name": "String",
+                "value": "String"
+              },
+              {
+                "name": "Number",
+                "value": "Number"
+              },
+              {
+                "name": "Date",
+                "value": "Date"
+              },
+              {
+                "name": "Boolean",
+                "value": "Boolean"
+              }
+            ],
+            "isDynamic": true
+          },
+          {
+            "type": "text",
+            "label": "Reset value",
+            "placeholder": "Enter Depends value",
+            "isDynamic": true
+          }
+        ]
+      }
+    ]
+  }
+]

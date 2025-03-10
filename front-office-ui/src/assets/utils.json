@@ -1,0 +1,10 @@
+{
+    "condition": [
+        {
+            "name": "greaterThanOrEqual"
+        },
+        {
+            "name": "lessThanOrEqual"
+        }
+    ]
+}

@@ -1,0 +1,552 @@
+{
+    "headerConfig": {
+        "showLogo": true,
+        "logoURL": "images/Logo3.png",
+        "navLinks": [
+            {
+                "label": "headerSection.homeText",
+                "href": "/",
+                "icon": "home"
+            },
+            {
+                "label": "headerSection.entitytext",
+                "href": "/createentity",
+                "icon": "info-circle"
+            },
+            {
+                "label": "headerSection.udfentitytext",
+                "href": "/createudfentity",
+                "icon": "info-circle"
+            },
+            {
+                "label": "headerSection.newEmployee",
+                "href": "/createdynamic",
+                "icon": "info-circle"
+            },
+            {
+                "label": "Config Form",
+                "href": "/form?fixed=config&variable=config&udf=config_udf",
+                "icon": "info-circle"
+            },
+            {
+                "label": "headerSection.servicesText",
+                "href": "/services",
+                "icon": "cogs",
+                "submenu": [
+                    {
+                        "label": "headerSection.consultingText",
+                        "href": "/services/consulting"
+                    },
+                    {
+                        "label": "headerSection.developmentText",
+                        "href": "/services/development"
+                    }
+                ]
+            }
+        ]
+    },
+    "columnConfig": 3,
+    "formElementsConfig_not_in_use": [
+        {
+            "label": "createdynamicpage.firstName",
+            "component": "text",
+            "placeholder": "createdynamicpage.firstNamePlaceHolder",
+            "dispatchername": "FIRSTNAME",
+            "validation": {
+                "required": {
+                    "value": true,
+                    "message": "First name is required"
+                },
+                "pattern": {
+                    "value": "^[\\p{L}\\p{M}\\s]+$",
+                    "message": "Only alphabets are allowed"
+                }
+            }
+        },
+        {
+            "label": "createdynamicpage.lastName",
+            "component": "text",
+            "placeholder": "createdynamicpage.lastNamePlaceHolder",
+            "dispatchername": "LASTNAME",
+            "validation": {
+                "required": {
+                    "value": true,
+                    "message": "Last name is required"
+                },
+                "pattern": {
+                    "value": "^[\\p{L}\\p{M}\\s]+$",
+                    "message": "Only alphabets are allowed"
+                }
+            }
+        },
+        {
+            "label": "createdynamicpage.gender.genderText",
+            "component": "radio",
+            "defaultselectvalue": "male",
+            "radiooptions": [
+                {
+                    "option1": "male",
+                    "option1id": "radioMale",
+                    "checked": true,
+                    "optionlabel": "createdynamicpage.gender.genderOption1"
+                },
+                {
+                    "option1": "female",
+                    "option1id": "radioFemale",
+                    "checked": false,
+                    "optionlabel": "createdynamicpage.gender.genderOption2"
+                }
+            ],
+            "radiogroup": "radiogender",
+            "dispatchername": "GENDER"
+        },
+        {
+            "label": "createdynamicpage.ageText",
+            "component": "text",
+            "placeholder": "createdynamicpage.agePlaceHolderText",
+            "dispatchername": "AGE",
+            "validation": {
+                "required": {
+                    "value": true,
+                    "message": "Age is required"
+                },
+                "pattern": {
+                    "value": "^\\d+$",
+                    "message": "Only digits are allowed"
+                }
+            }
+        },
+        {
+            "label": "createdynamicpage.maritalStatusText",
+            "component": "dropdown",
+            "fetchdataapiurl": "http://localhost:5042/api/Employee/GetMaritalStatusList",
+            "dispatchername": "MARITALSTATUS",
+            "validation": {
+                "required": {
+                    "value": true,
+                    "message": "Select Marital Status"
+                }
+            }
+        },
+        {
+            "label": "createdynamicpage.addressline1Text",
+            "component": "text",
+            "placeholder": "createdynamicpage.addressline1PlaceHolderText",
+            "dispatchername": "ADDRESSLINE1",
+            "validation": {
+                "required": {
+                    "value": true,
+                    "message": "Address line 1 is required"
+                },
+                "pattern": {
+                    "value": "^[\\p{L}\\p{M}\\p{N}\\p{P}\\p{S}\\s]+$",
+                    "message": "Only alphabets are allowed"
+                }
+            }
+        },
+        {
+            "label": "createdynamicpage.addressline2Text",
+            "component": "text",
+            "placeholder": "createdynamicpage.addressline2PlaceHolderText",
+            "dispatchername": "ADDRESSLINE2",
+            "validation": {
+                "required": {
+                    "value": true,
+                    "message": "Address line 2 is required"
+                },
+                "pattern": {
+                    "value": "^[\\p{L}\\p{M}\\p{N}\\p{P}\\p{S}\\s]+$",
+                    "message": "Only alphabets are allowed"
+                }
+            }
+        },
+        {
+            "label": "createdynamicpage.cityText",
+            "component": "text",
+            "placeholder": "createdynamicpage.cityPlaceHolderText",
+            "dispatchername": "CITY",
+            "validation": {
+                "required": {
+                    "value": true,
+                    "message": "City is required"
+                },
+                "pattern": {
+                    "value": "^[\\p{L}\\p{M}\\s]+$",
+                    "message": "Only alphabets are allowed"
+                }
+            }
+        },
+        {
+            "label": "createdynamicpage.countryText",
+            "component": "text",
+            "placeholder": "createdynamicpage.countryPlaceHolderText",
+            "dispatchername": "COUNTRY",
+            "validation": {
+                "required": {
+                    "value": true,
+                    "message": "Country is required"
+                },
+                "pattern": {
+                    "value": "^[\\p{L}\\p{M}\\s]+$",
+                    "message": "Only alphabets are allowed"
+                }
+            }
+        },
+        {
+            "label": "createdynamicpage.pincodeText",
+            "component": "text",
+            "placeholder": "createdynamicpage.pincodePlaceHolderText",
+            "dispatchername": "PINCODE",
+            "validation": {
+                "required": {
+                    "value": true,
+                    "message": "Pincode is required"
+                },
+                "pattern": {
+                    "value": "^\\d+$",
+                    "message": "Only digits are allowed"
+                }
+            }
+        },
+        {
+            "label": "createdynamicpage.pincodeAutoSuggestion",
+            "placeholder": "createdynamicpage.pincodeAutoSuggestionPlaceHolderText",
+            "component": "autoSuggestion",
+            "fetchdataapiurl": "http://localhost:5042/api/Employee/GetPincodeList",
+            "dispatchername": "PINCODEAUTOSUGGESTION",
+            "paramName": "pincode",
+            "minCharsToSearch": 3,
+            "validation": {
+                "required": {
+                    "value": true,
+                    "message": "Select Pincode"
+                }
+            }
+        },
+        {
+            "label": "createdynamicpage.technicalKnowledgeText",
+            "component": "multiselect",
+            "fetchdataapiurl": "http://localhost:5042/api/Employee/GetNicheAreaList",
+            "dispatchername": "NICHEAREA",
+            "validation": {
+                "required": {
+                    "value": true,
+                    "message": "Please select at least one option"
+                },
+                "validate": "(value) => value.length > 0 || props.config.validation.required.message"
+            }
+        },
+        {
+            "label": "createdynamicpage.employeeStatusText",
+            "component": "checkbox",
+            "checkboxid": "chkActive",
+            "checkboxname": "chkActive",
+            "checkeddefaultval": true,
+            "checklabel": "Active",
+            "dispatchername": "ACTIVE"
+        },
+        {
+            "label": "createdynamicpage.dobText",
+            "component": "date",
+            "placeholder": "dd-mm-yyyy",
+            "dispatchername": "DATEOFBIRTH",
+            "maxAge": 70,
+            "minAge": 18,
+            "validation": {
+                "required": {
+                    "value": true,
+                    "message": "Date of Birth is required"
+                }
+            }
+        },
+        {
+            "label": "createdynamicpage.dynamicTableLabel",
+            "component": "dynamicTable",
+            "tableId": "qualificationTable",
+            "dispatchername": "QUALIFICATIONTABLE",
+            "columns": [
+                {
+                    "label": "createdynamicpage.qualificationLabel",
+                    "field": "qualification",
+                    "headerName": "createdynamicpage.qualificationLabel",
+                    "type": "text",
+                    "placeholder": "createdynamicpage.qualificationPlaceholder",
+                    "dispatchername": "QUALIFICATION",
+                    "validation": {
+                        "required": {
+                            "value": true,
+                            "message": "Qualification is required"
+                        }
+                    }
+                },
+                {
+                    "label": "createdynamicpage.institutionLabel",
+                    "field": "institution",
+                    "headerName": "createdynamicpage.institutionLabel",
+                    "type": "text",
+                    "placeholder": "createdynamicpage.institutionPlaceholder",
+                    "dispatchername": "INSTITUTION",
+                    "validation": {
+                        "required": {
+                            "value": true,
+                            "message": "Institution is required"
+                        }
+                    }
+                },
+                {
+                    "label": "createdynamicpage.yearLabel",
+                    "field": "year",
+                    "headerName": "createdynamicpage.yearLabel",
+                    "type": "text",
+                    "placeholder": "createdynamicpage.yearPlaceholder",
+                    "dispatchername": "YEAR",
+                    "validation": {
+                        "required": {
+                            "value": true,
+                            "message": "Year is required"
+                        },
+                        "pattern": {
+                            "value": "^[0-9]{4}$",
+                            "message": "Enter a valid year"
+                        }
+                    }
+                },
+                {
+                    "label": "createdynamicpage.gradeLabel",
+                    "field": "grade",
+                    "headerName": "createdynamicpage.gradeLabel",
+                    "type": "dropdown",
+                    "fetchdataapiurl": "http://localhost:5042/api/Employee/gradeoptions",
+                    "placeholder": "createdynamicpage.gradePlaceholder",
+                    "dispatchername": "GRADE",
+                    "validation": {
+                        "required": {
+                            "value": true,
+                            "message": "Grade is required"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "label": "createdynamicpage.amount",
+            "component": "decimal",
+            "placeholder": "createdynamicpage.amountPlaceholder",
+            "dispatchername": "AMOUNT",
+            "type": "decimal",
+            "decimalPrecision": 3,
+            "validation": {
+                "required": {
+                    "value": true,
+                    "message": "Amount is required"
+                },
+                "pattern": {
+                    "value": "^\\d*(\\.\\d{0,3})?$",
+                    "message": "Enter a valid amount with up to 3 decimal places"
+                }
+            }
+        },
+        {
+            "label": "createdynamicpage.hiddenId",
+            "component": "hidden",
+            "placeholder": "createdynamicpage.hiddenIdPlaceHolder",
+            "dispatchername": "HiddenID"
+            
+        }
+    ],
+    "footerConfig": {
+        "sections": [
+            {
+                "title": "footerSection.title1Text",
+                "links": [
+                    {
+                        "label": "footerSection.link1Text",
+                        "href": "/link1"
+                    },
+                    {
+                        "label": "footerSection.link2Text",
+                        "href": "/link2"
+                    }
+                ]
+            },
+            {
+                "title": "footerSection.title2Text",
+                "links": [
+                    {
+                        "label": "footerSection.link3Text",
+                        "href": "/link3"
+                    },
+                    {
+                        "label": "footerSection.link4Text",
+                        "href": "/link4"
+                    }
+                ]
+            },
+            {
+                "title": "footerSection.title3Text",
+                "links": [
+                    {
+                        "label": "footerSection.link5Text",
+                        "href": "/link5"
+                    },
+                    {
+                        "label": "footerSection.link6Text",
+                        "href": "/link6"
+                    }
+                ]
+            }
+        ],
+        "copyRightText": "EbixCash v1"
+    },
+    "formSubmitAPIURL": "http://localhost:5042/api/Employee",
+    "saveConfigDataAPIURL": "http://localhost:5042/api/Employee/SaveConfigData",
+    "tableConfig": {
+        "tableHeaders": [
+            {
+                "Header": "homepage.tableHeaders.idText",
+                "accessor": "id",
+                "sortLabel": "id",
+                "disableFilters": true
+            },
+            {
+                "Header": "homepage.tableHeaders.firstNameText",
+                "accessor": "firstname",
+                "sortLabel": "firstname",
+                "Filter": "DefaultColumnFilter",
+                "disableFilters": false
+            },
+            {
+                "Header": "homepage.tableHeaders.lastNameText",
+                "accessor": "lastname",
+                "sortLabel": "lastname",
+                "Filter": "DefaultColumnFilter",
+                "disableFilters": false
+            },
+            {
+                "Header": "homepage.tableHeaders.genderText",
+                "accessor": "gender",
+                "sortLabel": "gender",
+                "disableSortBy": true,
+                "Filter": "SelectColumnFilter",
+                "disableFilters": false,
+                "filter": "equals"
+            },
+            {
+                "Header": "homepage.tableHeaders.ageText",
+                "accessor": "age",
+                "sortLabel": "age",
+                "disableSortBy": true,
+                "Filter": "NumberRangeColumnFilter",
+                "disableFilters": false,
+                "filter": "between"
+            },
+            {
+                "Header": "homepage.tableHeaders.dateOfBirth",
+                "accessor": "dob",
+                "sortLabel": "dob",
+                "disableSortBy": true,
+                "Filter": "DateColumnFilter",
+                "disableFilters": false
+            },
+            {
+                "Header": "homepage.tableHeaders.statusText",
+                "accessor": "status",
+                "sortLabel": "status",
+                "disableSortBy": true,
+                "Filter": "SelectColumnFilter",
+                "disableFilters": true
+            },
+            {
+                "Header": "homepage.tableHeaders.addressline1Text",
+                "accessor": "addressline1",
+                "sortLabel": "addressline1",
+                "disableSortBy": false,
+                "Filter": "DefaultColumnFilter",
+                "disableFilters": true
+            },
+            {
+                "Header": "homepage.tableHeaders.addressline2Text",
+                "accessor": "addressline2",
+                "sortLabel": "addressline2",
+                "disableSortBy": true,
+                "Filter": "DefaultColumnFilter",
+                "disableFilters": true
+            },
+            {
+                "Header": "homepage.tableHeaders.cityText",
+                "accessor": "city",
+                "sortLabel": "city",
+                "disableSortBy": true,
+                "Filter": "DefaultColumnFilter",
+                "disableFilters": true
+            },
+            {
+                "Header": "homepage.tableHeaders.countryText",
+                "accessor": "country",
+                "sortLabel": "country",
+                "disableSortBy": true,
+                "Filter": "DefaultColumnFilter",
+                "disableFilters": true
+            },
+            {
+                "Header": "homepage.tableHeaders.pincodeText",
+                "accessor": "pincodeautosuggestion",
+                "sortLabel": "pincode",
+                "disableSortBy": true,
+                "Filter": "DefaultColumnFilter",
+                "disableFilters": true
+            },
+            {
+                "Header": "View",
+                "accessor": "View",
+                "sortLabel": "View",
+                "value": "view",
+                "disableSortBy": true,
+                "Filter": "nothing",
+                "disableFilters": true
+            },
+            {
+                "Header": "Edit",
+                "accessor": "Edit",
+                "sortLabel": "Edit",
+                "value": "edit",
+                "disableSortBy": true,
+                "Filter": "nothing",
+                "disableFilters": true
+            }
+        ],
+        "userProfileTableHeaders": [
+            {
+                "Header": "homepage.tableHeaders.idText",
+                "accessor": "userprofileid",
+                "sortLabel": "userprofileid",
+                "disableFilters": true
+            },
+            {
+                "Header": "homepage.tableHeaders.firstNameText",
+                "accessor": "firstname",
+                "sortLabel": "firstname",
+                "Filter": "DefaultColumnFilter",
+                "disableFilters": false
+            },
+            {
+                "Header": "View",
+                "accessor": "View",
+                "sortLabel": "View",
+                "value": "view",
+                "disableSortBy": true,
+                "Filter": "nothing",
+                "disableFilters": true
+            },
+            {
+                "Header": "Edit",
+                "accessor": "Edit",
+                "sortLabel": "Edit",
+                "value": "edit",
+                "disableSortBy": true,
+                "Filter": "nothing",
+                "disableFilters": true
+            }
+        ]
+    }
+}

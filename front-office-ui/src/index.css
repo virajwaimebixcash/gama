@@ -1,0 +1,9362 @@
+ @import url("https://fonts.googleapis.com/css?family=Poppins");
+
+ @font-face {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 400;
+   src: local('Poppins'), url('https://fonts.cdnfonts.com/s/16009/Poppins-Regular.woff') format('woff');
+ }
+
+ @font-face {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 400;
+   src: local('Poppins'), url('https://fonts.cdnfonts.com/s/16009/Poppins-Regular.woff') format('woff');
+ }
+
+ @font-face {
+   font-family: 'Poppins';
+   font-style: italic;
+   font-weight: 400;
+   src: local('Poppins'), url('https://fonts.cdnfonts.com/s/16009/Poppins-Italic.woff') format('woff');
+ }
+
+ @font-face {
+   font-family: 'Poppins';
+   font-style: italic;
+   font-weight: 400;
+   src: local('Poppins'), url('https://fonts.cdnfonts.com/s/16009/Poppins-Italic.woff') format('woff');
+ }
+
+ @font-face {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 250;
+   src: local('Poppins'), url('https://fonts.cdnfonts.com/s/16009/Poppins-Thin.woff') format('woff');
+ }
+
+ @font-face {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 250;
+   src: local('Poppins'), url('https://fonts.cdnfonts.com/s/16009/Poppins-Thin.woff') format('woff');
+ }
+
+ @font-face {
+   font-family: 'Poppins';
+   font-style: italic;
+   font-weight: 250;
+   src: local('Poppins'), url('https://fonts.cdnfonts.com/s/16009/Poppins-ThinItalic.woff') format('woff');
+ }
+
+ @font-face {
+   font-family: 'Poppins';
+   font-style: italic;
+   font-weight: 250;
+   src: local('Poppins'), url('https://fonts.cdnfonts.com/s/16009/Poppins-ThinItalic.woff') format('woff');
+ }
+
+ @font-face {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 275;
+   src: local('Poppins'), url('https://fonts.cdnfonts.com/s/16009/Poppins-ExtraLight.woff') format('woff');
+ }
+
+ @font-face {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 275;
+   src: local('Poppins'), url('https://fonts.cdnfonts.com/s/16009/Poppins-ExtraLight.woff') format('woff');
+ }
+
+ @font-face {
+   font-family: 'Poppins';
+   font-style: italic;
+   font-weight: 275;
+   src: local('Poppins'), url('https://fonts.cdnfonts.com/s/16009/Poppins-ExtraLightItalic.woff') format('woff');
+ }
+
+ @font-face {
+   font-family: 'Poppins';
+   font-style: italic;
+   font-weight: 275;
+   src: local('Poppins'), url('https://fonts.cdnfonts.com/s/16009/Poppins-ExtraLightItalic.woff') format('woff');
+ }
+
+ @font-face {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 300;
+   src: local('Poppins'), url('https://fonts.cdnfonts.com/s/16009/Poppins-Light.woff') format('woff');
+ }
+
+ @font-face {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 300;
+   src: local('Poppins'), url('https://fonts.cdnfonts.com/s/16009/Poppins-Light.woff') format('woff');
+ }
+
+ @font-face {
+   font-family: 'Poppins';
+   font-style: italic;
+   font-weight: 300;
+   src: local('Poppins'), url('https://fonts.cdnfonts.com/s/16009/Poppins-LightItalic.woff') format('woff');
+ }
+
+ @font-face {
+   font-family: 'Poppins';
+   font-style: italic;
+   font-weight: 300;
+   src: local('Poppins'), url('https://fonts.cdnfonts.com/s/16009/Poppins-LightItalic.woff') format('woff');
+ }
+
+ @font-face {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 500;
+   src: local('Poppins'), url('https://fonts.cdnfonts.com/s/16009/Poppins-Medium.woff') format('woff');
+ }
+
+ @font-face {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 500;
+   src: local('Poppins'), url('https://fonts.cdnfonts.com/s/16009/Poppins-Medium.woff') format('woff');
+ }
+
+ @font-face {
+   font-family: 'Poppins';
+   font-style: italic;
+   font-weight: 500;
+   src: local('Poppins'), url('https://fonts.cdnfonts.com/s/16009/Poppins-MediumItalic.woff') format('woff');
+ }
+
+ @font-face {
+   font-family: 'Poppins';
+   font-style: italic;
+   font-weight: 500;
+   src: local('Poppins'), url('https://fonts.cdnfonts.com/s/16009/Poppins-MediumItalic.woff') format('woff');
+ }
+
+ @font-face {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 600;
+   src: local('Poppins'), url('https://fonts.cdnfonts.com/s/16009/Poppins-SemiBold.woff') format('woff');
+ }
+
+ @font-face {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 600;
+   src: local('Poppins'), url('https://fonts.cdnfonts.com/s/16009/Poppins-SemiBold.woff') format('woff');
+ }
+
+ @font-face {
+   font-family: 'Poppins';
+   font-style: italic;
+   font-weight: 600;
+   src: local('Poppins'), url('https://fonts.cdnfonts.com/s/16009/Poppins-SemiBoldItalic.woff') format('woff');
+ }
+
+ @font-face {
+   font-family: 'Poppins';
+   font-style: italic;
+   font-weight: 600;
+   src: local('Poppins'), url('https://fonts.cdnfonts.com/s/16009/Poppins-SemiBoldItalic.woff') format('woff');
+ }
+
+ @font-face {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 700;
+   src: local('Poppins'), url('https://fonts.cdnfonts.com/s/16009/Poppins-Bold.woff') format('woff');
+ }
+
+ @font-face {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 700;
+   src: local('Poppins'), url('https://fonts.cdnfonts.com/s/16009/Poppins-Bold.woff') format('woff');
+ }
+
+ @font-face {
+   font-family: 'Poppins';
+   font-style: italic;
+   font-weight: 700;
+   src: local('Poppins'), url('https://fonts.cdnfonts.com/s/16009/Poppins-BoldItalic.woff') format('woff');
+ }
+
+ @font-face {
+   font-family: 'Poppins';
+   font-style: italic;
+   font-weight: 700;
+   src: local('Poppins'), url('https://fonts.cdnfonts.com/s/16009/Poppins-BoldItalic.woff') format('woff');
+ }
+
+ @font-face {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 800;
+   src: local('Poppins'), url('https://fonts.cdnfonts.com/s/16009/Poppins-ExtraBold.woff') format('woff');
+ }
+
+ @font-face {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 800;
+   src: local('Poppins'), url('https://fonts.cdnfonts.com/s/16009/Poppins-ExtraBold.woff') format('woff');
+ }
+
+ @font-face {
+   font-family: 'Poppins';
+   font-style: italic;
+   font-weight: 800;
+   src: local('Poppins'), url('https://fonts.cdnfonts.com/s/16009/Poppins-ExtraBoldItalic.woff') format('woff');
+ }
+
+ @font-face {
+   font-family: 'Poppins';
+   font-style: italic;
+   font-weight: 800;
+   src: local('Poppins'), url('https://fonts.cdnfonts.com/s/16009/Poppins-ExtraBoldItalic.woff') format('woff');
+ }
+
+ @font-face {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 900;
+   src: local('Poppins'), url('https://fonts.cdnfonts.com/s/16009/Poppins-Black.woff') format('woff');
+ }
+
+ @font-face {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 900;
+   src: local('Poppins'), url('https://fonts.cdnfonts.com/s/16009/Poppins-Black.woff') format('woff');
+ }
+
+ @font-face {
+   font-family: 'Poppins';
+   font-style: italic;
+   font-weight: 900;
+   src: local('Poppins'), url('https://fonts.cdnfonts.com/s/16009/Poppins-BlackItalic.woff') format('woff');
+ }
+
+ @font-face {
+   font-family: 'Poppins';
+   font-style: italic;
+   font-weight: 900;
+   src: local('Poppins'), url('https://fonts.cdnfonts.com/s/16009/Poppins-BlackItalic.woff') format('woff');
+ }
+
+ * {
+   font-family: "Poppins", sans-serif !important;
+ }
+
+ :root {
+
+   line-height: 1.5;
+   font-weight: 400;
+
+   color-scheme: light dark;
+   color: rgba(255, 255, 255, 0.87);
+   background-color: #242424;
+
+   font-synthesis: inherit;
+   text-rendering: optimizeLegibility;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+ }
+
+ a {
+   font-weight: 500;
+   color: #646cff;
+   text-decoration: inherit;
+ }
+
+ a:hover {
+   color: #535bf2;
+ }
+
+ body {
+   margin: 0;
+
+
+   min-width: 320px;
+   min-height: 100vh;
+
+   background: #ECEBEB;
+
+   font-family: "Poppins", sans-serif !important;
+
+
+ }
+
+ .contact-wrapper {
+   background: #fff;
+   box-shadow: 0 2px 18px 1px rgba(49, 53, 72, .1);
+   border-radius: .75em;
+   padding: 4em 2em;
+
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+ }
+
+ .maincontent {
+   width: 98%;
+   padding: 7px 1%;
+ }
+
+ h1 {
+   font-size: 3.2em;
+   line-height: 1.1;
+ }
+
+ button {
+   border-radius: 8px;
+   border: 1px solid transparent;
+   padding: 0.6em 1.2em;
+   font-size: 1em;
+   font-weight: 500;
+   font-family: inherit;
+   background-color: #1a1a1a;
+   cursor: pointer;
+   transition: border-color 0.25s;
+ }
+
+ button:hover {
+   border-color: #646cff;
+ }
+
+ button:focus,
+ button:focus-visible {
+   outline: 4px auto -webkit-focus-ring-color;
+ }
+
+ @media (prefers-color-scheme: light) {
+   :root {
+     color: #213547;
+     background-color: #ffffff;
+   }
+
+   a:hover {
+     color: #747bff;
+   }
+
+   button {
+     background-color: #f9f9f9;
+   }
+ }
+
+ .width100 {
+   width: 100%;
+ }
+
+ .MuiPaper-root {
+   background: #fff;
+   box-shadow: 0 2px 18px 1px rgba(49, 53, 72, .1);
+
+
+
+   display: flex;
+
+   justify-content: space-between;
+ }
+
+ .mt0 {
+   margin-top: 0px !important;
+ }
+
+ .center {
+   text-align: center;
+ }
+
+ h3 {
+   font-size: 13px;
+   padding-bottom: 0px;
+   margin-top: 6px;
+   margin-bottom: 4px;
+ }
+
+ p {
+   font-size: 12px !important;
+
+   margin: 0;
+ }
+
+ .textnorm {
+   text-transform: none !important;
+ }
+
+ .css-hnhhzi-MuiPaper-root {
+   margin-top: 0px !important;
+ }
+
+ .formotp {
+   width: 45%;
+   margin: 0px auto;
+ }
+
+ h5 {
+   font-size: 15px !important;
+   font-weight: bold !important;
+ }
+
+ .pd30 {
+   padding-top: 30px;
+ }
+
+ .footer {
+   text-align: center;
+   font-size: 12px;
+   padding-top: 20px;
+   color: #858282;
+ }
+
+ .leftimg {
+   width: 87%;
+ }
+
+ .clear {
+   clear: both;
+ }
+
+ .buttonplus {
+   background-color: orange;
+   color: #fff;
+   font-size: 13px;
+   font-weight: bold;
+   border-radius: 67px;
+   height: 18px;
+   width: 18px;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-left: 13px;
+ }
+
+ .buttonplusadd {
+   background-color: #ba72fd;
+   font-size: 12px !important;
+   height: 16px;
+   width: 16px;
+   display: inline-block;
+   border-radius: 50px;
+   margin-left: 10px;
+   color: #fff;
+ }
+
+ .whitecolorbg {
+   background: #FAFAFA;
+   width: 98%;
+   padding: 5px;
+   display: flex;
+   border-radius: 5px;
+   box-shadow: 0 2px 9px 1px rgba(44, 53, 66, .1);
+ }
+
+ .headingtop {
+   margin: 0px;
+   padding: 0px;
+   font-size: 17px;
+   font-weight: bolder;
+   color: #000000;
+   border-bottom: 1px solid #ddd;
+   line-height: 34px;
+ }
+
+ .headingtsec {
+   font-size: 14px;
+   margin: 0px;
+   padding: 0px;
+   color: #7a7676;
+   background: #f5f5f5;
+   line-height: 38px;
+   padding-left: 5px;
+   border-radius: 6px;
+ }
+
+ .linktxt {
+   font-size: 13px;
+   font-weight: bold;
+   cursor: pointer;
+   color: #a35cfb;
+   padding-top: 11px;
+   display: block;
+ }
+
+ .lbltxt {
+   font-size: 13px;
+   color: #000000;
+ }
+
+ .successicon {
+   font-size: 17px;
+   margin-right: 4px;
+   position: relative;
+   top: 8px;
+ }
+
+ .notappicon {
+   color: red;
+ }
+
+ .pdb20 {
+   padding-bottom: 0px;
+   /* border-bottom: 1px solid #f8f8f8; */
+   margin-bottom: 7px;
+   border-top: 1px solid #ddd;
+   padding-top: 7px;
+   width: 100%;
+   display: flex;
+   padding-top: 12px;
+   margin-top: 10px;
+ }
+
+ .pdb201 {
+   margin-top: 0px;
+ }
+
+ .subtitle {
+   font-size: 13px;
+   width: 175px;
+   display: inline-table;
+   font-weight: bold;
+ }
+
+ .spedometor {
+   width: 26px;
+   position: relative;
+   top: 7px;
+   right: -5px;
+ }
+
+ .minhegt50,
+ .minhegt30 {
+   min-height: 17px;
+ }
+
+ .minhegt50 h4,
+ .minhegt30 h4 {
+   margin: 0px;
+   padding: 10px 0px 0px 0px;
+   font-size: 12px;
+   border-bottom: 1px solid #ddd;
+   background: #f5f5f5;
+ }
+
+ .parentclass {
+   width: 100%;
+ }
+
+ /*Subscription Details CSS*/
+ input[type="text"],
+ input[type="select"] {
+   font-size: 12px;
+   font-weight: bold;
+   color: #000;
+   padding: 7px;
+ }
+
+ .MuiSelect-select {
+   padding: 4px 4px 4px 6px !important;
+   font-size: 12px !important;
+   font-weight: bold !important;
+   max-height: 30px !important;
+   font-family: 'Poppins' !important;
+ }
+
+ .css-h5fkc8 {
+   margin-top: 1px !important;
+ }
+
+ .nominetxt {
+   text-transform: none !important;
+ }
+
+ .font15 {
+   font-size: 15px;
+ }
+
+ .inforiconfild {
+   font-size: 16px !important;
+   color: #f5c56d;
+ }
+
+
+ /*Portfolio view*/
+
+ table.maintabldata tr th {
+   font-size: 12px;
+   font-weight: bold;
+   background: #ededed;
+ }
+
+ table.maintabldata tr td {
+   font-size: 12px;
+   font-weight: normal;
+ }
+
+
+ /*Top Band & Secuirty View  16-10-2024 */
+ /*Mobile View*/
+ #simple-tabpanel-2 .css-19kzrtu {
+   padding: 0px 10px 0px 10px !important;
+ }
+
+ @media (max-width:800px) {
+   .extracssforgaps .MuiGrid2-root {
+     --Grid-rowSpacing: 2px !important;
+   }
+
+   .sipday {
+     width: 15% !important;
+   }
+
+   .sipdatbox button {
+     float: right !important;
+     margin-bottom: 7px !important;
+   }
+
+   .tab100wid {
+     width: 100%;
+   }
+
+   .centtextintabel {
+     text-align: center !important;
+   }
+
+   .tab-header {
+     position: absolute;
+     margin: 40px 0px 0px 85px !important;
+     background: none !important;
+   }
+
+   .formedi {
+     margin-top: -10%;
+   }
+
+   .wid20 {
+     width: 55% !important;
+     height: 80px;
+   }
+
+   .tab100wid {
+     width: 100%;
+   }
+
+   .centtextintabel {
+     text-align: center !important;
+   }
+
+   /* 10_12_24 */
+   #simple-tabpanel-0 .MuiBox-root,
+   #simple-tabpanel-1 .MuiBox-root {
+     padding: 0px 0px 10px 0px !important;
+     font-family: 'Poppins';
+   }
+
+   .showincell {
+     display: block !important;
+   }
+
+   /* --------- */
+   .sectabtabel {
+     margin: 10px auto !important;
+     width: auto !important;
+   }
+
+   .css-i9gxme {
+     border-bottom: none !important;
+   }
+
+   .tpspacegp {
+     padding-top: 0px !important;
+     text-align: center !important;
+   }
+
+   .width30box {
+     padding-left: 10%;
+   }
+
+   .fon13bldnew:hover {
+     white-space: normal;
+     height: auto;
+     /* just added this line */
+   }
+
+   .bldinner,
+   .fon13bld,
+   .bigintabel {
+     font-size: 12px !important;
+   }
+
+   .centpadds {
+     padding-left: 0px !important;
+   }
+
+   .fon13bldnew {
+     white-space: nowrap;
+     overflow: hidden;
+     text-overflow: ellipsis;
+   }
+
+   .tabs {
+     margin-top: 45px;
+   }
+
+   .css-heg063-MuiTabs-flexContainer {
+     overflow-y: auto;
+   }
+
+   .formotp {
+     width: 80%;
+     margin: 0px auto;
+   }
+
+   .leftimg {
+     width: 95%;
+   }
+
+   body {
+     padding-right: 0px !important;
+   }
+
+   .hideincell {
+     display: none !important;
+   }
+
+   .herar {
+     width: 50% !important
+   }
+
+   .css-1edfpdg-MuiTypography-root {
+     text-align: left;
+   }
+
+   .tabpads {
+     padding-left: 0px !important;
+   }
+
+   .adva {
+     font-size: 11px !important;
+     font-weight: bold !important;
+   }
+
+   .minh35 {
+     text-align: center !important;
+   }
+
+   .inpcss,
+   .checboxs,
+   .graycs,
+   .allbtnpadding {
+     width: 100% !important;
+     text-align: center;
+   }
+
+   .dattim {
+     padding-left: 30px;
+   }
+
+   .css-eveymg-MuiButtonBase-root-MuiButton-root {
+     width: 100% !important
+   }
+
+   .css-sowcyc {
+     position: absolute !important;
+     right: 15% !important;
+     margin-top: -20px !important;
+   }
+
+ }
+
+ @media screen and (min-device-width: 480px) and (max-device-width: 768px) {
+   .mainicotop {
+     display: none !important;
+   }
+ }
+
+ @media screen and (min-width: 800px) and (max-width: 1190px) {
+   .wid20 {
+     width: 55% !important;
+   }
+
+   .tab-header {
+     position: absolute;
+     margin: 40px 0px 0px 85px !important;
+     background: none !important;
+   }
+
+   .wid20 {
+     width: 55% !important;
+     height: 80px;
+   }
+
+   /* .tab-header{position: absolute;margin: 0px 0px 0px 120px !important;background: none !important;} */
+   .newth1 {
+     text-align: center !important;
+   }
+
+   .sipdatbox {
+     padding-left: 3px;
+     margin: 10px 0px 5px 0px;
+   }
+
+   .fordowntabs {
+     width: 100% !important
+   }
+
+   .hideincell {
+     display: none !important;
+   }
+
+   .showincell {
+     display: block !important;
+   }
+ }
+
+ #simple-tabpanel-0 .MuiBox-root,
+ #simple-tabpanel-1 .MuiBox-root {
+   padding: 0px 0px 0px 0px !important;
+   font-family: 'Poppins';
+ }
+
+ .textinheads {
+   text-align: left;
+   font-size: 12px;
+   font-weight: 500;
+   color: #213547;
+ }
+
+ .fullw {
+   width: 100%;
+ }
+
+ .fullw td img {
+   position: relative;
+   top: 2px;
+   left: 3px;
+ }
+
+ p {
+   font-family: "Poppins", sans-serif !important;
+ }
+
+ .wid90 {
+   width: 85%;
+   float: left;
+   padding-top: 7px;
+ }
+
+ .tabtpborder {
+   border-top: 1px solid #ddd;
+ }
+
+ .width70 {
+   width: 70%;
+   float: left;
+   padding-top: 20px;
+ }
+
+ .width70nopadd {
+   width: 70%;
+   float: left;
+ }
+
+ .width30 {
+   width: 30%;
+   float: left;
+ }
+
+ .purpleb {
+   min-height: 150px;
+   text-align: left;
+   color: #fff;
+   padding: 0px 10px 0px 10px;
+ }
+
+ .bigfont {
+   font-size: 21px;
+   padding: 0px 0px 0px 5px;
+ }
+
+ .smallgreen {
+   font-size: 13px;
+   margin: 0px 5px 0px 5px;
+   background: #1C780D;
+   padding: 0px 5px 0px 5px;
+ }
+
+ .updsym img {
+   width: 15px;
+ }
+
+ .spacings {
+   padding: 0px 10px 0px 10px;
+   border-radius: 10px;
+ }
+
+ .spacings1 {
+   padding: 0px 10px 0px 0px;
+   border-radius: 10px;
+ }
+
+ .equi {
+   background: #722DC9;
+ }
+
+ .deb {
+   background: #8C4FD3;
+ }
+
+ .cash {
+   background: #C7B9F1;
+ }
+
+ .css-1hq7t8h-MuiTypography-root img {
+   width: 140px;
+ }
+
+ .css-1hq7t8h-MuiTypography-root {
+   align-items: baseline;
+ }
+
+ .texleft {
+   text-align: left;
+ }
+
+ .texleftimp {
+   text-align: left !important;
+ }
+
+ .texcenter {
+   text-align: center;
+ }
+
+ .texcenterimp {
+   text-align: center !important;
+ }
+
+ .texright {
+   text-align: right;
+ }
+
+ .texrightimp {
+   text-align: right !important;
+ }
+
+ .leftfloats {
+   float: left;
+ }
+
+ .rightfloats {
+   float: right;
+ }
+
+ .herar {
+   width: 35%;
+   float: left;
+ }
+
+ .herarsearch {
+   width: 80%;
+   margin-top: 20px;
+   padding: 10px 0px 0px 10px;
+ }
+
+ .searchbxcss {
+   width: 300px;
+   height: 40px;
+   background: none;
+   border: none;
+   border-bottom: 1px solid #ddd;
+ }
+
+ :focus-visible {
+   outline: none !important;
+ }
+
+ .uppersear {
+   padding: 10px 0px 0px 0px;
+   min-height: 17px;
+ }
+
+ .btnclssear {
+   background: #715298;
+   color: #fff;
+   border-radius: 52%;
+   height: 42px;
+   padding: 7px;
+ }
+
+ .floleft {
+   float: right;
+   border-radius: 10px;
+ }
+
+ .fullsizehead {
+   width: 95%;
+   padding: 10px 0px 10px 13px;
+   font-size: 16px;
+ }
+
+ .css-11dd937 {
+   border-color: transparent !important;
+ }
+
+ .css-11dd937 {
+   margin: 0px 0px 0px 0px;
+ }
+
+ .tableborder {
+   border-bottom: 1px solid #ddd;
+ }
+
+ .css-heg063-MuiTabs-flexContainer {
+   border-bottom: 1px solid #ddd;
+ }
+
+ .MuiTabs-flexContainer {
+   border-bottom: 1px solid #dddd;
+ }
+
+ .css-19wsa2m-MuiButtonBase-root-MuiTab-root.Mui-selected {
+   color: #000 !important;
+   font-weight: 500;
+   text-transform: capitalize;
+   padding: 0px 0px 0px 10px;
+ }
+
+ .css-1sj2jcg-MuiTabs-indicator {
+   background-color: #A35CFB !important;
+ }
+
+ .css-19wsa2m-MuiButtonBase-root-MuiTab-root {
+   text-transform: capitalize !important;
+ }
+
+ /* component */
+
+ /* .star-rating {
+display:flex;
+flex-direction: row-reverse;
+font-size:1.5em;
+justify-content:space-around;
+text-align:center;
+width:5em;
+} */
+
+ .star-rating input {
+   display: none;
+ }
+
+ .star-rating label {
+   color: #ccc;
+   cursor: pointer;
+ }
+
+ .star-rating :checked~label {
+   color: #f90;
+ }
+
+ .star-rating label:hover,
+ .star-rating label:hover~label {
+   color: #fc0;
+ }
+
+ .tabmainborder {
+   border-bottom: 1px solid #ddd;
+   min-height: 70px;
+   padding: 5px 0px 3px 0px;
+ }
+
+ #simple-tabpanel-0 .MuiBox-root,
+ #simple-tabpanel-1 .MuiBox-root {
+   padding: 0px 15px 0px 15px;
+   font-family: 'Poppins';
+ }
+
+ /* .headerstableft {
+  float: left;
+  text-align: left;
+  width: 75%;
+} */
+ .headerstableft {
+
+   text-align: left;
+ }
+
+ .headerstableright {
+   float: left;
+   text-align: left;
+   width: 100%;
+ }
+
+ .tabbors {
+   border-bottom: 1px solid #ddd;
+   padding: 6px 0px 6px 0px;
+ }
+
+ .headerstabright {
+   text-align: left;
+   padding-top: 10px;
+   padding-bottom: 10px;
+ }
+
+ button:focus,
+ button:focus-visible {
+   outline: none !important;
+ }
+
+ .css-11dd937 {
+   padding: 0px;
+ }
+
+ .css-xn6ruc>:not(style) {
+   margin: 0px 8px 8px 0px;
+   width: 12ch;
+ }
+
+
+
+ .css-16po66n-MuiGrid2-root .css-11dd937 {
+   padding: 0px;
+ }
+
+ .width10 {
+   width: 5%;
+   float: left;
+   padding: 0px 10px 0px 0px;
+   margin-top: -10px;
+ }
+
+ .width101 {
+   width: 40px;
+   float: left;
+   padding: 7px 0px 0px 0px;
+   margin-top: -10px;
+ }
+
+ .width40 {
+   width: 40px;
+
+ }
+
+ .wid10per {
+   width: 6%;
+   float: left;
+ }
+
+ body {
+   font-family: "Poppins", sans-serif !important;
+   font-size: 12px;
+ }
+
+ .subfont {
+   font-size: 10px;
+   color: #B6AFAF;
+ }
+
+ .subfont12 {
+   font-size: 12px;
+   color: #B6AFAF;
+ }
+
+ .subfontpad {
+   padding-left: 20px;
+ }
+
+ .padds12 {
+   padding-top: 3px;
+ }
+
+ .padmeleftheader {
+   padding-left: 5px;
+   font-weight: 400;
+ }
+
+ .greencss {
+   font-size: 13px;
+   font-weight: 500;
+   color: #48C15B;
+ }
+
+ .inactivetabs {
+   font-size: 10px;
+   color: #B8B7B7;
+ }
+
+ .activetabs {
+   font-size: 10px;
+   color: #8C71DC;
+   text-decoration: underline;
+ }
+
+ .halfdiv {
+   width: 49%;
+   float: left;
+   margin-bottom: 8px;
+ }
+
+ .divwrap {
+   margin-top: 10px;
+ }
+
+ .nignt {
+   width: 89%;
+   float: left;
+ }
+
+ .fullsize {
+   width: 100%;
+ }
+
+ .minhforinp {
+   min-height: 120px;
+ }
+
+ .bcwhite {
+   background-color: #fff;
+   padding: 5px 10px 0px 10px;
+   min-height: 30px;
+ }
+
+ .bcwhite1 {
+   background-color: #fff;
+   padding: 5px 0px 0px 0px;
+   min-height: 355px;
+ }
+
+ /* .css-1b0ve20 {
+  width: 90%;
+} */
+
+ .tp10 {
+   padding-top: 10px;
+ }
+
+ .tp20 {
+   padding-top: 15px;
+ }
+
+ .borbotts {
+   border-bottom: 1px solid #ddd;
+ }
+
+ .paddignsforspac {
+   border-bottom: 1px solid #ddd;
+
+   min-height: 25px;
+   text-align: left;
+   padding-top: 0px;
+   margin-bottom: 10px;
+   margin-top: 0px;
+ }
+
+ .minh20 {
+   min-height: 25px;
+ }
+
+ .minh35 {
+   min-height: 15px;
+   padding: 30px 0px 0px 0px;
+   margin-left: -35%;
+ }
+
+ .highlight {
+   font-size: 13px;
+   color: #000000;
+   font-weight: 500;
+   padding: 0px 5px 0px 0px;
+ }
+
+ .highlight1 {
+   font-size: 11px;
+   color: #505050;
+   font-weight: 500;
+   padding: 0px 5px 0px 0px;
+ }
+
+ .onlylepa {
+   padding-left: 5px;
+ }
+
+ .css-byenzh-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked+.MuiSwitch-track {
+   background-color: #A35CFB !important;
+ }
+
+ .css-byenzh-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked {
+   color: #472D68 !important;
+ }
+
+ .css-j204z7-MuiFormControlLabel-root {
+   margin-left: 85px;
+ }
+
+ .css-12ng94v-MuiGrid2-root {
+   /* border-bottom: 1px solid #ddd; */
+   padding-bottom: 10px;
+ }
+
+ .mainheadcss img {
+   position: relative;
+   top: 2px;
+   left: -1px;
+ }
+
+ .redcss {
+   color: #E61717 !important;
+   padding: 2px 5px 2px 2px;
+ }
+
+ .oneforth {
+   width: 8%;
+   float: left;
+   text-align: left;
+   padding: 10px 0px 0px 0px;
+   border-bottom: 1px solid #ddd;
+   min-height: 30px;
+ }
+
+ .oneforth1 {
+   width: 38%;
+   float: left;
+   text-align: left;
+   padding: 10px 0px 0px 8px;
+   min-height: 30px;
+   border-bottom: 1px solid #ddd;
+ }
+
+ .min45 {
+   min-height: 40px;
+   border-bottom: 1px solid #ddd;
+ }
+
+ .oneforth1 span {
+   padding: 0px 0px 0px 5px;
+   font-size: 12px;
+   color: #7D7272;
+ }
+
+ .lefborslist {
+   border-left: 1px solid #ddd;
+ }
+
+ .martp {
+   margin-top: 0px;
+ }
+
+ .logospac {
+   min-height: 35px;
+   padding-top: 10px;
+   border-bottom: 1px solid #ddd;
+ }
+
+ .logospacpeer {
+   min-height: 35px;
+   padding-top: 2px;
+   border-bottom: 1px solid #ddd;
+ }
+
+ .widimg img {
+   width: 100%
+ }
+
+ .minhforhead {
+   min-height: 40px;
+ }
+
+ .bld14 {
+   font-size: 13px;
+   color: #000;
+   font-weight: 500;
+
+ }
+
+ .flol {
+   float: left;
+ }
+
+ .flor {
+   float: right;
+ }
+
+ .css-b9c63i-MuiButtonBase-root-MuiTab-root {
+   text-transform: initial !important;
+   min-height: 30px !important;
+   font-size: 12px !important;
+ }
+
+ .css-jhugpy-MuiButtonBase-root-MuiButton-root,
+ .css-n2cqkv-MuiButtonBase-root-MuiButton-root {
+   margin: 0px 5px 0px 5px !important;
+   border-radius: 10px !important;
+ }
+
+ .divwithoutsec {
+   width: 6%;
+   padding-left: 15px;
+   float: left;
+   padding: 0px 10px 0px 0px;
+   margin-top: -7px;
+ }
+
+ .spansinprog {
+   float: left;
+   padding: 5px 0px 0px 0px;
+ }
+
+ .css-1wcaknn {
+   padding: 0px !important;
+ }
+
+ .css-b9c63i-MuiButtonBase-root-MuiTab-root.Mui-selected {
+   color: #000 !important;
+ }
+
+ .trailing {
+   width: 6%;
+   float: left;
+   padding: 7px 0px 0px 0px;
+   margin-top: -10px;
+ }
+
+ .peer {
+   width: 6%;
+   float: left;
+   padding: 0px 7px 0px 0px;
+   margin-top: -10px;
+ }
+
+ .negleft {
+   margin-left: -10px;
+ }
+
+ .forceleft {
+   padding-left: 0px;
+   position: relative;
+   top: -3px;
+ }
+
+ .clearfix {
+   clear: both;
+ }
+
+ .finalmenu {
+   width: 100%;
+   float: left;
+   cursor: pointer;
+   font-size: 12px;
+   font-weight: 500;
+ }
+
+ .Menu {
+   /* width: 300px; */
+   text-align: center;
+   cursor: default;
+ }
+
+ .css-1ske1b4-MuiButtonBase-root-MuiMenuItem-root:hover {
+   background-color: transparent !important;
+ }
+
+ .css-99wn1p-MuiList-root-MuiMenu-list,
+ .css-1ske1b4-MuiButtonBase-root-MuiMenuItem-root {
+   cursor: default !important;
+ }
+
+ /* .css-1xomo8h-MuiPaper-root-MuiPopover-paper-MuiMenu-paper{top:55px !important;} */
+ .finalmenu img {
+   width: 40px;
+   padding: 10px 0px 10px 0px;
+ }
+
+ .finalmenu:hover {
+   background-color: #F8F3FD;
+ }
+
+ .fixbtnsize {
+   width: 115px;
+   font-size: 12px !important;
+ }
+
+ .css-1vbgxs-MuiTabs-indicator {
+   top: 38px;
+ }
+
+ .tabsspanbc {
+   padding: 4px 4px 4px 4px;
+   margin-left: 5px;
+   border-radius: 10px;
+ }
+
+ .tabsspanbctxt {
+   padding: 6px 8px 6px 8px;
+   ;
+   margin-left: 5px;
+   border-radius: 50%;
+ }
+
+ .graytabsmall {
+   background-color: #E6E6E6;
+ }
+
+ .orangetabsmall {
+   background-color: #FCD633;
+   color: #fff;
+   font-size: 9px;
+ }
+
+ .chartsdiv {
+   width: 90%;
+ }
+
+ tspan {
+   font-size: 11px !important;
+ }
+
+ .MuiChartsLegend-mark {
+   width: 15px !important;
+   height: 15px;
+ }
+
+
+ .tab-header {
+   list-style: none;
+   background: #fff;
+   border-radius: 36px;
+   line-height: 25px;
+   margin: 0px;
+   z-index: 9;
+
+
+ }
+
+ .tab-header li {
+   display: inline;
+   padding: 8px 12px;
+   border-radius: 36px;
+   line-height: 35px;
+   margin: 0px 2px 0px 2px;
+   cursor: pointer;
+   font-size: 12px;
+ }
+
+ .tab-header li.active,
+ .tab-header li:hover {
+   background: #A35CFB !important;
+   /* fallback for old browsers */
+   background: -webkit-linear-gradient(to right,
+       #4cb8c4,
+       #3cd3ad);
+   /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right,
+       #4cb8c4,
+       #3cd3ad);
+   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   color: #fff;
+ }
+
+ .tab-content {
+   border-top: 1px solid #ddd;
+   margin: 0px 12px 12px 5px;
+   width: 99%;
+   position: relative;
+ }
+
+
+
+ .newtable {
+   font-family: arial, sans-serif;
+   border-collapse: collapse;
+   width: 100%;
+   margin-top: 10px;
+   font-size: 10px;
+ }
+
+ .newtd {
+   text-align: left;
+   padding: 8px;
+   font-weight: 500;
+ }
+
+ .newth1 {
+   text-align: left;
+   padding: 8px;
+
+   color: #999595;
+   font-weight: normal;
+ }
+
+ .fontsi11 {
+   font-size: 11px;
+ }
+
+ .plussign {
+   padding: 0px 0px 0px 5px;
+   vertical-align: bottom;
+   cursor: pointer;
+ }
+
+ .tg {
+   border-collapse: collapse;
+   border-spacing: 0;
+   width: 100%;
+   border: 1px solid #E7E6E6;
+ }
+
+ .tg td {
+   border-color: black;
+   border-style: solid;
+   border-width: 1px;
+   font-family: Arial, sans-serif;
+   font-size: 11px;
+   overflow: hidden;
+   padding: 10px 5px;
+   word-break: normal;
+   text-align: center !important;
+ }
+
+ .tg th {
+   border-color: black;
+   border-style: solid;
+   text-align: center !important;
+   border-width: 0px;
+   font-family: Arial, sans-serif;
+   font-size: 11px;
+   font-weight: 500;
+   overflow: hidden;
+   padding: 10px 5px;
+   word-break: normal;
+   background-color: #DEC8F9;
+ }
+
+ .tg .tg-0pky {
+   border-color: inherit;
+   text-align: left;
+   vertical-align: top
+ }
+
+ .borderrads {
+   border-radius: 5px;
+ }
+
+ .bordertab1 {
+   border-top-left-radius: 5px;
+   border-bottom-left-radius: 5px;
+ }
+
+ .bordertab2 {
+   border-top-right-radius: 5px;
+   border-bottom-right-radius: 5px;
+ }
+
+ .tabsbacks {
+   background-color: #EFE2FF;
+   font-weight: 500;
+ }
+
+ .bldfons {
+   font-weight: 500;
+   font-size: 11px;
+ }
+
+ .css-1edfpdg-MuiTypography-root {
+   font-size: 11px !important;
+ }
+
+ .fonts500 {
+   font-size: 12px !important;
+   color: #000;
+ }
+
+ .gaps {
+   width: 5%;
+   float: left;
+ }
+
+ .ninfiv {
+   width: 95%;
+   float: left;
+   padding-left: 30px;
+   text-align: left;
+ }
+
+ .tabpads {
+   padding-left: 25px;
+   width: 100%;
+   text-align: left;
+   border-bottom: 1px solid #ddd;
+   padding-top: 0px;
+   padding-bottom: 0px;
+ }
+
+ .lef100 {
+   width: 100%;
+   text-align: left;
+ }
+
+ .on3px {
+   padding-left: 3px;
+   color: #C2C2C2;
+ }
+
+ .adva {
+   padding: 0px 1px 0px 1px;
+   border-radius: 5px;
+ }
+
+ .blcol {
+   padding: 0px 10px 0px 10px;
+   color: #A965FB;
+   border-radius: 5px;
+   font-size: 11px;
+   cursor: pointer;
+ }
+
+ .intxts {
+   font-size: 12px;
+   font-weight: 500;
+   color: #000;
+ }
+
+ .lefcss {
+   padding-left: 5px;
+   padding-right: 5px;
+ }
+
+ .whitecolorbgnew {
+   background-color: #FAFAFA;
+   width: 100%;
+   height: 40px;
+   border: 1px solid #F8F4F4;
+   border-radius: 5px;
+ }
+
+ .dattim {
+   padding-top: 10px;
+   width: 75%;
+   float: left;
+ }
+
+ .graycs {
+   padding: 0px 5px 0px 5px;
+   color: #B0A9A9;
+   font-size: 11px;
+ }
+
+ .minhei {
+   padding: 13px 0px 10px 0px;
+   font-size: 12px !important;
+   border-top: 1px solid #EAEAEA;
+   font-weight: 500;
+   color: #c7c1c1;
+   margin-top: 20px;
+ }
+
+ .minheinew {
+   padding: 25px 0px 0px 0px;
+   font-size: 12px !important;
+   border-top: 1px solid #EAEAEA;
+   font-weight: 500;
+   color: #c7c1c1;
+ }
+
+ .css-eveymg-MuiButtonBase-root-MuiButton-root {
+   width: 90%;
+   border-radius: 5px !important;
+   margin-bottom: 10px !important;
+   background: #FAFAFA !important;
+   color: #000 !important;
+   -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.21) !important;
+   -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.21) !important;
+   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.21)
+ }
+
+ .purple {
+   color: #8C71DC;
+   font-size: 10px;
+   position: absolute;
+ }
+
+ .imgtppads {
+   padding-top: 5px;
+ }
+
+ .inpcss {
+   width: 200px;
+   background: #FAFAFA !important;
+   margin: 0 auto;
+   border-radius: 5px;
+   -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.21) !important;
+   -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.21) !important;
+   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.21);
+   padding: 10px 0px 10px 0px;
+   font-size: 15px;
+   font-weight: 500;
+ }
+
+ .span2 {
+   color: #888290
+ }
+
+ .rss {
+   color: #000;
+   padding-left: 5px;
+ }
+
+ .tnc {
+   color: #8C71DC;
+   font-size: 10px;
+   text-decoration: underline;
+ }
+
+ .dateico {
+   padding-top: 5px;
+   padding-left: 10px;
+   width: 10%;
+   float: left;
+ }
+
+ .allbtnpadding {
+   padding: 7px 0px 10px 0px;
+   border-top: 1px solid #EAEAEA;
+   font-size: 14px;
+   font-weight: 500;
+ }
+
+ .allmarbt {
+   margin-bottom: 15px;
+ }
+
+ .css-1wnsr1i {
+   border: none !important;
+   border-radius: 10px;
+   text-align: center;
+ }
+
+ .modalscuc {
+   color: #129728;
+   font-size: 15px;
+   font-weight: 500;
+   padding-bottom: 13px;
+   display: block;
+ }
+
+ .topbtnnav {
+   width: 130px !important;
+   height: 30px;
+ }
+
+ .mainicotop {
+   width: 70% !important;
+   color: #8A81BF;
+ }
+
+ .headtpbnd {
+   color: #7351D5;
+   line-height: 35px;
+   font-size: 12px;
+   font-family: 'Poppins';
+ }
+
+ .top6inmain {
+   padding-top: 6px;
+ }
+
+ .css-96uuyl {
+   background: none;
+   border-bottom: 1px solid #ddd;
+   border-radius: 0px !important;
+   background-color: transparent !important;
+ }
+
+ .bckbtn {
+   width: 10px !important;
+   height: 10px !important;
+ }
+
+ ::-webkit-input-placeholder {
+   font-size: 11px;
+ }
+
+ ::-moz-placeholder {
+   font-size: 11px;
+ }
+
+ /* firefox 19+ */
+ :-ms-input-placeholder {
+   font-size: 11px;
+ }
+
+ /* ie */
+ input:-moz-placeholder {
+   font-size: 11px;
+ }
+
+ .fixheights {
+   height: 347px;
+   overflow: auto;
+   box-shadow: 0 2px 18px 1px rgba(49, 53, 72, .1);
+ }
+
+ .fixheightsdashboard {
+  height: 360px;
+
+}
+
+ .mostly-customized-scrollbar::-webkit-scrollbar {
+   width: 3px;
+   height: 3px;
+   background-color: #aaa;
+   /* or add it to the track */
+   border-radius: 10px;
+ }
+
+ /* Add a thumb */
+ .mostly-customized-scrollbar::-webkit-scrollbar-thumb {
+   background: #A35CFB;
+ }
+
+ /* .css-10o2lyd-MuiStack-root>.MuiTextField-root,
+.css-10o2lyd-MuiStack-root>.MuiPickersTextField-root {
+  min-width: auto !important;
+} */
+
+ /* .css-1jk99ih-MuiInputBase-input-MuiOutlinedInput-input,
+.css-lc42l8-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 10.5px 10px 7.5px 10px !important;
+  font-size: 12px !important;
+} */
+
+ .css-6e8rf3-MuiFormLabel-root-MuiInputLabel-root {
+   transform: translate(14px, 9px) scale(1) !important;
+   font-size: 12px !important;
+ }
+
+ .css-1a7z5rc-MuiButtonBase-root-MuiIconButton-root {
+   padding: 3px !important;
+ }
+
+ .zeropaddingimp {
+   padding: 0px 0px 0px 0px !important;
+ }
+
+ .dwloption {
+   padding: 0px 0px 0 0 !important;
+   cursor: pointer;
+ }
+
+ .fon13bld {
+   font-size: 12px;
+   font-weight: 500;
+ }
+
+ .stdpadding {
+   padding: 13px 0px 0px 0px;
+ }
+
+ .tpspacegp {
+   padding-top: 0px;
+   margin-top: 4px;
+ }
+
+ .eighty {
+   width: 80%;
+   float: left;
+   background-color: #fff;
+ }
+
+ .twenty {
+   width: 19%;
+   float: left;
+   background-color: #fff;
+   box-shadow: 0px 0px 32px -5px rgba(0, 0, 0, 0.1);
+   border-radius: 10px;
+ }
+
+ .backfff {
+   background-color: #fff;
+ }
+
+ .mainlogocss {
+   width: 100px;
+ }
+
+ .css-1sh9f28-MuiAvatar-root {
+   background: none !important;
+ }
+
+ .css-qehfkt-MuiPaper-root-MuiPopover-paper-MuiMenu-paper {
+   width: 210px;
+ }
+
+ .cellmenu {
+   color: #7351D5;
+   padding: 0px 10px 10px 10px;
+   cursor: pointer;
+ }
+
+ .css-nt424e-MuiPaper-root-MuiAccordion-root {
+   display: block !important;
+ }
+
+ .fourty {
+   width: 48%;
+   float: left;
+   text-align: left;
+   font-weight: normal;
+ }
+
+ .fourty1 {
+   width: 45%;
+   float: right;
+   text-align: right;
+   font-weight: normal;
+ }
+
+ .fourty2 {
+   width: 45%;
+   float: right;
+   text-align: right;
+   font-weight: 500;
+   padding-right: 20px;
+ }
+
+ .css-1f773le-MuiButtonBase-root-MuiAccordionSummary-root.Mui-expanded {
+   min-height: 30px !important;
+   border-bottom: 1px solid #ddd;
+ }
+
+ .smallfonts {
+   font-size: 10px !important;
+   font-weight: normal !important;
+   padding-bottom: 10px;
+
+ }
+
+ .bxshadowinner5 {
+   -webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.21) !important;
+   -moz-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.21) !important;
+   box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, ) !important;
+   border-radius: 7px;
+ }
+
+ .inbxleft {
+   text-align: left;
+   padding: 15px 0px 15px 0px;
+ }
+
+ .bldinner {
+   font-size: 14px;
+   font-weight: 500;
+   color: #000;
+ }
+
+ .width30box {
+   width: 30%;
+ }
+
+ .updwarr .css-20bmp1-MuiSvgIcon-root {
+   height: 0.6em;
+ }
+
+ .solidgreen {
+   color: #42C456
+ }
+
+ .fullgreen {
+   background: #42C456;
+   color: #fff;
+   font-size: 10px;
+   padding: 3px 5px 3px 5px;
+   border-radius: 5px;
+ }
+
+ .solidred {
+   color: #E73131
+ }
+
+ .fullred {
+   background: #E73131;
+   color: #fff;
+   font-size: 10px;
+   padding: 3px 5px 3px 5px;
+   border-radius: 5px;
+ }
+
+ .overfl {
+   overflow-x: auto;
+   border-top: 1px solid #ddd;
+ }
+
+ .simtablepadd {
+   padding: 8px;
+   text-align: left;
+   border-bottom: 1px solid #ddd;
+ }
+
+ .halfsize {
+   width: 48%;
+   float: left;
+   padding: 5px 0px 5px 0px;
+   font-size: 11px;
+   text-align: left;
+ }
+
+ .dataintable {
+   color: #a79e9e;
+   font-size: 12px;
+   font-family: 'Poppins' !important;
+ }
+
+ .bigintabel {
+   padding: 0px 0px 0px 0px;
+   font-weight: 500;
+   color: #000;
+   font-size: 12px;
+   font-family: 'Poppins';
+ }
+
+ .bigintabel1 {
+   padding: 0px 0px 15px 0px;
+   font-weight: 500;
+   color: #000;
+   font-size: 12px;
+   font-family: 'Poppins';
+ }
+
+ .addsigns {
+   width: 10px;
+ }
+
+ .sectabtabel {
+   margin: 10px auto;
+   font-size: 10px;
+   border-radius: 10px;
+   cursor: pointer;
+   width: 200px;
+ }
+
+ .borbotsonly {
+   border-bottom: 1px solid #ddd;
+ }
+
+ .centincell {
+   text-align: center !important;
+ }
+
+ .grybcks {
+   background-color: #F7F1FF;
+ }
+
+ .MuiPaper-root {
+   display: block !important;
+ }
+
+ .css-1j7kipi {
+   padding: 0px !important;
+ }
+
+ .css-i9gxme {
+   padding: 0px !important;
+ }
+
+ .css-18t3hpn-MuiPaper-root {
+   box-shadow: none !important
+ }
+
+ ;
+
+ table .css-lymd18 {
+   padding-left: 0px !important;
+ }
+
+ .css-18t3hpn-MuiPaper-root {
+   background-color: transparent !important;
+   font-size: 11px !important;
+ }
+
+ .css-15wwp11-MuiTableHead-root {
+   border-bottom: 1px solid #ddd;
+   border-top: 1px solid #ddd;
+ }
+
+ .showincell {
+   display: none;
+ }
+
+ .css-1oj363u-MuiTableRow-root,
+ .css-lymd18 {
+   border-bottom: 1px solid #ddd;
+ }
+
+ .bldtext {
+   font-weight: 500 !important;
+   color: #AB9D9D !important;
+   font-size: 12px !important;
+   font-family: 'Poppins' !important;
+ }
+
+ .subintabel {
+   font-size: 12px !important;
+   font-weight: 500;
+   color: #213547;
+   font-family: 'Poppins' !important;
+ }
+
+ .clilogo {
+   width: 40px;
+   padding: 0px 15px 0px 0px;
+ }
+
+ .clilogosmall {
+   width: 70px;
+   padding: 3px 15px 0px 0px;
+ }
+
+ .onlyflol {
+   float: left;
+ }
+
+ .pinkbc {
+   background-color: #FDF2C1;
+   padding: 3px 7px 2px 7px;
+   border-radius: 10px;
+ }
+
+ .gapglobal {
+   height: 5px;
+ }
+
+ .activebtns {
+   background: #DFF6E3;
+   padding: 3px 15px 3px 15px;
+   border-radius: 5px;
+   color: #41AC52;
+   height: 18px;
+   font-size: 12px;
+
+ }
+
+ .activebtnsfull {
+   background: #DFF6E3;
+   padding: 8px 15px 8px 15px;
+   border-radius: 5px;
+   color: #41AC52;
+   margin: 0px 10px 0px 10px;
+ }
+
+ .pointercusrs {
+   cursor: pointer;
+   /* ----------------added for sip tab on 17_1_25--------------- */
+   /* width: 215px; */
+   float: right;
+ }
+
+ .underlined {
+   border-bottom: 1px solid #ddd;
+ }
+
+ .allovergaps {
+   padding: 0px 0px 20px 0px;
+ }
+
+ .Tab1 .tab-header {
+   margin-left: -3%;
+   background: transparent;
+ }
+
+ .css-5bafkp {
+   border-color: transparent !important;
+ }
+
+ /* #simple-tabpanel-3,
+ .css-6e8rf3-MuiFormLabel-root-MuiInputLabel-root {
+   transform: translate(14px, 9px) scale(1) !important;
+   font-size: 12px !important;
+ }
+
+ .css-1a7z5rc-MuiButtonBase-root-MuiIconButton-root {
+   padding: 3px !important;
+ }
+
+ .zeropaddingimp {
+   padding: 0px 0px 0px 0px !important;
+ }
+
+ .dwloption {
+   padding: 0px 15px 0px 0px !important;
+   cursor: pointer;
+ }
+
+ .fon13bld {
+   font-size: 12px;
+   font-weight: 500;
+ }
+
+ .stdpadding {
+   padding: 13px 0px 0px 0px;
+ }
+
+ .tpspacegp {
+   padding-top: 5px;
+ }
+
+ .eighty {
+   width: 80%;
+   float: left;
+   background-color: #fff;
+ }
+
+ .twenty {
+   width: 19%;
+   float: left;
+   background-color: #fff;
+   box-shadow: 0px 0px 32px -5px rgba(0, 0, 0, 0.1);
+   border-radius: 10px;
+ }
+
+ .backfff {
+   background-color: #fff;
+ }
+
+ .mainlogocss {
+   width: 100px;
+ }
+
+ .css-1sh9f28-MuiAvatar-root {
+   background: none !important;
+ }
+
+ .css-qehfkt-MuiPaper-root-MuiPopover-paper-MuiMenu-paper {
+   width: 210px;
+ }
+
+ .cellmenu {
+   color: #7351D5;
+   padding: 0px 10px 10px 10px;
+   cursor: pointer;
+ }
+
+ .css-nt424e-MuiPaper-root-MuiAccordion-root {
+   display: block !important;
+ }
+
+ .fourty {
+   width: 48%;
+   float: left;
+   text-align: left;
+   font-weight: normal;
+ }
+
+ .fourty1 {
+   width: 45%;
+   float: right;
+   text-align: right;
+   font-weight: normal;
+ }
+
+ .fourty2 {
+   width: 45%;
+   float: right;
+   text-align: right;
+   font-weight: 500;
+   padding-right: 20px;
+ }
+
+ .css-1f773le-MuiButtonBase-root-MuiAccordionSummary-root.Mui-expanded {
+   min-height: 30px !important;
+   border-bottom: 1px solid #ddd;
+ }
+
+ .smallfonts {
+   font-size: 10px !important;
+   font-weight: normal !important;
+   padding-bottom: 10px;
+
+ }
+
+ .bxshadowinner5 {
+   -webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.21) !important;
+   -moz-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.21) !important;
+   box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, ) !important;
+   border-radius: 7px;
+ }
+
+ .inbxleft {
+   text-align: left;
+   padding: 15px 0px 15px 0px;
+ }
+
+ .bldinner {
+   font-size: 14px;
+   font-weight: 500;
+   color: #000;
+ }
+
+ .width30box {
+   width: 30%;
+ }
+
+ .updwarr .css-20bmp1-MuiSvgIcon-root {
+   height: 0.6em;
+ }
+
+ .solidgreen {
+   color: #42C456
+ }
+
+ .fullgreen {
+   background: #42C456;
+   color: #fff;
+   font-size: 10px;
+   padding: 3px 5px 3px 5px;
+   border-radius: 5px;
+ }
+
+ .solidred {
+   color: #E73131
+ }
+
+ .fullred {
+   background: #E73131;
+   color: #fff;
+   font-size: 10px;
+   padding: 3px 5px 3px 5px;
+   border-radius: 5px;
+ }
+
+ .overfl {
+   overflow-x: auto
+ }
+
+ .simtablepadd {
+   padding: 8px;
+   text-align: left;
+   border-bottom: 1px solid #ddd;
+ }
+
+ .halfsize {
+   width: 48%;
+   float: left;
+   padding: 5px 0px 5px 0px;
+   font-size: 11px;
+   text-align: left;
+ }
+
+ .dataintable {
+   color: #a79e9e;
+   font-size: 12px;
+ }
+
+ .bigintabel {
+   padding: 0px 0px 0px 0px;
+   font-weight: 500;
+   color: #000;
+   font-size: 12px;
+   font-family: 'Poppins';
+ }
+
+ .bigintabel1 {
+   padding: 0px 0px 15px 0px;
+   font-weight: 500;
+   color: #000;
+   font-size: 12px;
+   font-family: 'Poppins';
+ }
+
+ .addsigns {
+   width: 10px;
+ }
+
+ .sectabtabel {
+   margin: 10px auto;
+   font-size: 10px;
+   border-radius: 10px;
+   cursor: pointer;
+   width: 200px;
+ }
+
+ .borbotsonly {
+   border-bottom: 1px solid #ddd;
+ }
+
+ .centincell {
+   text-align: center !important;
+ }
+
+ .grybcks {
+   background-color: #F7F1FF;
+ }
+
+ .MuiPaper-root {
+   display: block !important;
+ }
+
+ .css-1j7kipi {
+   padding: 0px !important;
+ }
+
+ .css-i9gxme {
+   padding: 0px !important;
+ }
+
+ .css-18t3hpn-MuiPaper-root {
+   box-shadow: none !important
+ }
+
+ ;
+
+ table .css-lymd18 {
+   padding-left: 0px !important;
+ }
+
+ .css-18t3hpn-MuiPaper-root {
+   background-color: transparent !important;
+   font-size: 11px !important;
+ }
+
+ .css-15wwp11-MuiTableHead-root {
+   border-bottom: 1px solid #ddd;
+   border-top: 1px solid #ddd;
+ }
+
+ .showincell {
+   display: none;
+ }
+
+ .css-1oj363u-MuiTableRow-root,
+ .css-lymd18 {
+   border-bottom: 1px solid #ddd;
+ }
+
+ .bldtext {
+   font-weight: 500 !important;
+   color: #AB9D9D !important;
+   font-size: 12px !important;
+   font-family: 'Poppins';
+ }
+
+ .subintabel {
+   font-size: 12px !important;
+   font-weight: 500;
+   color: #213547;
+   font-family: 'Poppins';
+ }
+
+ .clilogo {
+   width: 40px;
+   padding: 0px 15px 0px 0px;
+ }
+
+ .clilogosmall {
+   width: 70px;
+   padding: 0px 15px 0px 0px;
+ }
+
+ .onlyflol {
+   float: left;
+ }
+
+ .pinkbc {
+   background-color: #FDF2C1;
+   padding: 3px 7px 2px 7px;
+   border-radius: 10px;
+ }
+
+ .gapglobal {
+   height: 5px;
+ }
+
+ .activebtns {
+   background: #DFF6E3;
+   padding: 3px 15px 3px 15px;
+   border-radius: 5px;
+   color: #41AC52;
+   height: 18px;
+   font-size: 12px;
+
+ }
+
+ .activebtnsfull {
+   background: #DFF6E3;
+   padding: 8px 15px 8px 15px;
+   border-radius: 5px;
+   color: #41AC52;
+   margin: 0px 10px 0px 10px;
+ }
+
+ .pointercusrs {
+   cursor: pointer;
+   /* ----------------added for sip tab on 17_1_25--------------- */
+ /* width: 215px;
+
+ } */
+
+ .underlined {
+   border-bottom: 1px solid #ddd;
+ }
+
+ .allovergaps {
+   padding: 0px 0px 20px 0px;
+ }
+
+ .Tab1 .tab-header {
+   margin-left: -3%;
+   background: transparent;
+ }
+
+ .css-5bafkp {
+   border-color: transparent !important;
+ }
+
+ /* #simple-tabpanel-3,
+#simple-tabpanel-2,
+#simple-tabpanel-1 {
+  padding: 0px !important;
+} */
+
+ /* #simple-tabpanel-3 .css-19kzrtu,
+#simple-tabpanel-2 .css-19kzrtu,
+#simple-tabpanel-1 .css-19kzrtu {
+  padding: 20px 0px 0px 15px !important;
+} */
+
+ .greenticks {
+   color: #85D9AF;
+ }
+
+ .growthbccss {
+   background-color: #FFF3BE;
+   color: #EBA31E;
+   padding: 5px 10px 5px 10px;
+   font-size: 11px;
+   margin: 0px 0px 0px 10px;
+   border-radius: 10px;
+ }
+
+ .dividenbccss {
+   background-color: #CFFFD7;
+   color: #248133;
+   padding: 5px 10px 5px 10px;
+   font-size: 11px;
+   margin: 0px 0px 0px 10px;
+   border-radius: 10px;
+ }
+
+ .darkblcbld {
+   font-size: 17px;
+   font-weight: 500;
+   padding: 0px 10px 0px 10px;
+   color: #000
+ }
+
+ .boxshads {
+   -webkit-box-shadow: 0px 0px 6px 0px rgba(222, 213, 222, 1);
+   -moz-box-shadow: 0px 0px 6px 0px rgba(222, 213, 222, 1);
+   box-shadow: 0px 0px 6px 0px rgba(222, 213, 222, 1);
+ }
+
+ .Topbtnband {
+   border-radius: 0px;
+   min-width: 120px !important;
+ }
+
+ /* Latest */
+ .addbtninpeer {
+   margin-top: 0px !important;
+   margin-right: 2px !important;
+   width: 110px;
+ }
+
+ .incount {
+   background-color: #290952;
+   color: #fff;
+   padding: 0px 6px 0px 5px;
+   border-radius: 50%;
+   margin-left: 5px;
+ }
+
+ .tab-child .css-11dd937 {
+   padding: 0;
+   margin-left: 0px !important;
+ }
+
+ .onlybordertab {
+   border-bottom: 1px solid #ddd;
+ }
+
+ .greentintab {
+   background: #6BB176;
+   font-size: 10px;
+   padding: 3px 5px 3px 5px;
+   margin-left: 10px;
+   border-radius: 10px;
+   color: #fff;
+ }
+
+ .inacivetintab {
+   background: #DADDDB;
+   font-size: 10px;
+   padding: 3px 5px 3px 5px;
+   margin-left: 10px;
+   border-radius: 10px;
+   color: #fff;
+ }
+
+ .only5left {
+   padding: 0px 0px 0px 5px;
+ }
+
+ .topme15 {
+   padding-top: 15px;
+ }
+
+ .peerbotbor {
+   border-bottom: 1px solid #ddd;
+   min-height: 35px;
+ }
+
+ .newth12 {
+   text-align: left;
+   padding: 0px;
+   color: #999595;
+   font-weight: normal;
+   font-size: 11px;
+ }
+
+ .MuiAccordion-gutters {
+   --Paper-shadow: none !important;
+ }
+
+ .MuiAccordion-heading {
+   border-bottom: 1px solid #ddd;
+ }
+
+ .hi20 {
+   height: 20px;
+ }
+
+ .tab-child {
+   margin-top: 3px;
+ }
+
+ .wid30 {
+   width: 30%;
+   float: left;
+ }
+
+ .wid25 {
+   width: 25%;
+   float: right;
+ }
+
+ .margt20 {
+   margin-top: 20px;
+ }
+
+ .fixheights1 {
+   height: 314px;
+   overflow: auto;
+ }
+
+ .extbotbor {
+   border-bottom: 1px solid #ddd;
+ }
+
+ .peer12 {
+   width: 6%;
+   float: left;
+   padding: 0px 7px 0px 10px;
+   margin-top: -10px;
+ }
+
+ /* -----------old Existing CSSS------------ */
+ /* .backbtn {
+   margin: 0px !important;
+   padding: 4px !important;
+   width: 75px !important;
+   font-size: 12px !important;
+   top: -10px !important;
+ } */
+ /* -----------------CSS from 31-1-25 Zip File-------------- */
+ .backbtn {
+   margin: 0px !important;
+   padding: 4px !important;
+   width: 75px !important;
+   font-size: 12px !important;
+   top: -5px !important;
+   border-radius: 5px !important;
+ }
+
+ .css-t5kh0u-MuiButtonBase-root-MuiTab-root {
+   text-transform: none !important;
+ }
+
+ .mainmenu {
+   width: 33%;
+   float: left;
+ }
+
+
+ .ulmainmenu {
+   width: 350px !important;
+   float: right;
+   padding: 10px 10px 10px 20px;
+ }
+
+ .wid20 .MuiButton-containedPrimary {
+   height: 20px;
+   font-size: 11px;
+   width: 40px;
+   background-color: #A35CFB !important;
+ }
+
+ .searchbx {
+   width: 329px;
+   float: right;
+   margin-left: 10px;
+   margin-top: -6px;
+ }
+
+ .searchbx label {
+   display: none;
+ }
+
+ .searchbx .MuiOutlinedInput-root {
+   padding: 0px !important;
+   border-bottom: 2px solid #ddd;
+   border-radius: 0px;
+ }
+
+ .searchbx .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+   border: none !important;
+ }
+
+ .searchbx button {
+   display: none;
+ }
+
+ .searchbx .MuiInputAdornment-sizeMedium {
+   position: absolute;
+   right: 0;
+ }
+
+ .searchbx svg {
+   color: #fff;
+   background: #7351D5;
+   border-radius: 50%;
+   padding: 3px 3px 3px 3px;
+ }
+
+ .bordersmllbtm {
+   border-top: 1px solid #ddd;
+ }
+
+
+ .newtable4 {
+   width: 100%;
+   border-collapse: collapse;
+ }
+
+ .newtable4 th {
+   border-bottom: 1px solid #dddddd;
+   text-align: left;
+   padding: 8px;
+   color: #999595;
+   font-weight: normal;
+   font-size: 11px;
+ }
+
+ .newtable4 td {
+   border-bottom: 1px solid #dddddd;
+   text-align: left;
+   padding: 8px;
+ }
+
+ .width50 {
+   width: auto;
+   float: left;
+   margin-bottom: 10px;
+ }
+
+ .searchbx .css-1ll44ll-MuiOutlinedInput-notchedOutline {
+   border: 0px !important;
+ }
+
+ .wid54 {
+   width: 54%;
+   float: left;
+ }
+
+ .wid20 {
+   width: 20%;
+   float: left;
+ }
+
+ .wid15 {
+   width: 15%;
+   float: left;
+   font-size: 11px;
+   color: #999595;
+ }
+
+
+ .divlines {
+   margin: 0 auto;
+   width: 35px;
+   border: 1px solid #ddd;
+   color: #8B8585;
+ }
+
+ .flexdiss {
+   display: flex;
+   width: 60%;
+   margin-left: 20%;
+ }
+
+ .selecteddivline {
+   background-color: #7351D5;
+   color: #fff;
+ }
+
+ .medium {
+   width: 94px;
+   float: none;
+   margin: 0px auto;
+   background: #edbc2b;
+   padding: 4px;
+   border-radius: 5px;
+   color: #fff;
+ }
+
+ .mr10 {
+   margin-right: 10px !important;
+ }
+
+ .disincells {
+   display: none;
+ }
+
+ .css-19opgx6-MuiFormControlLabel-root .MuiFormControlLabel-label {
+   font-size: 12px;
+ }
+
+ .bankbal {
+   font-weight: 500;
+   font-size: 14px;
+ }
+
+ .sipdatbox {
+   text-align: left;
+ }
+
+ .spanrigh {
+   margin-right: 24px;
+ }
+
+ .advacncebtn {
+   padding: 1px 10px !important;
+   font-size: 12px !important;
+   margin-bottom: 10px !important;
+ }
+
+ .advacncebtnzero {
+   padding: 1px 10px !important;
+   font-size: 12px !important;
+   margin-bottom: 10px !important;
+ }
+
+ .advacncebtnblank {
+   padding: 1px 10px !important;
+   font-size: 12px !important;
+   margin-bottom: 10px;
+   border: none !important;
+
+ }
+
+ .unnerlinetxt {
+   text-decoration: underline;
+   color: #A35CFB;
+   padding-left: 10px;
+ }
+
+ .sipdatbox button:hover {
+   background-color: transparent !important;
+ }
+
+ .linktxtnew {
+   color: #3939a9;
+   cursor: pointer;
+   top: -9px;
+   position: relative;
+ }
+
+ .dastquick {
+   margin-top: 1px !important;
+   margin-left: 5px !important;
+ }
+
+ .pad16 {
+   padding: 17px
+ }
+
+ .maincontentprimary {
+   padding-bottom: 20px;
+ }
+
+ .nomineaddtxt {
+   font-size: 12px;
+   color: #4c4848;
+ }
+
+ .nomineerpt {
+   border-bottom: 1px solid #dddd;
+   padding: 5px 0px 10px 0px;
+ }
+
+ .editsave {
+   margin-top: -6px !important;
+ }
+
+ .width60 {
+   margin-left: 5px;
+   width: 100%;
+
+ }
+
+ .widthfirst {
+   width: 60px !important;
+   margin-left: 5px;
+ }
+
+ .sipday {
+   width: 80px;
+   padding: 4px !important;
+   margin: -10px 0px !important;
+ }
+
+ .sipday input {
+   padding: 5px;
+ }
+
+ h2 {
+   font-size: 15px !important;
+   font-weight: 500 !important;
+   padding: 10px 27px !important;
+   font-family: 'Poppins' !important;
+ }
+
+ .maindatecontroller {
+   width: 100% !important;
+ }
+
+ .maindatecontroller input {
+   padding: 7px;
+ }
+
+ .logintxt input[type=text],
+ .logintxt input[type=password] {
+   height: 40px;
+ }
+
+ .dastquick {
+   min-width: auto !important;
+ }
+
+ /*-----------------------Holding CSS*/
+
+ .activebtnred {
+   background: #ffdec6;
+   padding: 3px 15px 3px 15px;
+   border-radius: 5px;
+   color: #e33d16;
+   height: 18px;
+   font-size: 12px;
+ }
+
+ .nobackcol {
+   --Paper-shadow: none !important
+ }
+
+ .whitebgforinner {
+   background-color: transparent !important;
+ }
+
+ .overfl table tbody th {
+   padding: 10px 0px 0px 0px !important;
+ }
+
+ .adva {
+   padding: 0px 1px 0px 1px;
+   border-radius: 15px;
+   background-color: #F9F3FF;
+ }
+
+ .plusmin {
+   padding: 0px 1px 0px 1px;
+ }
+
+ .imgspac {
+   position: absolute;
+   margin-top: 0px;
+   margin-left: 5px;
+ }
+
+ .hideincell {
+   border-bottom: 1px solid #ddd;
+ }
+
+ .fullborbottom {
+   border-bottom: 1px solid #ddd;
+ }
+
+ .insdrops {
+   background-color: #A35CFB;
+   font-size: 10px !important;
+ }
+
+ .Tab1 .tab-header {
+   background: transparent;
+   padding-left: 10px;
+   text-align: left;
+ }
+
+ .padinsiptab {
+   padding: 5px 0px 5px 5px;
+   color: #000;
+ }
+
+ .extpadbot20 {
+   padding-bottom: 15px;
+   height: 22px;
+ }
+
+ .tabsoutborder {
+   border-top: 1px solid #ddd;
+   color: #000 !important;
+ }
+
+ .colinsiptb {
+   color: #8B8585;
+ }
+
+ .bldme {
+   font-weight: 500;
+ }
+
+ .activebtnssmall {
+   background: #DFF6E3;
+   padding: 3px 15px 3px 15px;
+   border-radius: 20px;
+   font-size: 11px;
+   color: #41AC52;
+ }
+
+ .blacktxt {
+   color: #000 !important;
+   text-align: left !important;
+   font-family: "Poppins" !important;
+   /* ----- addedd 17_1_25------------ */
+   font-weight: 500 !important;
+   font-size: 12px !important;
+ }
+
+ .aligmelefts {
+   text-align: left !important;
+ }
+
+ .SIPdd button {
+   margin: 0px 0px 0px 10px !important;
+   padding: 0px 0px 0px 0px !important;
+ }
+
+ .padsall {
+   padding-top: 10px;
+ }
+
+ .showincell1 {
+   display: none;
+ }
+
+ .vertidot {
+   width: 13px;
+   color: #A35CFB;
+ }
+
+ .backcc {
+   background-color: #000 !important;
+   color: #fff !important;
+   font-size: 11px !important;
+   border-bottom: 1px solid #454242 !important;
+ }
+
+ .css-1toxriw-MuiList-root-MuiMenu-list {
+   padding: 0px !important;
+ }
+
+ .roundscortop {
+   border-top-left-radius: 5px !important;
+   border-top-right-radius: 5px !important;
+ }
+
+ .roundscorbot {
+   border-bottom-left-radius: 5px !important;
+   border-bottom-right-radius: 5px !important;
+ }
+
+ .transtabbg {
+   background-color: #472D68 !important;
+   color: #fff !important;
+   border-bottom: 1px solid #918d8d !important;
+   font-size: 11px !important;
+ }
+
+ .deletesmall {
+   background: #FFD4BD;
+   padding: 3px 15px 3px 15px;
+   border-radius: 20px;
+   font-size: 11px;
+   color: #F20E0E;
+ }
+
+ .deletefull {
+   background: #FFD4BD;
+   padding: 8px 15px 8px 15px;
+   border-radius: 20px;
+   color: #F20E0E;
+   margin: 0px 10px 0px 10px;
+ }
+
+ .redticks {
+   color: #EE404C;
+ }
+
+ .foupx {
+   font-size: 13px;
+ }
+
+ .dektophidetxt {
+   display: none;
+ }
+
+ .toggle-div {
+   padding: 2px 15px;
+   cursor: pointer;
+   display: flex;
+   align-items: center;
+   transition: background-color 0.3s;
+   width: 160px;
+   font-size: 11px;
+   background: #ebebeb;
+   margin: 7px auto;
+   border-radius: 19px;
+   text-align: center;
+   font-family: 'Poppins' !important;
+ }
+
+ .toggle-div .icon {
+   font-size: 13px;
+   margin-left: 7px;
+   transition: transform 0.3s;
+   background: #a35cfb;
+   height: 13px;
+   width: 13px;
+   line-height: 13px;
+   color: #fff;
+   border-radius: 12px;
+ }
+
+ .toggle-div.active {
+   background-color: #7B7272;
+   color: #fff;
+ }
+
+
+ .toggle-div.active .icon {
+   transform: rotate(180deg);
+   /* Optional rotation effect */
+   background-color: #7B7272;
+ }
+
+
+
+ .lefttxt {
+   text-align: left;
+ }
+
+ .transactionhead {
+   font-size: 13px !important;
+   font-weight: 500 !important;
+   color: #000;
+ }
+
+ .frmtdate {
+   color: #9d8c8c;
+   font-size: 11px;
+   padding-top: 15px;
+ }
+
+ .fortpdate {
+   padding-top: 15px;
+ }
+
+ .filterpanl {
+   width: 300px;
+   padding: 10px 20px
+ }
+
+ .filterpanl h2 {
+   padding: 0px !important;
+ }
+
+ .filterpanl p {
+   margin: 15px 0px 3px 0px;
+ }
+
+ .filterbtn {
+   margin: 0px auto;
+   text-align: center;
+ }
+
+ .filterbtn button {
+   margin-right: 10px;
+ }
+
+ .dsplyflx {
+   display: flex;
+ }
+
+ .pullleft {
+   float: left;
+ }
+
+ .mr11 {
+   margin-right: 11px;
+   margin-bottom: 9px;
+ }
+
+ .mr12 {
+   margin-right: 11px;
+   margin-bottom: 0px;
+   padding-bottom: 10px;
+ }
+
+ .mr35 {
+   margin-left: 35px;
+ }
+
+ .multiselectdrp legend:visited {
+   display: none;
+ }
+
+ .sorticon {
+   position: relative;
+   top: 4px;
+ }
+
+ .sorticon button {
+   margin: 0px;
+   padding: 0px;
+   height: 10px;
+ }
+
+ td.padingtble {
+   padding: 0px 0px 0px 0px;
+ }
+
+ .pdt10 {
+   margin-top: 5px;
+   display: block;
+ }
+
+ .pl23 {
+   padding-left: 23px !important;
+ }
+
+ .Mui-error {
+   color: red !important;
+   margin: 0px !important;
+ }
+
+ /* ----------------5DEC2024--------- */
+
+ .oneThirdSize {
+   width: 33%;
+   float: left;
+   text-align: left;
+ }
+
+ /*-----------------------Holding CSS*--------------------/
+  top: 7px !important;
+}
+
+ .css-t5kh0u-MuiButtonBase-root-MuiTab-root {
+   text-transform: none !important;
+ }
+
+ .mainmenu {
+   width: 33%;
+   float: left;
+ }
+
+
+ .ulmainmenu {
+   width: 350px !important;
+   float: right;
+   padding: 10px 10px 10px 20px;
+ }
+
+ .wid20 .MuiButton-containedPrimary {
+   height: 20px;
+   font-size: 11px;
+   width: 40px;
+   background-color: #A35CFB !important;
+ }
+
+ .searchbx {
+   width: 329px;
+   float: right;
+   margin-left: 10px;
+   margin-top: -6px;
+ }
+
+ .searchbx label {
+   display: none;
+ }
+
+ .searchbx .MuiOutlinedInput-root {
+   padding: 0px !important;
+   border-bottom: 2px solid #ddd;
+   border-radius: 0px;
+ }
+
+ .searchbx .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+   border: none !important;
+ }
+
+ .searchbx button {
+   display: none;
+ }
+
+ .searchbx .MuiInputAdornment-sizeMedium {
+   position: absolute;
+   right: 0;
+ }
+
+ .searchbx svg {
+   color: #fff;
+   background: #7351D5;
+   border-radius: 50%;
+   padding: 3px 3px 3px 3px;
+ }
+
+ .bordersmllbtm {
+   border-top: 1px solid #ddd;
+ }
+
+
+ .newtable4 {
+   width: 100%;
+   border-collapse: collapse;
+ }
+
+ .newtable4 th {
+   border-bottom: 1px solid #dddddd;
+   text-align: left;
+   padding: 8px;
+   color: #999595;
+   font-weight: normal;
+   font-size: 11px;
+ }
+
+ .newtable4 td {
+   border-bottom: 1px solid #dddddd;
+   text-align: left;
+   padding: 8px;
+ }
+
+ .width50 {
+   width: auto;
+   float: left;
+   margin-bottom: 10px;
+ }
+
+ .searchbx .css-1ll44ll-MuiOutlinedInput-notchedOutline {
+   border: 0px !important;
+ }
+
+ .wid54 {
+   width: 54%;
+   float: left;
+ }
+
+ .wid20 {
+   width: 20%;
+   float: left;
+ }
+
+ .wid15 {
+   width: 15%;
+   float: left;
+   font-size: 11px;
+   color: #999595;
+ }
+
+
+ .divlines {
+   margin: 0 auto;
+   width: 35px;
+   border: 1px solid #ddd;
+   color: #8B8585;
+ }
+
+ .flexdiss {
+   display: flex;
+   width: 60%;
+   margin-left: 20%;
+ }
+
+ .selecteddivline {
+   background-color: #7351D5;
+   color: #fff;
+ }
+
+ .medium {
+   width: 94px;
+   float: none;
+   margin: 0px auto;
+   background: #edbc2b;
+   padding: 4px;
+   border-radius: 5px;
+   color: #fff;
+ }
+
+ .mr10 {
+   margin-right: 10px !important;
+ }
+
+ .disincells {
+   display: none;
+ }
+
+ .css-19opgx6-MuiFormControlLabel-root .MuiFormControlLabel-label {
+   font-size: 12px;
+ }
+
+ .bankbal {
+   font-weight: 500;
+   font-size: 14px;
+ }
+
+ .sipdatbox {
+   text-align: left;
+ }
+
+ .spanrigh {
+   margin-right: 24px;
+ }
+
+ .advacncebtn {
+   padding: 1px 10px !important;
+   font-size: 12px !important;
+   margin-bottom: 10px !important;
+ }
+
+ .advacncebtnblank {
+   padding: 1px 10px !important;
+   font-size: 12px !important;
+   margin-bottom: 10px;
+   border: none !important;
+
+ }
+
+ .unnerlinetxt {
+   text-decoration: underline;
+   color: #A35CFB;
+   padding-left: 10px;
+ }
+
+ .sipdatbox button:hover {
+   background-color: transparent !important;
+ }
+
+ .linktxtnew {
+   color: #3939a9;
+   cursor: pointer;
+   top: -9px;
+   position: relative;
+ }
+
+ .dastquick {
+   margin-top: 1px !important;
+   margin-left: 5px !important;
+ }
+
+ .pad16 {
+   padding: 17px
+ }
+
+ .maincontentprimary {
+   padding-bottom: 20px;
+ }
+
+ .nomineaddtxt {
+   font-size: 12px;
+   color: #4c4848;
+ }
+
+ .nomineerpt {
+   border-bottom: 1px solid #dddd;
+   padding: 5px 0px 10px 0px;
+ }
+
+ .editsave {
+   margin-top: -6px !important;
+ }
+
+ .width60 {
+   margin-left: 5px;
+   width: 100%;
+
+ }
+
+ .widthfirst {
+   width: 60px !important;
+   margin-left: 5px;
+ }
+
+ .sipday {
+   width: 80px;
+   padding: 4px !important;
+   margin: -10px 0px !important;
+ }
+
+ .sipday input {
+   padding: 5px;
+ }
+
+ h2 {
+   font-size: 15px !important;
+   font-weight: 500 !important;
+   padding: 10px 27px !important;
+   font-family: 'Poppins' !important;
+ }
+
+ .maindatecontroller {
+   width: 100% !important;
+ }
+
+ .maindatecontroller input {
+   padding: 7px;
+ }
+
+ .logintxt input[type=text],
+ .logintxt input[type=password] {
+   height: 40px;
+ }
+
+ .dastquick {
+   min-width: auto !important;
+ }
+
+ /*-----------------------Holding CSS*/
+
+ .activebtnred {
+   background: #ffdec6;
+   padding: 3px 15px 3px 15px;
+   border-radius: 5px;
+   color: #e33d16;
+   height: 18px;
+   font-size: 12px;
+ }
+
+ .nobackcol {
+   --Paper-shadow: none !important
+ }
+
+ .whitebgforinner {
+   background-color: transparent !important;
+ }
+
+ .overfl table tbody th {
+   padding: 10px 0px 0px 0px !important;
+ }
+
+ .adva {
+   padding: 0px 1px 0px 1px;
+   border-radius: 15px;
+   background-color: #F9F3FF;
+ }
+
+ .plusmin {
+   padding: 0px 1px 0px 1px;
+ }
+
+ .imgspac {
+   position: absolute;
+   margin-top: 0px;
+   margin-left: 5px;
+ }
+
+ .hideincell {
+   border-bottom: 1px solid #ddd;
+ }
+
+ .fullborbottom {
+   border-bottom: 1px solid #ddd;
+ }
+
+ .insdrops {
+   background-color: #A35CFB;
+   font-size: 10px !important;
+ }
+
+ .Tab1 .tab-header {
+   background: transparent;
+   padding-left: 10px;
+   text-align: left;
+ }
+
+ .padinsiptab {
+   padding: 5px 0px 5px 5px;
+   color: #000;
+ }
+
+ .extpadbot20 {
+   padding-bottom: 20px;
+ }
+
+ .tabsoutborder {
+   border-top: 1px solid #ddd;
+   color: #000 !important;
+ }
+
+ .colinsiptb {
+   color: #8B8585;
+ }
+
+ .bldme {
+   font-weight: 500;
+ }
+
+ /* .activebtnssmall {
+   background: #DFF6E3;
+   padding: 3px 15px 3px 15px;
+   border-radius: 20px;
+   font-size: 11px;
+   color: #41AC52;
+ } */
+
+ .blacktxt {
+   color: #000 !important;
+   text-align: left !important;
+   /* ----- addedd 17_1_25------------ */
+   font-weight: 500 !important;
+   font-size: 12px !important;
+ }
+
+ .aligmelefts {
+   text-align: left !important;
+ }
+
+ .SIPdd button {
+   margin: 0px 0px 0px 10px !important;
+   padding: 0px 0px 0px 0px !important;
+ }
+
+ .padsall {
+   padding-top: 10px;
+ }
+
+ .showincell1 {
+   display: none;
+ }
+
+ .vertidot {
+   width: 13px;
+   color: #A35CFB;
+ }
+
+ .backcc {
+   background-color: #000 !important;
+   color: #fff !important;
+   font-size: 11px !important;
+   border-bottom: 1px solid #454242 !important;
+ }
+
+ .css-1toxriw-MuiList-root-MuiMenu-list {
+   padding: 0px !important;
+ }
+
+ .roundscortop {
+   border-top-left-radius: 5px !important;
+   border-top-right-radius: 5px !important;
+ }
+
+ .roundscorbot {
+   border-bottom-left-radius: 5px !important;
+   border-bottom-right-radius: 5px !important;
+ }
+
+ .transtabbg {
+   background-color: #472D68 !important;
+   color: #fff !important;
+   border-bottom: 1px solid #918d8d !important;
+   font-size: 11px !important;
+ }
+
+ .deletesmall {
+   background: #FFD4BD;
+   padding: 3px 15px 3px 15px;
+   border-radius: 20px;
+   font-size: 11px;
+   color: #F20E0E;
+ }
+
+ .deletefull {
+   background: #FFD4BD;
+   padding: 8px 15px 8px 15px;
+   border-radius: 20px;
+   color: #F20E0E;
+   margin: 0px 10px 0px 10px;
+ }
+
+ .redticks {
+   color: #EE404C;
+ }
+
+ .foupx {
+   font-size: 13px;
+ }
+
+ .dektophidetxt {
+   display: none;
+ }
+
+ .toggle-div {
+   padding: 2px 15px;
+   cursor: pointer;
+   display: flex;
+   align-items: center;
+   transition: background-color 0.3s;
+   width: 160px;
+   font-size: 11px;
+   background: #ebebeb;
+   margin: 7px auto;
+   border-radius: 19px;
+   text-align: center;
+   font-family: 'Poppins' !important;
+ }
+
+ .toggle-div .icon {
+   font-size: 13px;
+   margin-left: 7px;
+   transition: transform 0.3s;
+   background: #a35cfb;
+   height: 13px;
+   width: 13px;
+   line-height: 13px;
+   color: #fff;
+   border-radius: 12px;
+ }
+
+ .toggle-div.active {
+   background-color: #7B7272;
+   color: #fff;
+ }
+
+
+ .toggle-div.active .icon {
+   transform: rotate(180deg);
+   /* Optional rotation effect */
+   background-color: #7B7272;
+ }
+
+ .transactdrp {
+   width: 50%;
+   background: #A35CFB;
+   color: #fff !important;
+   margin: 0px auto;
+   height: 30px;
+ }
+
+ .lefttxt {
+   text-align: left;
+ }
+
+ .transactionhead {
+   font-size: 13px !important;
+   font-weight: 500 !important;
+   color: #000;
+ }
+
+ .frmtdate {
+   color: #9d8c8c;
+   font-size: 11px;
+   padding-top: 15px;
+ }
+
+ .fortpdate {
+   padding-top: 15px;
+ }
+
+ .filterpanl {
+   width: 300px;
+   padding: 10px 20px
+ }
+
+ .filterpanl h2 {
+   padding: 0px !important;
+ }
+
+ .filterpanl p {
+   margin: 15px 0px 3px 0px;
+ }
+
+ .filterbtn {
+   margin: 0px auto;
+   text-align: center;
+ }
+
+ .filterbtn button {
+   margin-right: 10px;
+ }
+
+ .dsplyflx {
+   display: flex;
+ }
+
+ .pullleft {
+   float: left;
+ }
+
+ .mr11 {
+   margin-right: 11px;
+   margin-bottom: 9px;
+ }
+
+ .mr12 {
+   margin-right: 11px;
+   margin-bottom: 0px;
+   padding-bottom: 10px;
+ }
+
+ .mr35 {
+   margin-left: 35px;
+ }
+
+ .multiselectdrp legend:visited {
+   display: none;
+ }
+
+ .sorticon {
+   position: relative;
+   top: 4px;
+ }
+
+ .sorticon button {
+   margin: 0px;
+   padding: 0px;
+   height: 10px;
+ }
+
+ td.padingtble {
+   padding: 0px 0px 0px 0px;
+ }
+
+ .pdt10 {
+   margin-top: 5px;
+   display: block;
+ }
+
+ .pl23 {
+   padding-left: 23px !important;
+ }
+
+ .Mui-error {
+   color: red !important;
+   margin: 0px !important;
+ }
+
+ /* ----------------5DEC2024--------- */
+
+ .oneThirdSize {
+   width: 33%;
+   float: left;
+   text-align: left;
+ }
+
+ /*-----------------------Holding CSS*--------------------/
+
+
+
+
+/*Mobile View*/
+
+ @media (max-width:767px) {
+   .tp20css {
+     padding-top: 20px;
+   }
+
+   .innertabtop {
+     padding-top: 10px;
+   }
+
+   .fullsizewidth {
+     width: 100%
+   }
+
+   .smallchecks1 {
+     width: 10px;
+   }
+
+   .smallchecks1 span {
+     padding: 0px;
+   }
+
+   .negatops {
+     margin-top: 60px;
+   }
+
+   .leftmeincell {
+     padding-left: 20px;
+   }
+
+   .negsize {
+     margin-left: -5px !important;
+   }
+
+   .adjment {
+     margin-left: 0px;
+   }
+
+   .advacncebtnblank {
+     margin-bottom: 0px !important;
+   }
+
+   .blcol {
+     padding: 10px 10px 0px 10px;
+     float: none;
+     width: 100%;
+     text-align: center;
+   }
+
+   .txtleftme {
+     text-align: right !important;
+     padding-left: 10px !important;
+   }
+
+   .cell {
+     display: none !important;
+   }
+
+   .css-sowcyc button .css-1uxdhl7-MuiAvatar-root {
+     background-color: transparent !important;
+   }
+
+   .posiincell {
+     margin-right: 1em !important;
+   }
+
+   .negatops {
+     margin-top: 60px;
+   }
+
+   .secfirsname {
+     margin-top: 60px;
+   }
+
+   /* .width50 {
+     width: 100% !important
+   } */
+
+   .spacincell {
+     padding-left: 5px;
+   }
+
+   .searchbx {
+     width: 100% !important;
+     width: 100% !important;
+     margin-bottom: 10px;
+     margin-left: 20px;
+   }
+
+   .formotp {
+     width: 80%;
+     margin: 0px auto;
+   }
+
+   .leftimg {
+     width: 95%;
+   }
+
+   .subtitle {
+
+     width: 85%;
+
+   }
+
+   .linktxtnew {
+
+     top: -3px;
+   }
+
+   .sipdatbox {
+     padding-left: 0px;
+     margin: 10px 0px 5px 0px;
+   }
+
+  
+
+   .wid30 {
+     width: 45%;
+     float: left;
+     margin-top: -59px;
+   }
+
+   .newth1 {
+     text-align: center !important;
+   }
+
+   .diffsizecell {
+     width: 80%;
+     text-align: left !important;
+     padding-top: 5px;
+   }
+
+   .divforcellp {
+     text-align: left;
+   }
+
+   .disincells {
+     display: block !important;
+     padding: 0px 0px 0px 5px !important;
+   }
+
+   .dektophidetxt {
+     display: block;
+   }
+
+ }
+
+ /* ------------css changes  on 07-11-2024 */
+
+ .Mui-error {
+   color: #000 !important
+ }
+
+ .containerspacing {
+   padding-left: 15px;
+   padding-right: 15px;
+ }
+
+ .subfontPadding {
+   padding-right: 10px;
+
+ }
+
+ .searchbx .css-igs3ac {
+   border-color: transparent !important;
+ }
+
+ .textinheads .css-165mck1 {
+   min-width: auto !important;
+ }
+
+ .heightforipboxes {
+   min-height: 105px;
+ }
+
+ .heightforipboxes input[type=text] {
+   height: 33px;
+ }
+
+ .securityviewinputbx {
+   min-width: 10% !important;
+ }
+
+ .bottommargins {
+   margin-bottom: 10px;
+ }
+
+ .fntgrcols {
+   font-size: 12px;
+   color: #AB9D9D;
+ }
+
+ /* 10_12_24---------------- */
+ /* 9-12-24 */
+
+
+
+ .forcebtn {
+   background-color: #412A5F !important;
+ }
+
+ .allbtnpadding {
+
+   padding: 15px 0px 10px 0px;
+
+   border-top: 1px solid #EAEAEA;
+
+   font-size: 14px;
+
+   font-weight: 500;
+
+ }
+
+ .txtleftme {
+   text-align: right;
+ }
+
+ .txtleftmeadditional {
+   text-align: right;
+ }
+
+ .advacncebtn {
+
+   cursor: pointer;
+
+   padding: 1px 10px !important;
+
+   font-size: 12px !important;
+
+   margin-bottom: 0px !important;
+
+   border-radius: 5px !important;
+
+   text-transform: capitalize !important;
+
+   background-color: #F9F4FF !important;
+
+   border: 1px solid #A35CFB !important;
+
+   color: #A35CFB !important;
+
+ }
+
+ .advacncebtnzero {
+
+   cursor: pointer;
+
+   width: 87px;
+
+   font-size: 12px !important;
+
+   margin-bottom: 0px !important;
+
+   border-radius: 5px !important;
+
+   text-transform: capitalize !important;
+
+   background-color: #F9F4FF !important;
+
+   border: 1px solid #A35CFB !important;
+
+   color: #A35CFB !important;
+
+ }
+
+ .spaccings,
+ .blcfon {
+   padding: 0px 0px 0px 10px;
+ }
+
+ .blcfon12 {
+   padding: 0px 0px 0px 10px;
+ }
+
+
+ .threeparttext {
+
+   padding: 0px 0px 10px 0px;
+
+   font-size: 13px !important;
+
+   font-weight: 500;
+
+   color: #000;
+
+   text-align: left;
+
+ }
+
+ .hei20px {
+   width: 100%;
+   height: 10px;
+ }
+
+ .leftfloats b {
+   padding-left: 5px;
+ }
+
+
+ /* .addtocartbtn {
+  background-color: #A35CFB !important;
+} */
+ .addtocartbtn {
+   background-color: #A35CFB !important;
+   color: #fff !important;
+   font-size: 12px !important;
+   border-radius: 4px;
+ }
+
+ .Darkbtn {
+   background-color: #472D68 !important;
+ }
+
+ .fixheights button {
+   text-transform: capitalize;
+
+   font-size: 13px;
+ }
+
+ .simpadding {
+   padding: 5px 5px 5px 5px;
+ }
+
+ .datecss {
+   padding-top: 10px;
+ }
+
+ .botpaddinfordate {
+   padding-bottom: 4px;
+ }
+
+ /* 11_12_24------------- */
+ .css-1abvrni-MuiButtonBase-root-MuiButton-root.Mui-disabled,
+ .css-dk52k6-MuiButtonBase-root-MuiButton-root.Mui-disabled {
+   color: #fff !important;
+ }
+
+ .searchbx fieldset {
+   border-color: transparent !important;
+ }
+
+ .gapstodiv {
+   margin: -2px 0px 3px 0px;
+ }
+
+ .maincontent button {
+   text-transform: capitalize;
+   font-weight: 500;
+   font-family: "Poppins", sans-serif !important;
+ }
+
+ .noddborder {
+   border: none !important
+ }
+
+ .bigbolds {
+   text-align: left;
+   font-size: 13px;
+   font-weight: 500;
+   color: #000;
+ }
+
+ .laregfontsize {
+   font-size: larger;
+ }
+
+ /* .css-1umw9bq-MuiSvgIcon-root{fill: #A35CFB !important;}
+*/
+ .checboxs svg {
+   width: 22px !important;
+   height: 22px !important;
+   fill: #A35CFB !important;
+ }
+
+ .smallchecks svg {
+   width: 15px !important;
+   height: 15px !important;
+   fill: #A35CFB !important;
+ }
+
+ .smallchecks1 svg {
+   width: 18px !important;
+   height: 18px !important;
+   fill: #A35CFB !important;
+ }
+
+ .centincell input[type="text"] {
+   font-size: 24px;
+ }
+
+ .paybtns {
+   background-color: #472D68 !important;
+   color: #fff !important;
+ }
+
+ .twentypaddleft {
+   padding-left: 20px;
+ }
+
+ .twentypaddleft1 {
+   padding-left: 5px;
+ }
+
+ .twentypaddleft2 {
+   padding-left: 20px;
+ }
+
+ .marginbforadd {
+   height: 20px !important;
+ }
+
+ .adddelbtns {
+   margin-top: -5px !important;
+   margin-bottom: 10px;
+ }
+
+ .css-1usuzwp-MuiButtonBase-root-MuiTab-root.Mui-selected {
+   color: #000 !important;
+   font-weight: 500;
+ }
+
+ .tabspadding {
+   padding: 0px 10px 0px 10px;
+ }
+
+ .halfdiv .css-1b0ve20>:not(style) {
+   margin: 5px 0px 0px 0px !important;
+   width: 100% !important;
+ }
+
+ .fullsize .css-1b0ve20>:not(style) {
+   margin: 8px 0px 8px 0px !important;
+   width: 100% !important;
+ }
+
+ .minh35new {
+   min-height: 15px;
+   padding: 0px 0px 0px 0px;
+   margin-left: 0;
+ }
+
+ .sizeofacc .css-1lj39kh-MuiAccordionDetails-root {
+   padding: 8px 16px 16px !important;
+   border-top: 1px solid #ddd !important;
+ }
+
+ ul {
+   font-size: 10px !important;
+ }
+
+ .intxts input[type="text"] {
+   text-align: center;
+   padding: 6px 0px 0px 0px;
+ }
+
+ .newpadsforbtn {
+   padding-left: 20px;
+ }
+
+ .minhforin fieldset {
+   height: 30px !important;
+ }
+
+ /* .borderbott .css-ubb9a5-MuiGrid2-root {
+  --Grid-rowSpacing: 5px !important;
+} */
+
+ .padsmanchange {
+   padding-left: 20px;
+ }
+
+ .zeroadds {
+   padding-left: 0px;
+ }
+
+ .twentyadds {
+   padding-left: 0px;
+ }
+
+ .investtabscss {
+   padding-left: 20px;
+ }
+
+ .investtabscss strong {
+   padding-left: 20px;
+ }
+
+ .minhiinvest {
+   min-height: 40px;
+ }
+
+ .clearboth {
+   clear: both !important;
+ }
+
+ .infortext {
+   font-size: 15px !important;
+   font-weight: 500 !important;
+ }
+
+ .custom-alert-button {
+   background-color: #472D68 !important;
+ }
+
+
+ /* 13-12-24 */
+ .marforfulltab {
+   margin: 0px 10px 0px 10px;
+ }
+
+ .thiryheight {
+   height: 30px;
+ }
+
+ .newhedersfnt {
+   font-size: 13px;
+   font-weight: 500;
+   color: #000;
+ }
+
+ .overfl thead {
+   border-top: 1px solid #ddd;
+ }
+
+ .transactdrp {
+   width: 50%;
+   background: #A35CFB;
+   color: #fff !important;
+   margin: 0px auto;
+   height: 30px;
+ }
+
+ .overfl .css-nqi1me-MuiTableCell-root {
+   padding: 0px 0px !important;
+   vertical-align: text-top;
+ }
+
+ .oneThirdSize {
+   width: 30%;
+   float: left;
+   text-align: left;
+   padding-left: 10px;
+   padding-top: 5px;
+ }
+
+ .newsecttab1 {
+   border-bottom: solid 1px #F5F5F5;
+   background-color: #fff !important;
+   padding: 7px;
+ }
+
+ .newsecurity table,
+ .newsecurity th,
+ .newsecurity td {
+   border: solid 1px #F5F5F5;
+   padding: 7px;
+ }
+
+ .newsecurity th,
+ .firsttd {
+   background-color: #FBFBFB;
+   width: 10%;
+   font-size: 12px;
+   color: #080808;
+   font-weight: 500;
+ }
+
+ .newsecurity th {
+   color: #989393;
+   font-weight: 500;
+ }
+
+ table {
+   border-collapse: collapse;
+   caption-side: bottom;
+ }
+
+ .negvals {
+   color: #F25858
+ }
+
+ .sipdatbox .simpcheck span {
+   display: block;
+   float: left;
+   padding: 0px 5px 0px 0px;
+   margin-top: 0px;
+ }
+
+ .paddselall {
+   padding-left: 7px;
+ }
+
+ .paddselall span {
+   font-size: 10px !important;
+   padding: 10px 10px 0px 3px;
+ }
+
+ .paddle5px {
+   font-weight: 600;
+   padding-left: 0px;
+   color: #000;
+ }
+
+ .closebtn {
+   position: relative !important;
+ }
+
+ .css-1qltlow-MuiTabs-indicator {
+   background-color: #A35CFB !important;
+ }
+
+ .newaddbtnssec {
+   padding: 1px 4px 1px 4px;
+   font-size: 11px !important;
+   border-radius: 50px;
+ }
+
+ /* .borderbott .css-ubb9a5-MuiGrid2-root,
+.borderbott .css-10lctf4-MuiGrid2-root {
+  --Grid-rowSpacing: 5px !important;
+} */
+
+
+ .sipdatbox input[type="text"] {
+   padding: 4px 6px !important;
+   font-size: 14px;
+ }
+
+ /* 18-12-24 */
+ .maxhgt500 {
+   max-height: 500px !important;
+   overflow-y: scroll;
+ }
+
+ .maxhgt300 {
+   max-height: 300px !important;
+   overflow-y: scroll;
+ }
+
+ .secotrstable {
+   width: 100%;
+ }
+
+ .secotrstable th {
+   text-align: left;
+   padding: 8px 0px 8px 5px;
+   font-weight: normal;
+   font-size: 12px;
+   width: 90%;
+   color: #7D7272;
+   border-bottom: 1px solid #F5F5F5;
+ }
+
+ .secotrstable td {
+   font-size: 11px;
+   color: #505050;
+   font-weight: 500;
+   padding: 8px 5px 8px 5px;
+   text-align: left;
+   border-bottom: 1px solid #F5F5F5
+ }
+
+ .inlineDisplay {
+   display: inline-flex;
+ }
+
+ .maincontentprimary .MuiSelect-select {
+   padding: 5px !important;
+ }
+
+ .css-dl1h3d-MuiAutocomplete-noOptions {
+   font-size: 10px !important;
+ }
+
+ /* ---26-12-24---------- */
+ .css-s2t35c-MuiTabs-scroller {
+   overflow-x: auto !important;
+   overflow-y: hidden !important;
+ }
+
+ .menuwid {
+   width: 33%;
+   float: left;
+   text-align: center !important;
+   display: block !important;
+ }
+
+ .zerowidth {
+   display: none !important;
+ }
+
+ .spacpaddings {
+   padding-left: .5em;
+ }
+
+ .negspace {
+   margin-left: -0.85em;
+ }
+
+ .riskanalysisheight {
+   height: 374px;
+   overflow: auto;
+   box-shadow: 0 2px 18px 1px rgba(49, 53, 72, .1);
+ }
+
+ .highcharts-range-input {
+   pointer-events: none;
+   /* Disable clicking */
+ }
+
+ /* NEW CHANGES CSS */
+ h2 svg {
+   font-size: 26px !important;
+ }
+
+ .borsfottable {
+   border-bottom: 1px solid #ddd;
+ }
+
+ .gapsfortablesspace {
+   padding: 0px !important;
+ }
+
+ .newfortabel {
+   text-align: left;
+   padding: 25px 0px 0px 25px;
+ }
+
+ .newfortabelright {
+   text-align: right;
+   padding: 25px 0px 0px 0px;
+ }
+
+ .centableleftside {
+   padding: 5px 0px 5px 25px;
+   width: 100%;
+   text-align: left;
+ }
+
+ .simpaddingtabs {
+   padding: 20px 5px 5px 5px;
+ }
+
+ .logospacforpeer {
+   min-height: 35px;
+   padding-top: 0px;
+   border-bottom: 1px solid #ddd;
+ }
+
+ .newimgtop {
+   padding-top: 0px;
+ }
+
+ /* Scroll bar stylings */
+ ::-webkit-scrollbar {
+   width: 10px;
+   height: 2px;
+ }
+
+ /* Track */
+ ::-webkit-scrollbar-track {
+   background: var(--lightestgrey);
+ }
+
+ /* Handle */
+ ::-webkit-scrollbar-thumb {
+   background: transparent;
+   border-radius: 5px;
+ }
+
+ /* Handle on hover */
+ ::-webkit-scrollbar-thumb:hover {
+   background: #ECECEC;
+ }
+
+ /*Pagination CSS*/
+ .pagep {
+   width: 90px;
+ }
+
+ .paginationp p {
+   margin-right: 5px !important;
+ }
+
+ .netxprev {
+   padding: 0px 10px !important;
+ }
+
+ /*Mobile View*/
+
+ @media (max-width:767px) {
+
+   .formotp {
+     width: 80%;
+     margin: 0px auto;
+   }
+
+   .leftimg {
+     width: 95%;
+   }
+
+   .subtitle {
+
+     width: 85%;
+
+   }
+
+   .linktxtnew {
+
+     top: -3px;
+   }
+
+   .sipdatbox {
+     padding-left: 3px;
+   }
+
+  
+
+   .wid30 {
+     width: 30%;
+     float: left;
+     margin-top: -59px;
+   }
+
+   .newth1 {
+     text-align: center !important;
+   }
+
+   .diffsizecell {
+     width: 60%;
+     text-align: left !important;
+   }
+
+   .divforcellp {
+     text-align: left;
+   }
+
+   .disincells {
+     display: block !important;
+     padding: 0px 0px 0px 5px !important;
+   }
+
+   .dektophidetxt {
+     display: block;
+   }
+
+ }
+
+
+ /*-------------------------- 3-1-25 Dashboard----------------------------------------*/
+ .spaceheight {
+   height: 20px;
+ }
+
+ .transbackground {
+   background-color: transparent !important;
+ }
+
+ .tabmainhead {
+   font-size: 12px !important;
+   color: #000;
+ }
+
+ .allpaddings {
+   padding: 10px;
+ }
+
+ .bottpadds {
+   padding: 10px 0px 0px 10px;
+   font-weight: 500;
+   font-family: "Poppins", sans-serif !important;
+ }
+
+ .ligray {
+   color: #ABABAB;
+   font-size: 11px;
+ }
+
+ .returncss {
+   color: #000;
+   font-size: 14px;
+   padding-left: 10px;
+   font-weight: 700;
+ }
+
+ .redxirr {
+   color: #F32D2D;
+   padding-left: 10px;
+   font-weight: 500;
+ }
+
+ .greenxirr {
+   color: #147524;
+   padding-left: 10px;
+   font-weight: 500;
+ }
+
+ .greenxirrlight {
+   color: #147524;
+   padding-left: 10px;
+   font-weight: normal;
+ }
+
+ .linediv {
+   width: 100%;
+   height: 5px;
+   border-top: 1px solid #ddd
+ }
+
+ .box-container .box {
+   float: left;
+   width: 30%;
+   background-color: #F3F3F3;
+   border-radius: 15px;
+   margin-left: 2%;
+   min-height: 100px;
+ }
+
+ .abspos {
+   position: absolute !important;
+   margin-top: -3px;
+   margin-left: -10px;
+ }
+
+ .secontext {
+   padding: 0px 0px 0px 25px;
+ }
+
+ .thirdspan {
+   padding: 2px 5px 2px 5px;
+   background: #853FDC;
+   border-radius: 50%;
+   font-size: 12px;
+   margin: 0px 0px 0px 10px !important;
+   color: #fff !important;
+ }
+
+ .bldamounts {
+   font-size: 15px !important;
+   color: #000 !important;
+   padding: 10px 0px 0px 0px;
+   font-weight: 500 !important;
+ }
+
+ .orggoicon {
+   float: right;
+ }
+
+ 
+
+ .texttranssmal button {
+   text-transform: capitalize !important;
+   padding: 4px 12px;
+   font-size: 13px;
+ }
+
+ .texttranssmal .css-19kzrtu {
+   padding: 0px 10px 10px 10px !important;
+ }
+
+ .fontsize12 {
+   font-size: 12px;
+ }
+
+ /* .tbsizewid30 {
+   width: 30%;
+ } */
+
+ .css-1usuzwp-MuiButtonBase-root-MuiTab-root.Mui-selected small {
+   color: #fff !important;
+   background: #FCD633;
+ }
+
+ .css-1usuzwp-MuiButtonBase-root-MuiTab-root.Mui-selected span {
+   color: #000 !important;
+ }
+
+ .graintabel {
+   color: #A29999;
+   font-size: 15px;
+   padding: 0px 0px 0px 0px;
+ }
+
+ .blackintabel {
+   color: #000;
+   font-size: 18px;
+ }
+
+ .grayinsmall {
+   color: #9B9A9A;
+   font-size: 10px;
+ }
+
+ .redbckcss {
+   background-color: #E24B4B;
+   color: #fff;
+   padding: 2px 5px 2px 5px;
+   border-radius: 5px;
+   font-size: 10px;
+ }
+
+ .greenbckcss {
+   background-color: #48B137;
+   color: #fff;
+   padding: 2px 5px 2px 5px;
+   border-radius: 5px;
+   font-size: 10px;
+ }
+
+ .grrendark {
+   color: #48B137
+ }
+
+ .paddsfortops {
+   padding: 8px 0px 8px 0px;
+   font-size: 12px;
+   text-align: left;
+   color: #000 !important;
+   width: 80%;
+   float: left;
+ }
+
+ .fons12px {
+   font-size: 12px;
+   padding-bottom: 4px;
+   color: #AB9797;
+ }
+
+ .fons12pxblc {
+   font-size: 12px;
+   color: #000;
+   padding-bottom: 4px;
+   padding-left: 5px;
+ }
+
+ .bosbott {
+   border-bottom: 1px solid #ddd;
+ }
+
+ .pruplecss {
+   background-color: #F2ECEC;
+   color: #958F8F;
+ }
+
+ .paddsfortopsforwatch {
+   width: 70%;
+   float: left;
+   text-align: left;
+   min-width: 266px;
+ }
+
+ .paddsfortopsforwatchrig {
+   width: 30%;
+   float: right;
+   text-align: right;
+ }
+
+ .fullgra {
+   color: #ABABAB !important;
+   padding: 0px 5px 0px 0px;
+ }
+
+ .redbacks {
+   background-color: #E24B4B;
+   font-size: 10px;
+   padding: 2px 5px 2px 5px;
+   border-radius: 9px;
+   color: #fff;
+ }
+
+ .greenredbacks {
+   background-color: #169E2C;
+   font-size: 10px;
+   padding: 2px 5px 2px 5px;
+   border-radius: 9px;
+   color: #fff;
+ }
+
+ .wid5pers {
+   padding: 10px 0px 0px 0px;
+   float: right;
+ }
+
+ .redspans {
+   padding: 0px 0px 0px 5px;
+   color: #FD1616;
+ }
+
+ .greenspans {
+   padding: 0px 0px 0px 5px;
+   color: #169E2C;
+ }
+
+ .spacegap {
+   padding: 10px 0px 10px 10px;
+   font-weight: 500;
+ }
+
+ .grid-container {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 10px;
+   /* space between boxes */
+
+ }
+
+ .grid-item {
+   background-color: #fff;
+   cursor: pointer;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 24px;
+ }
+
+ .fortxtpadding buttons {
+   padding: 9px 12px !important;
+ }
+
+ .minhoverflow {
+   height: 400px;
+   overflow-y: auto;
+ }
+
+ .popupclose {
+   padding: 1px 4px 1px 4px;
+   font-size: 11px !important;
+   border-radius: 50px;
+   background-color: #472D68 !important;
+   color: #fff !important;
+ }
+
+ .viewmorespan {
+   padding: 2px 6px 2px 6px;
+   font-size: 12px !important;
+   border-radius: 50px;
+   background-color: #A35CFB !important;
+   color: #fff !important;
+   cursor: pointer;
+ }
+
+ .tabheadersintabs {
+   padding: 10px 0px 0px 0px;
+ }
+
+ .nobackg {
+   background-color: transparent;
+ }
+
+ .nobackg .whitebgs {
+   background-color: transparent;
+   padding: 0px;
+   --Paper-shadow: none !important;
+ }
+
+ .gryboxesindash {
+   background: #F3F3F3;
+   padding: 5px 0px 5px 0px;
+   border-radius: 10px;
+ }
+
+ .containernew {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   /* Two equal columns */
+   gap: 20px;
+   /* Space between divs */
+   margin-top: 15px;
+ }
+
+ .boxnew {
+   padding: 10px 5px 5px 10px;
+   border-radius: 15px;
+   background-color: #F3F3F3;
+   padding-left: 13px;
+   text-align: left;
+   min-height: 80px;
+ }
+
+ .boxnewtop {
+   background: linear-gradient(352deg, rgba(158, 89, 243, 1) 0%, rgba(88, 53, 130, 1) 35%);
+   padding-left: 13px;
+   min-height: 80px;
+   border-radius: 15px;
+   padding: 10px 5px 5px 10px;
+ }
+
+ .boxnewtop .graintabel,
+ .boxnewtop .blackintabel,
+ .grayinsmall {
+   color: #ffffff;
+   text-align: left;
+ }
+
+ .valignintable {
+   width: 25px;
+   margin-right: 12px;
+   display: block;
+ }
+
+ .redbckcsslatest {
+   background-color: #E24B4B;
+   color: #fff;
+   padding: 2px 4px 2px 4px;
+   border-radius: 10px;
+   font-size: 10px;
+ }
+
+ .redcsslatest {
+   color: #fff3f3 !important;
+   padding: 2px 2px 2px 2px;
+ }
+
+ .gapsfromall {
+   padding-top: 10px;
+ }
+
+ .tabheadersintabsspac {
+   padding: 10px 0px 0px 10px;
+   font-weight: 500;
+   font-family: "Poppins", sans-serif !important;
+ }
+
+ .allblack {
+   color: #000;
+ }
+
+ .popupheadingsall {
+   padding: 10px 0px 10px 24px;
+   font-weight: 500;
+   border-bottom: 1px solid #ddd;
+ }
+
+ .addhovercss Typography:hover {
+   color: #fff !important;
+ }
+
+ .container3box {
+   display: flex;
+   gap: 10px;
+   padding: 5px;
+   justify-content: center;
+ }
+
+ button.Mui-selected {
+   color: #000 !important;
+ }
+
+ .box3box {
+   width: 150px;
+   height: 100px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 18px;
+   color: #000;
+   background-color: #F3F3F3;
+   border-radius: 10px;
+   transition: background-color 0.3s, color 0.3s;
+ }
+
+ .box3box:hover {
+   background: rgb(158, 89, 243);
+   background: linear-gradient(352deg, rgba(158, 89, 243, 1) 0%, rgba(88, 53, 130, 1) 35%);
+   color: #fff;
+ }
+
+ .box3box:hover table tr td span {
+   background: #F6EFFF;
+   color: #361E7C;
+ }
+
+ .innerhbox {
+   font-size: 12px;
+   padding: 0px 10px 0px 10px;
+ }
+
+ .countsizeinhover {
+   font-size: 14px;
+   background-color: #853FDC;
+   padding: 2px 5px 2px 5px;
+   border-radius: 50%;
+   color: #fff;
+   display: flex;
+ }
+
+
+ .orangetabsmallgray {
+   background-color: #ddd;
+   color: #fff;
+   font-size: 9px;
+ }
+
+ .oneThirdSize1 {
+   width: 33%;
+   float: left;
+   text-align: left;
+   padding-left: 0px;
+   padding-top: 0px;
+   font-size: 12px;
+   padding-bottom: 2px;
+   color: #AB9797;
+ }
+
+ .maincontent1 {
+   width: 100%;
+   padding: 10px
+ }
+
+ button.Mui-selected div small {
+   background-color: #FCD633;
+ }
+
+ .modelpopup {
+   background: #fff;
+   padding: 20px;
+ }
+
+ .textmodi {
+   font-size: 14px;
+   font-weight: 500;
+ }
+
+ .greentxt {
+   color: #6ebb71;
+ }
+
+ .left {
+   text-align: left;
+ }
+
+ .closepopup {
+   margin-top: 15px !important;
+ }
+
+ .paddingpanl {
+   padding: 20px 30px 20px 30px;
+ }
+
+ p.font15 {
+   font-weight: 500;
+   color: #000 !important;
+   margin-bottom: 8px;
+ }
+
+ .closewatch {
+   padding: 0px !important;
+
+   float: right;
+   position: relative !important;
+   top: -26px;
+ }
+
+ .closewatch svg {
+   font-size: 15px;
+ }
+
+ .xirrdrop {
+   float: right;
+ }
+
+ .xirrdrop div {
+   float: right;
+   width: 90px;
+   text-align: left;
+ }
+
+ div.draghght {
+   height: 79px !important;
+ }
+
+ .tabname {
+   text-transform: math-auto;
+ }
+
+ button.closewathnew {
+   color: rgb(192, 12, 12);
+   font-size: 10px;
+   font-weight: 500;
+ }
+
+ .tabsborder {
+   border-bottom: 1px solid #ddd;
+ }
+
+ /*-------------------------- 3-1-25 Dashboard----------------------------------------*/
+ .spaceheight {
+   height: 20px;
+ }
+
+ .transbackground {
+   background-color: transparent !important;
+ }
+
+ .tabmainhead {
+   font-size: 12px !important;
+   color: #000;
+ }
+
+ .allpaddings {
+   padding: 10px;
+ }
+
+ .bottpadds {
+   padding: 10px 0px 0px 10px;
+
+ }
+
+ .ligray {
+   color: #ABABAB;
+   font-size: 11px;
+ }
+
+ .returncss {
+   color: #000;
+   font-size: 14px;
+   padding-left: 10px;
+   font-weight: 700;
+ }
+
+ .redxirr {
+   color: #F32D2D;
+   padding-left: 10px;
+   font-weight: 500;
+ }
+
+ .greenxirr {
+   color: #147524;
+   padding-left: 10px;
+   font-weight: 500;
+ }
+
+ .greenxirrlight {
+   color: #147524;
+   padding-left: 10px;
+   font-weight: normal;
+ }
+
+ .linediv {
+   width: 100%;
+   height: 5px;
+   border-top: 1px solid #ddd
+ }
+
+ 
+.gapsfromall {
+  padding-top: 10px;
+}
+body{ font-family: "Poppins", sans-serif !important; }
+.tabheadersintabsspac {
+  padding: 10px 0px 0px 10px;
+  font-weight: 500; font-family: "Poppins", sans-serif !important; 
+}
+ 
+  
+
+   .wid30 {
+     width: 45%;
+     float: left;
+     margin-top: -59px;
+   }
+ 
+ .box-container .box {
+   float: left;
+   width: 30%;
+   background-color: #F3F3F3;
+   border-radius: 15px;
+   margin-left: 2%;
+   min-height: 100px;
+ }
+
+ .abspos {
+   position: absolute !important;
+   margin-top: -3px;
+   margin-left: -10px;
+ }
+ 
+
+ .secontext {
+   padding: 0px 0px 0px 25px;
+ }
+
+ .thirdspan {
+   padding: 2px 5px 2px 5px;
+   background: #853FDC;
+   border-radius: 50%;
+   font-size: 12px;
+   margin: 0px 0px 0px 10px !important;
+   color: #fff !important;
+ }
+
+ .bldamounts {
+   font-size: 15px !important;
+   color: #000 !important;
+   padding: 10px 0px 0px 0px;
+   font-weight: 500 !important;
+ }
+
+ .orggoicon {
+   float: right;
+ }
+
+ 
+
+ .texttranssmal button {
+   text-transform: capitalize !important;
+   padding: 4px 12px;
+   font-size: 13px;
+ }
+
+ .texttranssmal .css-19kzrtu {
+   padding: 0px 10px 10px 10px !important;
+ }
+
+ .fontsize12 {
+   font-size: 12px;
+ }
+
+ /* .tbsizewid30 {
+   width: 30%;
+ } */
+
+ .css-1usuzwp-MuiButtonBase-root-MuiTab-root.Mui-selected small {
+   color: #fff !important;
+   background: #FCD633;
+ }
+
+ .css-1usuzwp-MuiButtonBase-root-MuiTab-root.Mui-selected span {
+   color: #000 !important;
+ }
+
+ .graintabel {
+   color: #A29999;
+   font-size: 15px;
+   padding: 0px 0px 0px 0px;
+ }
+
+ .blackintabel {
+   color: #000;
+   font-size: 18px;
+ }
+
+ .grayinsmall {
+   color: #9B9A9A;
+   font-size: 10px;
+ }
+
+ .redbckcss {
+   background-color: #E24B4B;
+   color: #fff;
+   padding: 2px 5px 2px 5px;
+   border-radius: 5px;
+   font-size: 10px;
+ }
+
+ .greenbckcss {
+   background-color: #48B137;
+   color: #fff;
+   padding: 2px 5px 2px 5px;
+   border-radius: 5px;
+   font-size: 10px;
+ }
+
+ .grrendark {
+   color: #48B137
+ }
+
+ .paddsfortops {
+   padding: 8px 0px 8px 0px;
+   font-size: 12px;
+   text-align: left;
+   color: #000 !important;
+   width: 80%;
+   float: left;
+ }
+
+ .fons12px {
+   font-size: 12px;
+   padding-bottom: 4px;
+   color: #AB9797;
+ }
+
+ .fons12pxblc {
+   font-size: 12px;
+   color: #000;
+   padding-bottom: 4px;
+   padding-left: 5px;
+ }
+
+ .bosbott {
+   border-bottom: 1px solid #ddd;
+ }
+
+ .pruplecss {
+   background-color: #F2ECEC;
+   color: #958F8F;
+ }
+
+ .paddsfortopsforwatch {
+   width: 70%;
+   float: left;
+   text-align: left;
+   min-width: 266px;
+ }
+
+ .paddsfortopsforwatchrig {
+   width: 30%;
+   float: right;
+   text-align: right;
+ }
+
+ .fullgra {
+   color: #ABABAB !important;
+   padding: 0px 5px 0px 0px;
+ }
+
+ .redbacks {
+   background-color: #E24B4B;
+   font-size: 10px;
+   padding: 2px 5px 2px 5px;
+   border-radius: 9px;
+   color: #fff;
+ }
+
+ .greenredbacks {
+   background-color: #169E2C;
+   font-size: 10px;
+   padding: 2px 5px 2px 5px;
+   border-radius: 9px;
+   color: #fff;
+ }
+
+ .wid5pers {
+   padding: 10px 0px 0px 0px;
+   float: right;
+ }
+
+ .redspans {
+   padding: 0px 0px 0px 5px;
+   color: #FD1616;
+ }
+
+ .greenspans {
+   padding: 0px 0px 0px 5px;
+   color: #169E2C;
+ }
+
+ .spacegap {
+   padding: 10px 0px 10px 10px;
+   font-weight: 500;
+   font-family: "Poppins", sans-serif !important;
+ }
+
+ .grid-container {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 10px;
+   /* space between boxes */
+
+ }
+
+ .grid-item {
+   background-color: #fff;
+   cursor: pointer;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 24px;
+ }
+
+ .fortxtpadding buttons {
+   padding: 9px 12px !important;
+ }
+
+ .minhoverflow {
+   height: 400px;
+   overflow-y: auto;
+ }
+
+ .popupclose {
+   padding: 1px 4px 1px 4px;
+   font-size: 11px !important;
+   border-radius: 50px;
+   background-color: #472D68 !important;
+   color: #fff !important;
+ }
+
+ .viewmorespan {
+   padding: 2px 6px 2px 6px;
+   font-size: 12px !important;
+   border-radius: 50px;
+   background-color: #A35CFB !important;
+   color: #fff !important;
+   cursor: pointer;
+ }
+
+ .tabheadersintabs {
+   padding: 10px 0px 0px 0px;
+ }
+
+ .nobackg {
+   background-color: transparent;
+ }
+
+ .nobackg .whitebgs {
+   background-color: transparent;
+   padding: 0px;
+   --Paper-shadow: none !important;
+ }
+
+ .gryboxesindash {
+   background: #F3F3F3;
+   padding: 5px 0px 5px 0px;
+   border-radius: 10px;
+ }
+
+ .containernew {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   /* Two equal columns */
+   gap: 20px;
+   /* Space between divs */
+   margin-top: 15px;
+ }
+
+ .boxnew {
+   padding: 10px 5px 5px 10px;
+   border-radius: 15px;
+   background-color: #F3F3F3;
+   padding-left: 13px;
+   text-align: left;
+   min-height: 80px;
+ }
+
+ .boxnewtop {
+   background: linear-gradient(352deg, rgba(158, 89, 243, 1) 0%, rgba(88, 53, 130, 1) 35%);
+   padding-left: 13px;
+   min-height: 80px;
+   border-radius: 15px;
+   padding: 10px 5px 5px 10px;
+ }
+
+ .boxnewtop .graintabel,
+ .boxnewtop .blackintabel,
+ .grayinsmall {
+   color: #ffffff;
+   text-align: left;
+ }
+
+ .valignintable {
+   width: 25px;
+   margin-right: 12px;
+   display: block;
+ }
+
+ .redbckcsslatest {
+   background-color: #E24B4B;
+   color: #fff;
+   padding: 2px 4px 2px 4px;
+   border-radius: 10px;
+   font-size: 10px;
+ }
+
+ .redcsslatest {
+   color: #fff3f3 !important;
+   padding: 2px 2px 2px 2px;
+ }
+
+ .gapsfromall {
+   padding-top: 10px;
+ }
+
+ .tabheadersintabsspac {
+   padding: 10px 0px 0px 10px;
+
+ }
+
+ .allblack {
+   color: #000;
+ }
+
+ .popupheadingsall {
+   padding: 10px 0px 10px 24px;
+   font-weight: 500;
+   border-bottom: 1px solid #ddd;
+ }
+
+ .addhovercss Typography:hover {
+   color: #fff !important;
+ }
+
+
+ button.Mui-selected {
+   color: #000 !important;
+   font-weight: 500 !important;
+   font-family: "Poppins", sans-serif !important;
+ }
+
+
+ .innerhbox {
+   font-size: 12px;
+   padding: 0px 10px 0px 10px;
+ }
+
+ .countsizeinhover {
+   font-size: 14px;
+   background-color: #853FDC;
+   padding: 2px 5px 2px 5px;
+   border-radius: 50%;
+   color: #fff;
+ }
+
+
+ .orangetabsmallgray {
+   background-color: #ddd;
+   color: #fff;
+   font-size: 9px;
+ }
+
+ .oneThirdSize1 {
+   width: 33%;
+   float: left;
+   text-align: left;
+   padding-left: 0px;
+   padding-top: 0px;
+   font-size: 12px;
+   padding-bottom: 2px;
+   color: #AB9797;
+ }
+
+ .maincontent1 {
+   width: 100%;
+   padding: 10px
+ }
+
+ button.Mui-selected div small {
+   background-color: #FCD633;
+ }
+
+ .modelpopup {
+   background: #fff;
+   padding: 20px;
+ }
+
+ .textmodi {
+   font-size: 14px;
+   font-weight: 500;
+ }
+
+ .greentxt {
+   color: #6ebb71;
+ }
+
+ .left {
+   text-align: left;
+ }
+
+ .closepopup {
+   margin-top: 15px !important;
+ }
+
+ .paddingpanl {
+   padding: 20px 30px 20px 30px;
+ }
+
+ p.font15 {
+   font-weight: 500;
+   color: #000 !important;
+   margin-bottom: 8px;
+ }
+
+ .closewatch {
+   padding: 0px !important;
+
+   float: right;
+   position: relative !important;
+   top: -26px;
+ }
+
+ .closewatch svg {
+   font-size: 15px;
+ }
+
+ .xirrdrop {
+   float: right;
+ }
+
+ .xirrdrop div {
+   float: right;
+   width: 90px;
+   text-align: left;
+ }
+
+ div.draghght {
+   height: 79px !important;
+ }
+
+ .tabname {
+   text-transform: math-auto;
+ }
+
+ button.closewathnew {
+   color: rgb(192, 12, 12);
+   font-size: 10px;
+   font-weight: 500;
+ }
+
+ .tabsborder {
+   border-bottom: 1px solid #ddd;
+ }
+
+ /* 15-1-25 */
+ .wid20 {
+   width: 20%;
+   float: left;
+ }
+
+ .newtabs2 .tab-header {
+   text-align: left;
+ }
+
+ .newforseperation {
+   padding: 8px;
+ }
+
+ .smallchecks1 {
+   width: 52px;
+   padding: 8px;
+ }
+
+ .compcheckcss {
+   width: 52px;
+ }
+
+ .diffsizecell {
+
+   text-align: left !important;
+ }
+
+ .clsforposition {
+   position: relative;
+   margin-top: -55px;
+ }
+
+ .subfontdivchart {
+   margin-top: 25px;
+   text-align: left;
+ }
+
+ /* 17-1-25 */
+ .linktxtnewview {
+   color: #3939a9;
+   cursor: pointer;
+   text-decoration: none;
+   font-weight: normal;
+   font-family: 'Poppins';
+   font-size: 12px;
+ }
+
+ .modelpopup {
+   background: #fff;
+   padding: 20px;
+ }
+
+ .subfontdivchart {
+   margin-top: 25px;
+   text-align: left;
+   font-size: 13px !important;
+   padding: 0px 5px 0px 5px;
+ }
+
+ /* 21-1-25 */
+ .newintxts div {
+   width: 125px;
+   margin: 0 auto;
+ }
+
+ .newintxts input {
+   padding: 6px 0px 4px 0px !important;
+   font-size: 14px;
+ }
+
+ .extracssforgaps .MuiGrid2-root {
+   --Grid-rowSpacing: 5px;
+ }
+
+ .negupspace {
+   margin-top: -20px;
+   margin-bottom: 10px;
+ }
+
+ .borderbott {
+   border-bottom: 1px solid #ddd;
+ }
+
+
+
+ /*10-1-25 Risk Profile & Fund explorer*/
+
+ /* 10-1-25 */
+ /* New CSS */
+ .lefttextalign {
+   text-align: left;
+ }
+
+ .containersimple {
+
+   gap: 20px;
+   /* Gap between boxes */
+   justify-content: center;
+   /* Center the boxes horizontally */
+   padding: 0px 0px 20px 0px;
+ }
+
+ .noticss {
+   margin: 15px 10px 0px 15px;
+   padding: 0px 0px 0px 0px;
+ }
+
+ .boxsimple {
+   width: 23%;
+   float: left;
+   height: 180px;
+   background-color: #fff;
+   align-items: center;
+   justify-content: center;
+   color: white;
+   font-weight: bold;
+   border-radius: 10px;
+   box-shadow: 0 2px 18px 1px #3135481a;
+   margin: 15px 10px 10px 15px;
+ }
+
+ .tabfullwids {
+   width: 100%;
+ }
+
+ .tabfullwids1 {
+   width: 100%;
+   min-height: 100px;
+   padding: 15px 5px 0px 10px;
+ }
+
+ .grycssback {
+   background-color: #F3EAFF;
+   height: 40px;
+   border-top-left-radius: 8px;
+   padding: 5px 5px 5px 5px;
+   border-top-right-radius: 8px;
+   font-size: 12px;
+   color: #000;
+   font-weight: normal;
+ }
+
+ .blxblac {
+   color: #000;
+   font-size: 13px;
+ }
+
+ .graccol {
+   color: #A5A4A4
+ }
+
+ .cenralintex {
+   text-align: center;
+ }
+
+ .greenyescss {
+   color: #199C2E
+ }
+
+ .spacfornotify {
+   padding: 0px 0px 0px 0px;
+ }
+
+ .sipdatbox input[type="text"] {
+   padding: 4px 6px !important;
+   font-size: 14px;
+ }
+
+ /* 18-12-24 */
+ .maxhgt500 {
+   max-height: 500px !important;
+   overflow-y: scroll;
+ }
+
+ .maxhgt300 {
+   max-height: 300px !important;
+   overflow-y: scroll;
+ }
+
+ .secotrstable {
+   width: 100%;
+ }
+
+ .secotrstable th {
+   text-align: left;
+   padding: 8px 0px 8px 5px;
+   font-weight: normal;
+   font-size: 12px;
+   width: 90%;
+   color: #7D7272;
+   border-bottom: 1px solid #F5F5F5;
+ }
+
+ .secotrstable td {
+   font-size: 11px;
+   color: #505050;
+   font-weight: 500;
+   padding: 8px 5px 8px 5px;
+   text-align: left;
+   border-bottom: 1px solid #F5F5F5
+ }
+
+ .inlineDisplay {
+   display: inline-flex;
+ }
+
+ .maincontentprimary .MuiSelect-select {
+   padding: 5px !important;
+ }
+
+ .css-dl1h3d-MuiAutocomplete-noOptions {
+   font-size: 10px !important;
+ }
+
+ /* ---26-12-24---------- */
+ .css-s2t35c-MuiTabs-scroller {
+   overflow-x: auto !important;
+   overflow-y: hidden !important;
+ }
+
+ .menuwid {
+   width: 33%;
+   float: left;
+   text-align: center !important;
+   display: block !important;
+ }
+
+ .zerowidth {
+   display: none !important;
+ }
+
+ .spacpaddings {
+   padding-left: .5em;
+ }
+
+ .negspace {
+   margin-left: -0.85em;
+ }
+
+ .riskanalysisheight {
+   height: 374px;
+   overflow: auto;
+   box-shadow: 0 2px 18px 1px rgba(49, 53, 72, .1);
+ }
+
+ .highcharts-range-input {
+   pointer-events: none;
+   /* Disable clicking */
+ }
+
+ /* NEW CHANGES CSS */
+ 
+ .borsfottable {
+   border-bottom: 1px solid #ddd;
+ }
+
+ .gapsfortablesspace {
+   padding: 0px !important;
+ }
+
+ .newfortabel {
+   text-align: left;
+   padding: 25px 0px 0px 25px;
+ }
+
+ .newfortabelright {
+   text-align: right;
+   padding: 25px 0px 0px 0px;
+ }
+
+ .centableleftside {
+   padding: 5px 0px 5px 25px;
+   width: 100%;
+   text-align: left;
+ }
+
+ .simpaddingtabs {
+   padding: 20px 5px 5px 5px;
+ }
+
+ .logospacforpeer {
+   min-height: 35px;
+   padding-top: 0px;
+   border-bottom: 1px solid #ddd;
+ }
+
+ .newimgtop {
+   padding-top: 0px;
+ }
+
+ /* Scroll bar stylings */
+ ::-webkit-scrollbar {
+   width: 10px;
+   height: 2px;
+ }
+
+ /* Track */
+ ::-webkit-scrollbar-track {
+   background: var(--lightestgrey);
+ }
+
+ /* Handle */
+ ::-webkit-scrollbar-thumb {
+   background: transparent;
+   border-radius: 5px;
+ }
+
+ /* Handle on hover */
+ ::-webkit-scrollbar-thumb:hover {
+   background: #ECECEC;
+ }
+
+ /*Pagination CSS*/
+ .pagep {
+   width: 90px;
+ }
+
+ .paginationp p {
+   margin-right: 5px !important;
+ }
+
+ .netxprev {
+   padding: 0px 10px !important;
+ }
+
+ /*Mobile View*/
+
+ @media (max-width:767px) {
+
+   .formotp {
+     width: 80%;
+     margin: 0px auto;
+   }
+
+   .leftimg {
+     width: 95%;
+   }
+
+   .subtitle {
+
+     width: 85%;
+
+   }
+
+   .linktxtnew {
+
+     top: -3px;
+   }
+
+   .sipdatbox {
+     padding-left: 3px;
+   }
+
+   .padds12 {
+     padding-top: 0px;
+     /* margin-top: -59px; */
+   }
+
+   .wid30 {
+     width: 30%;
+     float: left;
+     margin-top: -59px;
+   }
+
+   .newth1 {
+     text-align: center !important;
+   }
+
+   .diffsizecell {
+     width: 60%;
+     text-align: left !important;
+   }
+
+   .divforcellp {
+     text-align: left;
+   }
+
+   .disincells {
+     display: block !important;
+     padding: 0px 0px 0px 5px !important;
+   }
+
+   .dektophidetxt {
+     display: block;
+   }
+
+ }
+
+
+ /*-------------------------- 3-1-25 Dashboard----------------------------------------*/
+ .spaceheight {
+   height: 20px;
+ }
+
+ .transbackground {
+   background-color: transparent !important;
+ }
+
+ .tabmainhead {
+   font-size: 12px !important;
+   color: #000;
+ }
+
+ .allpaddings {
+   padding: 10px;
+ }
+
+ .bottpadds {
+   padding: 10px 0px 0px 10px;
+   font-weight: 500;
+   font-family: "Poppins", sans-serif !important;
+ }
+
+ .ligray {
+   color: #ABABAB;
+   font-size: 11px;
+ }
+
+ .returncss {
+   color: #000;
+   font-size: 14px;
+   padding-left: 10px;
+   font-weight: 700;
+ }
+
+ .redxirr {
+   color: #F32D2D;
+   padding-left: 10px;
+   font-weight: 500;
+ }
+
+ .greenxirr {
+   color: #147524;
+   padding-left: 10px;
+   font-weight: 500;
+ }
+
+ .greenxirrlight {
+   color: #147524;
+   padding-left: 10px;
+   font-weight: normal;
+ }
+
+ .linediv {
+   width: 100%;
+   height: 5px;
+   border-top: 1px solid #ddd
+ }
+
+ .box-container .box {
+   float: left;
+   width: 30%;
+   background-color: #F3F3F3;
+   border-radius: 15px;
+   margin-left: 2%;
+   min-height: 100px;
+ }
+
+ .abspos {
+   position: absolute !important;
+   margin-top: -3px;
+   margin-left: -10px;
+ }
+
+ .secontext {
+   padding: 0px 0px 0px 25px;
+ }
+
+ .thirdspan {
+   padding: 2px 5px 2px 5px;
+   background: #853FDC;
+   border-radius: 50%;
+   font-size: 12px;
+   margin: 0px 0px 0px 10px !important;
+   color: #fff !important;
+ }
+
+ .bldamounts {
+   font-size: 15px !important;
+   color: #000 !important;
+   padding: 10px 0px 0px 0px;
+   font-weight: 500 !important;
+ }
+
+ .orggoicon {
+   float: right;
+ }
+
+
+ .texttranssmal button {
+   text-transform: capitalize !important;
+   padding: 4px 12px;
+   font-size: 13px;
+ }
+
+ .texttranssmal .css-19kzrtu {
+   padding: 0px 10px 10px 10px !important;
+ }
+
+ .fontsize12 {
+   font-size: 12px;
+ }
+
+ /* .tbsizewid30 {
+   width: 30%;
+ } */
+
+ .css-1usuzwp-MuiButtonBase-root-MuiTab-root.Mui-selected small {
+   color: #fff !important;
+   background: #FCD633;
+ }
+
+ .css-1usuzwp-MuiButtonBase-root-MuiTab-root.Mui-selected span {
+   color: #000 !important;
+ }
+
+ .graintabel {
+   color: #A29999;
+   font-size: 15px;
+   padding: 0px 0px 0px 0px;
+ }
+
+ .blackintabel {
+   color: #000;
+   font-size: 18px;
+ }
+
+ .grayinsmall {
+   color: #9B9A9A;
+   font-size: 10px;
+ }
+
+ .redbckcss {
+   background-color: #E24B4B;
+   color: #fff;
+   padding: 2px 5px 2px 5px;
+   border-radius: 5px;
+   font-size: 10px;
+ }
+
+ .greenbckcss {
+   background-color: #48B137;
+   color: #fff;
+   padding: 2px 5px 2px 5px;
+   border-radius: 5px;
+   font-size: 10px;
+ }
+
+ .grrendark {
+   color: #48B137
+ }
+
+ .paddsfortops {
+   padding: 8px 0px 8px 0px;
+   font-size: 12px;
+   text-align: left;
+   color: #000 !important;
+   width: 80%;
+   float: left;
+ }
+
+ .fons12px {
+   font-size: 12px;
+   padding-bottom: 4px;
+   color: #AB9797;
+ }
+
+ .fons12pxblc {
+   font-size: 12px;
+   color: #000;
+   padding-bottom: 4px;
+   padding-left: 5px;
+ }
+
+ .bosbott {
+   border-bottom: 1px solid #ddd;
+ }
+
+ .pruplecss {
+   background-color: #F2ECEC;
+   color: #958F8F;
+ }
+
+ .paddsfortopsforwatch {
+   width: 70%;
+   float: left;
+   text-align: left;
+   min-width: 266px;
+ }
+
+ .paddsfortopsforwatchrig {
+   width: 30%;
+   float: right;
+   text-align: right;
+ }
+
+ .fullgra {
+   color: #ABABAB !important;
+   padding: 0px 5px 0px 0px;
+ }
+
+ .redbacks {
+   background-color: #E24B4B;
+   font-size: 10px;
+   padding: 2px 5px 2px 5px;
+   border-radius: 9px;
+   color: #fff;
+ }
+
+ .greenredbacks {
+   background-color: #169E2C;
+   font-size: 10px;
+   padding: 2px 5px 2px 5px;
+   border-radius: 9px;
+   color: #fff;
+ }
+
+ .wid5pers {
+   padding: 10px 0px 0px 0px;
+   float: right;
+ }
+
+ .redspans {
+   padding: 0px 0px 0px 5px;
+   color: #FD1616;
+ }
+
+ .greenspans {
+   padding: 0px 0px 0px 5px;
+   color: #169E2C;
+ }
+
+ .spacegap {
+   padding: 10px 0px 10px 10px;
+   font-weight: 500;
+ }
+
+ .grid-container {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 10px;
+   /* space between boxes */
+
+ }
+
+ .grid-item {
+   background-color: #fff;
+   cursor: pointer;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 24px;
+ }
+
+ .fortxtpadding buttons {
+   padding: 9px 12px !important;
+ }
+
+ .minhoverflow {
+   height: 400px;
+   overflow-y: auto;
+ }
+
+ .popupclose {
+   padding: 1px 4px 1px 4px;
+   font-size: 11px !important;
+   border-radius: 50px;
+   background-color: #472D68 !important;
+   color: #fff !important;
+ }
+
+ .viewmorespan {
+   padding: 2px 6px 2px 6px;
+   font-size: 12px !important;
+   border-radius: 50px;
+   background-color: #A35CFB !important;
+   color: #fff !important;
+   cursor: pointer;
+ }
+
+ .tabheadersintabs {
+   padding: 10px 0px 0px 0px;
+ }
+
+ .nobackg {
+   background-color: transparent;
+ }
+
+ .nobackg .whitebgs {
+   background-color: transparent;
+   padding: 0px;
+   --Paper-shadow: none !important;
+ }
+
+ .gryboxesindash {
+   background: #F3F3F3;
+   padding: 5px 0px 5px 0px;
+   border-radius: 10px;
+ }
+
+ .containernew {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   /* Two equal columns */
+   gap: 20px;
+   /* Space between divs */
+   margin-top: 15px;
+ }
+
+ .boxnew {
+   padding: 10px 5px 5px 10px;
+   border-radius: 15px;
+   background-color: #F3F3F3;
+   padding-left: 13px;
+   text-align: left;
+   min-height: 80px;
+ }
+
+ .boxnewtop {
+   background: linear-gradient(352deg, rgba(158, 89, 243, 1) 0%, rgba(88, 53, 130, 1) 35%);
+   padding-left: 13px;
+   min-height: 80px;
+   border-radius: 15px;
+   padding: 10px 5px 5px 10px;
+ }
+
+ .boxnewtop .graintabel,
+ .boxnewtop .blackintabel,
+ .grayinsmall {
+   color: #ffffff;
+   text-align: left;
+ }
+
+ .valignintable {
+   width: 25px;
+   margin-right: 12px;
+   display: block;
+ }
+
+ .redbckcsslatest {
+   background-color: #E24B4B;
+   color: #fff;
+   padding: 2px 4px 2px 4px;
+   border-radius: 10px;
+   font-size: 10px;
+ }
+
+ .redcsslatest {
+   color: #fff3f3 !important;
+   padding: 2px 2px 2px 2px;
+ }
+
+ .gapsfromall {
+   padding-top: 10px;
+ }
+
+ .tabheadersintabsspac {
+   padding: 10px 0px 0px 10px;
+   font-weight: 500;
+   font-family: "Poppins", sans-serif !important;
+ }
+
+ .allblack {
+   color: #000;
+ }
+
+ .popupheadingsall {
+   padding: 10px 0px 10px 24px;
+   font-weight: 500;
+   border-bottom: 1px solid #ddd;
+ }
+
+ .addhovercss Typography:hover {
+   color: #fff !important;
+ }
+
+
+ button.Mui-selected {
+   color: #000 !important;
+ }
+
+
+
+ .innerhbox {
+   font-size: 12px;
+   padding: 0px 10px 0px 10px;
+ }
+
+ .countsizeinhover {
+   font-size: 14px;
+   background-color: #853FDC;
+   padding: 2px 5px 2px 5px;
+   border-radius: 50%;
+   color: #fff;
+ }
+
+
+ .orangetabsmallgray {
+   background-color: #ddd;
+   color: #fff;
+   font-size: 9px;
+ }
+
+ .oneThirdSize1 {
+   width: 33%;
+   float: left;
+   text-align: left;
+   padding-left: 0px;
+   padding-top: 0px;
+   font-size: 12px;
+   padding-bottom: 2px;
+   color: #AB9797;
+ }
+
+ .maincontent1 {
+   width: 100%;
+   padding: 10px
+ }
+
+ button.Mui-selected div small {
+   background-color: #FCD633;
+ }
+
+ .modelpopup {
+   background: #fff;
+   padding: 20px;
+ }
+
+ .textmodi {
+   font-size: 14px;
+   font-weight: 500;
+ }
+
+ .greentxt {
+   color: #6ebb71;
+ }
+
+ .left {
+   text-align: left;
+ }
+
+ .closepopup {
+   margin-top: 15px !important;
+ }
+
+ .paddingpanl {
+   padding: 20px 30px 20px 30px;
+ }
+
+ p.font15 {
+   font-weight: 500;
+   color: #000 !important;
+   margin-bottom: 8px;
+ }
+
+ .closewatch {
+   padding: 0px !important;
+
+   float: right;
+   position: relative !important;
+   top: -26px;
+ }
+
+ .closewatch svg {
+   font-size: 15px;
+ }
+
+ .xirrdrop {
+   float: right;
+ }
+
+ .xirrdrop div {
+   float: right;
+   width: 90px;
+   text-align: left;
+ }
+
+ div.draghght {
+   height: 79px !important;
+ }
+
+ .tabname {
+   text-transform: math-auto;
+ }
+
+ button.closewathnew {
+   color: rgb(192, 12, 12);
+   font-size: 10px;
+   font-weight: 500;
+ }
+
+ .tabsborder {
+   border-bottom: 1px solid #ddd;
+ }
+
+ /*-------------------------- 3-1-25 Dashboard----------------------------------------*/
+ .spaceheight {
+   height: 20px;
+ }
+
+ .transbackground {
+   background-color: transparent !important;
+ }
+
+ .tabmainhead {
+   font-size: 12px !important;
+   color: #000;
+ }
+
+ .allpaddings {
+   padding: 10px;
+ }
+
+ .bottpadds {
+   padding: 10px 0px 0px 10px;
+
+ }
+
+ .ligray {
+   color: #ABABAB;
+   font-size: 11px;
+ }
+
+ .returncss {
+   color: #000;
+   font-size: 14px;
+   padding-left: 10px;
+   font-weight: 700;
+ }
+
+ .redxirr {
+   color: #F32D2D;
+   padding-left: 10px;
+   font-weight: 500;
+ }
+
+ .greenxirr {
+   color: #147524;
+   padding-left: 10px;
+   font-weight: 500;
+ }
+
+ .greenxirrlight {
+   color: #147524;
+   padding-left: 10px;
+   font-weight: normal;
+ }
+
+ .linediv {
+   width: 100%;
+   height: 5px;
+   border-top: 1px solid #ddd
+ }
+
+ .box-container .box {
+   float: left;
+   width: 30%;
+   background-color: #F3F3F3;
+   border-radius: 15px;
+   margin-left: 2%;
+   min-height: 100px;
+ }
+
+ .abspos {
+   position: absolute !important;
+   margin-top: -3px;
+   margin-left: -10px;
+ }
+
+ .secontext {
+   padding: 0px 0px 0px 25px;
+ }
+
+ .thirdspan {
+   padding: 2px 5px 2px 5px;
+   background: #853FDC;
+   border-radius: 50%;
+   font-size: 12px;
+   margin: 0px 0px 0px 10px !important;
+   color: #fff !important;
+ }
+
+ .bldamounts {
+   font-size: 15px !important;
+   color: #000 !important;
+   padding: 10px 0px 0px 0px;
+   font-weight: 500 !important;
+ }
+
+ .orggoicon {
+   float: right;
+ }
+
+ .texttranssmal button {
+   text-transform: capitalize !important;
+   padding: 4px 12px;
+   font-size: 13px;
+ }
+
+ .texttranssmal .css-19kzrtu {
+   padding: 0px 10px 10px 10px !important;
+ }
+
+ .fontsize12 {
+   font-size: 12px;
+ }
+
+ .tbsizewid30 {
+   width: 30%;
+ }
+
+ .css-1usuzwp-MuiButtonBase-root-MuiTab-root.Mui-selected small {
+   color: #fff !important;
+   background: #FCD633;
+ }
+
+ .css-1usuzwp-MuiButtonBase-root-MuiTab-root.Mui-selected span {
+   color: #000 !important;
+ }
+
+ .graintabel {
+   color: #A29999;
+   font-size: 15px;
+   padding: 0px 0px 0px 0px;
+ }
+
+ .blackintabel {
+   color: #000;
+   font-size: 18px;
+ }
+
+ .grayinsmall {
+   color: #9B9A9A;
+   font-size: 10px;
+ }
+
+ .redbckcss {
+   background-color: #E24B4B;
+   color: #fff;
+   padding: 2px 5px 2px 5px;
+   border-radius: 5px;
+   font-size: 10px;
+ }
+
+ .greenbckcss {
+   background-color: #48B137;
+   color: #fff;
+   padding: 2px 5px 2px 5px;
+   border-radius: 5px;
+   font-size: 10px;
+ }
+
+ .grrendark {
+   color: #48B137
+ }
+
+ .paddsfortops {
+   padding: 8px 0px 8px 0px;
+   font-size: 12px;
+   text-align: left;
+   color: #000 !important;
+   width: 80%;
+   float: left;
+ }
+
+ .fons12px {
+   font-size: 12px;
+   padding-bottom: 4px;
+   color: #AB9797;
+ }
+
+ .fons12pxblc {
+   font-size: 12px;
+   color: #000;
+   padding-bottom: 4px;
+   padding-left: 5px;
+ }
+
+ .bosbott {
+   border-bottom: 1px solid #ddd;
+ }
+
+ .pruplecss {
+   background-color: #F2ECEC;
+   color: #958F8F;
+ }
+
+ .paddsfortopsforwatch {
+   width: 70%;
+   float: left;
+   text-align: left;
+   min-width: 266px;
+ }
+
+ .paddsfortopsforwatchrig {
+   width: 30%;
+   float: right;
+   text-align: right;
+ }
+
+ .fullgra {
+   color: #ABABAB !important;
+   padding: 0px 5px 0px 0px;
+ }
+
+ .redbacks {
+   background-color: #E24B4B;
+   font-size: 10px;
+   padding: 2px 5px 2px 5px;
+   border-radius: 9px;
+   color: #fff;
+ }
+
+ .greenredbacks {
+   background-color: #169E2C;
+   font-size: 10px;
+   padding: 2px 5px 2px 5px;
+   border-radius: 9px;
+   color: #fff;
+ }
+
+ .wid5pers {
+   padding: 10px 0px 0px 0px;
+   float: right;
+ }
+
+ .redspans {
+   padding: 0px 0px 0px 5px;
+   color: #FD1616;
+ }
+
+ .greenspans {
+   padding: 0px 0px 0px 5px;
+   color: #169E2C;
+ }
+
+ .spacegap {
+   padding: 10px 0px 10px 10px;
+   font-weight: 500;
+   font-family: "Poppins", sans-serif !important;
+ }
+
+ .grid-container {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 10px;
+   /* space between boxes */
+
+ }
+
+ .grid-item {
+   background-color: #fff;
+   cursor: pointer;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 24px;
+ }
+
+ .fortxtpadding buttons {
+   padding: 9px 12px !important;
+ }
+
+ .minhoverflow {
+   height: 400px;
+   overflow-y: auto;
+ }
+
+ .popupclose {
+   padding: 1px 4px 1px 4px;
+   font-size: 11px !important;
+   border-radius: 50px;
+   background-color: #472D68 !important;
+   color: #fff !important;
+ }
+
+ .viewmorespan {
+   padding: 2px 6px 2px 6px;
+   font-size: 12px !important;
+   border-radius: 50px;
+   background-color: #A35CFB !important;
+   color: #fff !important;
+   cursor: pointer;
+ }
+
+ .tabheadersintabs {
+   padding: 10px 0px 0px 0px;
+ }
+
+ .nobackg {
+   background-color: transparent;
+ }
+
+ .nobackg .whitebgs {
+   background-color: transparent;
+   padding: 0px;
+   --Paper-shadow: none !important;
+ }
+
+ .gryboxesindash {
+   background: #F3F3F3;
+   padding: 5px 0px 5px 0px;
+   border-radius: 10px;
+ }
+
+ .containernew {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   /* Two equal columns */
+   gap: 20px;
+   /* Space between divs */
+   margin-top: 15px;
+ }
+
+ .boxnew {
+   padding: 10px 5px 5px 10px;
+   border-radius: 15px;
+   background-color: #F3F3F3;
+   padding-left: 13px;
+   text-align: left;
+   min-height: 80px;
+ }
+
+ .boxnewtop {
+   background: linear-gradient(352deg, rgba(158, 89, 243, 1) 0%, rgba(88, 53, 130, 1) 35%);
+   padding-left: 13px;
+   min-height: 80px;
+   border-radius: 15px;
+   padding: 10px 5px 5px 10px;
+ }
+
+ .boxnewtop .graintabel,
+ .boxnewtop .blackintabel,
+ .grayinsmall {
+   color: #ffffff;
+   text-align: left;
+ }
+
+ .valignintable {
+   width: 25px;
+   margin-right: 12px;
+   display: block;
+ }
+
+ .redbckcsslatest {
+   background-color: #E24B4B;
+   color: #fff;
+   padding: 2px 4px 2px 4px;
+   border-radius: 10px;
+   font-size: 10px;
+ }
+
+ .redcsslatest {
+   color: #fff3f3 !important;
+   padding: 2px 2px 2px 2px;
+ }
+
+ .gapsfromall {
+   padding-top: 10px;
+ }
+
+ .tabheadersintabsspac {
+   padding: 10px 0px 0px 10px;
+
+ }
+
+ .allblack {
+   color: #000;
+ }
+
+ .popupheadingsall {
+   padding: 10px 0px 10px 24px;
+   font-weight: 500;
+   border-bottom: 1px solid #ddd;
+ }
+
+ .addhovercss Typography:hover {
+   color: #fff !important;
+ }
+
+
+ button.Mui-selected {
+   color: #000 !important;
+   font-weight: 500 !important;
+   font-family: "Poppins", sans-serif !important;
+ }
+
+
+ .innerhbox {
+   font-size: 12px;
+   padding: 0px 10px 0px 10px;
+ }
+
+ .countsizeinhover {
+   font-size: 14px;
+   background-color: #853FDC;
+   padding: 2px 5px 2px 5px;
+   border-radius: 50%;
+   color: #fff;
+ }
+
+
+ .orangetabsmallgray {
+   background-color: #ddd;
+   color: #fff;
+   font-size: 9px;
+ }
+
+ .oneThirdSize1 {
+   width: 33%;
+   float: left;
+   text-align: left;
+   padding-left: 0px;
+   padding-top: 0px;
+   font-size: 12px;
+   padding-bottom: 2px;
+   color: #AB9797;
+ }
+
+ .maincontent1 {
+   width: 100%;
+   padding: 10px
+ }
+
+ button.Mui-selected div small {
+   background-color: #FCD633;
+ }
+
+ .modelpopup {
+   background: #fff;
+   padding: 20px;
+ }
+
+ .textmodi {
+   font-size: 14px;
+   font-weight: 500;
+ }
+
+ .greentxt {
+   color: #6ebb71;
+ }
+
+ .left {
+   text-align: left;
+ }
+
+ .closepopup {
+   margin-top: 15px !important;
+ }
+
+ .paddingpanl {
+   padding: 20px 30px 20px 30px;
+ }
+
+ p.font15 {
+   font-weight: 500;
+   color: #000 !important;
+   margin-bottom: 8px;
+ }
+
+ .closewatch {
+   padding: 0px !important;
+
+   float: right;
+   position: relative !important;
+   top: -26px;
+ }
+
+ .closewatch svg {
+   font-size: 15px;
+ }
+
+ .xirrdrop {
+   float: right;
+ }
+
+ .xirrdrop div {
+   float: right;
+   width: 90px;
+   text-align: left;
+ }
+
+ div.draghght {
+   height: 79px !important;
+ }
+
+ .tabname {
+   text-transform: math-auto;
+ }
+
+ button.closewathnew {
+   color: rgb(192, 12, 12);
+   font-size: 10px;
+   font-weight: 500;
+ }
+
+ .tabsborder {
+   border-bottom: 1px solid #ddd;
+ }
+
+ /* 15-1-25 */
+ .wid20 {
+   width: 20%;
+   float: left;
+ }
+
+ .newtabs2 .tab-header {
+   text-align: left;
+ }
+
+ .newforseperation {
+   padding: 8px;
+ }
+
+ .smallchecks1 {
+   width: 52px;
+   padding: 8px;
+ }
+
+ .compcheckcss {
+   width: 52px;
+ }
+
+ .diffsizecell {
+
+   text-align: left !important;
+ }
+
+ .clsforposition {
+   position: relative;
+   margin-top: -55px;
+ }
+
+ .subfontdivchart {
+   margin-top: 25px;
+   text-align: left;
+ }
+
+ /* 17-1-25 */
+ .linktxtnewview {
+   color: #3939a9;
+   cursor: pointer;
+   font-weight: normal;
+ }
+
+ .modelpopup {
+   background: #fff;
+   padding: 20px;
+ }
+
+ .subfontdivchart {
+   margin-top: 25px;
+   text-align: left;
+   font-size: 13px !important;
+   padding: 0px 5px 0px 5px;
+   color: #213547 !important;
+ }
+
+ /* 21-1-25 */
+ .newintxts div {
+   width: 125px;
+   margin: 0 auto;
+ }
+
+ .newintxts input {
+   padding: 6px 0px 4px 0px !important;
+   font-size: 14px;
+ }
+
+ .extracssforgaps .MuiGrid2-root {
+   --Grid-rowSpacing: 5px;
+ }
+
+ .negupspace {
+   margin-top: -20px;
+   margin-bottom: 10px;
+ }
+
+ .borderbott {
+   border-bottom: 1px solid #ddd;
+ }
+
+
+
+ /*10-1-25 Risk Profile & Fund explorer*/
+
+ /* 10-1-25 */
+ /* New CSS */
+ .lefttextalign {
+   text-align: left;
+ }
+
+ .containersimple {
+
+   gap: 20px;
+   /* Gap between boxes */
+   justify-content: center;
+   /* Center the boxes horizontally */
+   padding: 0px 0px 20px 0px;
+ }
+
+ .noticss {
+   margin: 15px 10px 0px 15px;
+   padding: 0px 0px 0px 0px;
+ }
+
+ .boxsimple {
+   width: 23%;
+   float: left;
+   height: 180px;
+   background-color: #fff;
+   align-items: center;
+   justify-content: center;
+   color: white;
+   font-weight: bold;
+   border-radius: 10px;
+   box-shadow: 0 2px 18px 1px #3135481a;
+   margin: 15px 10px 10px 15px;
+ }
+
+ .tabfullwids {
+   width: 100%;
+ }
+
+ .tabfullwids1 {
+   width: 100%;
+   min-height: 100px;
+   padding: 15px 5px 0px 10px;
+ }
+
+ .grycssback {
+   background-color: #F3EAFF;
+   height: 40px;
+   border-top-left-radius: 8px;
+   padding: 5px 5px 5px 5px;
+   border-top-right-radius: 8px;
+   font-size: 12px;
+   color: #000;
+   font-weight: normal;
+ }
+
+ .blxblac {
+   color: #000;
+   font-size: 13px;
+ }
+
+ .graccol {
+   color: #A5A4A4;
+ }
+
+ .cenralintex {
+   text-align: center;
+ }
+
+ .greenyescss {
+   color: #199C2E;
+   font-size: 13px;
+ }
+
+ .spacfornotify {
+   padding: 0px 0px 0px 0px;
+ }
+
+ .star-rating {
+   direction: rtl;
+   /* Right-to-left layout for proper click handling */
+   display: inline-flex;
+ }
+
+ .star-rating input {
+   display: none;
+   /* Hide radio buttons */
+ }
+
+ .star-rating label {
+   font-size: 21px;
+   color: gray;
+   cursor: pointer;
+ }
+
+ .star-rating input:checked~label,
+ .star-rating input:hover~label {
+   color: gold;
+   /* Gold color for selected or hovered stars */
+ }
+
+ .widthmainoart {
+   width: 70%
+ }
+
+ /* 5 BOXES */
+
+ /* .hoveffects:hover {
+   transform: translateY(0px);
+   background-color: #715298;
+   color: #fff;
+ }
+
+ .hoveffects::after {
+   content: "";
+   position: absolute;
+   left: 50%;
+   transform: translateX(-50%);
+   width: 0;
+   height: 0;
+   border-left: 20px solid transparent;
+   border-right: 20px solid transparent;
+   border-top: 20px solid #715298;
+   opacity: 0;
+   transition: opacity 0.3s, bottom 0.3s;
+ }
+
+ .hoveffects:hover::after {
+   opacity: 1;
+   bottom: -20px;
+ }
+
+ .hoveffectsselected {
+   transform: translateY(0px) !important;
+   background-color: #715298 !important;
+   color: #fff !important;
+   border-left: 20px solid transparent;
+   border-right: 20px solid transparent;
+   border-top: 20px solid #715298;
+ } */
+ /* -------------------------------new code added from 31-01-25 zip file------------------ */
+ .hoveffects:hover {
+   transform: translateY(0px);
+   background-color: #715298;
+   color: #fff;
+ }
+
+ .hoveffects::after {
+   content: "";
+   position: absolute;
+   left: 50%;
+   transform: translateX(-50%);
+   width: 0;
+   height: 0;
+   border-left: 20px solid transparent;
+   border-right: 20px solid transparent;
+   border-top: 20px solid #715298;
+   opacity: 0;
+   transition: opacity 0.3s, bottom 0.3s;
+   cursor: pointer;
+ }
+
+ .hoveffectsselected {
+   transform: translateY(0px) !important;
+   background-color: #715298 !important;
+   color: #fff !important;
+   border-left: 20px solid transparent;
+   border-right: 20px solid transparent;
+   border-top: 20px solid #715298;
+ }
+
+ .minscchei {
+   min-height: 100px;
+   margin-bottom: 30px;
+   -webkit-box-shadow: 0px 2px 4px 0px rgba(221, 221, 221, 0.6);
+   -moz-box-shadow: 0px 2px 4px 0px rgba(221, 221, 221, 0.6);
+   box-shadow: 0px 2px 4px 0px rgba(221, 221, 221, 0.6);
+   border-radius: 10px !important;
+ }
+
+ .minsccheisecurity {
+   min-height: 100px;
+   margin-bottom: 5px;
+   -webkit-box-shadow: 0px 2px 4px 0px rgba(221, 221, 221, 0.6);
+   -moz-box-shadow: 0px 2px 4px 0px rgba(221, 221, 221, 0.6);
+   box-shadow: 0px 2px 4px 0px rgba(221, 221, 221, 0.6);
+   border-radius: 10px !important;
+ }
+
+ .whitecssnew {
+   font-size: 14px;
+   font-weight: bold;
+ }
+
+ .uppersearnew {
+   padding: 10px 0px 0px 0px;
+   min-height: 40px;
+   width: 100%;
+ }
+
+ .uppersearnew .herar {
+   padding-left: 15px;
+ }
+
+ .uppersearnew button {
+   margin-right: 24px !important;
+   margin-top: 5px !important;
+ }
+
+ .filters {
+   background-color: #A35CFB;
+   cursor: pointer;
+   font-size: 10px;
+   height: 24px;
+   color: #fff;
+   padding: 6px 0px 0px 5px;
+   width: 75px !important;
+   font-size: 12px !important;
+   position: absolute;
+   right: 100px;
+   margin-top: 10px;
+   border-radius: 5px;
+ }
+
+ .spaninfilter {
+   position: absolute;
+   padding: 1px 0px 0px 3px;
+ }
+
+ .autowid {
+   width: 100%;
+   margin-top: 20px !important;
+   margin-bottom: 15px !important;
+ }
+
+ .fullw .autowid {
+   margin: 0 auto;
+ }
+
+ .minswhite {
+   background: #fff;
+   min-height: 50px;
+ }
+
+ .searchbxcenter {
+   width: 300px;
+   margin: 0 auto;
+ }
+
+ .searchbxcenter label {
+   display: none;
+ }
+
+ .searchbxcenter .MuiOutlinedInput-root {
+   padding: 0px !important;
+   border-bottom: 2px solid #ddd;
+   border-radius: 0px;
+ }
+
+ .searchbxcenter .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+   border: none !important;
+ }
+
+ .searchbxcenter button {
+   display: none;
+ }
+
+ .searchbxcenter .MuiInputAdornment-sizeMedium {
+   position: absolute;
+   right: 0;
+ }
+
+ .searchbxcenter svg {
+   color: #fff;
+   background: #7351D5;
+   border-radius: 50%;
+   padding: 3px 3px 3px 3px;
+ }
+
+ .searchbxcenter fieldset {
+   border: none;
+ }
+
+ .smallspanboxes {
+   background-color: #F5EEFE;
+   font-size: 11px;
+   padding: 5px 10px 5px 10px;
+   border-radius: 10px;
+   margin: 10px 5px 0px 5px;
+   min-height: 20px;
+   width: auto;
+   float: left;
+ }
+
+ .whithecss {
+   background-color: #fff;
+   margin-bottom: 10px;
+   min-height: 200px;
+   -webkit-box-shadow: 0px 2px 2px 0px rgba(221, 221, 221, 1);
+   -moz-box-shadow: 0px 2px 2px 0px rgba(221, 221, 221, 1);
+   box-shadow: 0px 2px 2px 0px rgba(221, 221, 221, 1);
+ }
+
+ @media (max-width:800px) {
+
+   .wid48 {
+     width: 90% !important
+   }
+
+   .smalldivtab {
+     width: 9% !important;
+   }
+
+   .bordgray,
+   .bordgray1 {
+     min-height: 50px !important;
+   }
+
+   .leftborderdiv {
+     border-left: 1px solid #fff !important;
+   }
+
+   .fixheightssmalltab {
+     overflow: visible !important;
+   }
+
+   .newspacesinblock1 {
+     margin: 0px 5px !important;
+   }
+
+   .imginsliders {
+     width: 100% !important;
+     float: none !important;
+     text-align: center;
+   }
+
+   .imginsliders img {
+     display: inline !important;
+   }
+
+   .txtinslider div {
+     padding: 0px 0px 0px 15px !important;
+     font-size: 10px !important;
+   }
+
+   .txtinslider {
+     float: none !important;
+     width: 100% !important;
+   }
+
+   .innboxinslide {
+     padding: 15px 0px 15px 5px !important;
+   }
+
+   .leftme35 {
+     margin: 0px 5px !important;
+   }
+
+   .boxsimple {
+     width: 93% !important
+   }
+
+   .fortycss1 {
+     width: 100% !important
+   }
+
+   .fortycss {
+     width: 90% !important;
+   }
+
+   .imgfullwid {
+     width: 100% !important;
+   }
+
+   .speechdiv {
+     margin-top: 10px !important;
+     background-size: 100% 100% !important;
+     min-height: 265px !important;
+   }
+
+   .alintxtnote {
+     padding: 30px 15px 0px 65px !important;
+   }
+
+   .stndman img {
+     width: 50px !important;
+   }
+
+   .lagfont1 {
+     padding-bottom: 0px !important;
+   }
+
+   .slick-slider button {
+     display: none !important;
+   }
+
+   .manimgbox {
+     min-height: 270px !important;
+   }
+
+   .whithecss {
+     min-height: auto !important;
+   }
+
+   .minswhitefunds {
+     float: none !important;
+   }
+
+   .newspacsecuview {
+     margin: 50px 15px 0px 15px !important;
+     height: 25px;
+   }
+
+   .centersearchbx {
+     width: 95%;
+   }
+
+   .fifty {
+     width: 100% !important
+   }
+
+   .divReverse {
+     display: flex;
+     flex-wrap: wrap-reverse;
+   }
+
+   .imgincellp {
+     width: 150px !important;
+   }
+
+   .whitecolorbgrisk {
+     width: 92% !important;
+   }
+
+   .newfifty {
+     width: 100% !important;
+     float: left;
+   }
+ }
+
+ @media screen and (min-width: 800px) and (max-width: 1190px) {
+   .newfifty {
+     width: 48% !important;
+     float: left;
+   }
+
+   .whitecolorbgrisk {
+     width: 97% !important;
+   }
+
+   .divReverse {
+     display: flex;
+     flex-wrap: wrap-reverse;
+   }
+
+   .imgincellp {
+     width: 150px !important;
+   }
+
+   .fifty {
+     width: 100% !important
+   }
+
+   .boxsimple {
+     width: 46% !important;
+   }
+
+   .leftme35 {
+     margin: 0px 12px !important;
+   }
+
+   .fortycss1 {
+     width: 100% !important
+   }
+
+   .imgfullwid {
+     width: 100% !important
+   }
+
+   .fortycss {
+     width: 90% !important;
+   }
+ }
+
+ @media screen and (min-width: 800px) and (max-width: 890px) {
+   .newfifty {
+     width: 100% !important
+   }
+ }
+
+ .newspacesinblock {
+   margin: 0 15px;
+ }
+
+ .newspacesinblock1 {
+   margin: 0 12px;
+ }
+
+ .newspacesinblocknosearch {
+   margin: 0 15px;
+   padding: 15px 0px 10px 0px;
+   font-size: 14px;
+   font-weight: bold;
+ }
+
+ .fortycss {
+   width: 58%;
+   float: left;
+   text-align: left;
+   font-size: 12px;
+ }
+
+ .fortycss1 {
+   width: 27%;
+   float: left;
+   text-align: left;
+   font-size: 12px;
+ }
+
+ .lagfont {
+   font-size: 12px;
+   font-weight: bold;
+ }
+
+ .lagfont1 {
+   font-size: 12px;
+   font-weight: bold;
+   padding-bottom: 15px;
+ }
+
+ .twentcss {
+   width: 7%;
+   float: left;
+ }
+
+ .manimgbox {
+   min-height: 230px;
+ }
+
+ .nobackscol div {
+   --Paper-shadow: none !important;
+ }
+
+ .whitecolorbgnew {
+   background: #fff;
+   width: 98%;
+   padding: 5px;
+   display: flex;
+   border-radius: 10px;
+   box-shadow: 0 2px 9px 1px rgba(44, 53, 66, .1) !important;
+ }
+
+ .black30px {
+   font-size: 34px;
+   font-weight: 600;
+   color: #000;
+   padding-bottom: 10px;
+ }
+
+ .subinriskpro {
+   font-size: 16px;
+   font-weight: bold;
+   color: #797575;
+   padding-bottom: 15px;
+ }
+
+ .padd90 {
+   padding: 90px;
+ }
+
+ .padd90 button {
+   text-transform: capitalize;
+   font-size: 12px !important;
+ }
+
+ .fixbtnsizenocorner {
+   width: auto;
+   font-size: 11px !important;
+   border-radius: 5px !important;
+   background-color: #A35CFB !important;
+ }
+
+ .fifty {
+   width: 49%;
+   float: left;
+ }
+
+ .fixheightsnoshadow {
+   height: 390px;
+   overflow: auto;
+ }
+
+ .spacfortabheader {
+   margin: 0 15px;
+   padding: 15px 0px 10px 0px;
+   font-size: 15px;
+   font-weight: bold;
+   border-bottom: 1px solid #ddd;
+   width: 100%;
+   height: 30px;
+ }
+
+ .smalldivtab {
+   width: 3%;
+   float: left;
+   padding-top: 3px;
+ }
+
+ .wid48 {
+   width: 48%;
+   float: left;
+   padding: 2px 0px 0px 2px;
+   font-weight: 500;
+   color: #5F5C5C;
+ }
+
+ .fixheightssmalltab {
+   height: 380px;
+   overflow: auto;
+   padding: 0px 8px 8px 10px !important;
+   margin-top: -15px;
+ }
+
+ .bordgray {
+   border-bottom: 1px solid #ddd;
+   min-height: 30px;
+   padding-top: 8px;
+   font-size: 12px; 
+    display: flex;
+ }
+
+ .bordgray1 {
+   border-bottom: 1px solid #ddd;
+   min-height: 30px;
+   padding-top: 12px;
+   font-size: 12px;
+  
+ 
+ }
+
+ .whitecolorbgresult {
+   background: #fff;
+   width: 98%;
+   padding: 25px 25px 0px 25px !important;
+   padding: 5px;
+   display: flex;
+   border-radius: 10px;
+   box-shadow: 0 2px 9px 1px rgba(44, 53, 66, .1);
+ }
+
+ .boldme {
+   font-weight: bold;
+   color: #373535 !important;
+ }
+
+ .mediumrisk {
+   background-color: #99CB34;
+   color: #fff;
+   padding: 5px 10px 5px 10px;
+   font-size: 12px;
+   box-shadow: 0 2px 9px 1px rgba(44, 53, 66, .1);
+   position: relative;
+   top: -34px;
+   font-weight: normal;
+ }
+
+ .highrisk {
+   background-color: #FE0000;
+   color: #fff;
+   padding: 5px 10px 5px 10px;
+   font-size: 14px;
+   box-shadow: 0 2px 9px 1px rgba(44, 53, 66, .1);
+ }
+
+ .lowrisk {
+   background-color: #01CC34;
+   color: #fff;
+   padding: 5px 10px 5px 10px;
+   font-size: 14px;
+   box-shadow: 0 2px 9px 1px rgba(44, 53, 66, .1);
+ }
+
+ .reassetbtn {
+   width: auto;
+   font-size: 11px !important;
+   background-color: #A35CFB !important;
+   margin-top: 17px !important;
+   border-radius: 5px !important;
+ }
+
+ .gry11size {
+   font-size: 11px;
+   text-align: left;
+   color: #756F6F;
+   padding: 30px 0px 0px 0px;
+ }
+
+ .leftborderdiv {
+   border-left: 1px solid #ddd;
+ }
+
+ .paddfromleinrisk {
+   padding: 0px 20px 0px 0px;
+ }
+
+ .borradius10 {
+   border-radius: 10px !important;
+ }
+
+ /* 15-01-25 */
+ .speechdiv {
+   background-image: url(/src/images/arrleftpink.png);
+   background-size: cover;
+   background-position: center;
+   margin-top: 38px;
+   min-height: 185px;
+ }
+
+ .alintxtnote {
+   padding: 30px 0px 0px 120px;
+ }
+
+ .newspacetb {
+   margin: 10px 0px 0px 0px;
+ }
+
+ /* Slider */
+ .innboxinslide {
+   background-color: #F8F5FF;
+   min-height: 40px;
+   padding: 15px 15px 15px 15px;
+   border-radius: 10px;
+   margin: 15px 5px 0px 5px;
+ }
+
+ .innboxinslide1 {
+   background-color: #F8F5FF;
+   padding: 15px 15px 15px 15px;
+   border-radius: 10px;
+   margin: 15px 5px 0px 5px;
+ }
+
+ .whitebackfrdiv {
+   background-color: #fff !important;
+ }
+
+ .leftme35 {
+   margin: 0px 42px
+ }
+
+ .imginsliders {
+   width: 10%;
+   float: left;
+ }
+
+ .txtinslider {
+   width: 90%;
+   float: left;
+ }
+
+ .txtinslider div {
+   text-align: left;
+   padding: 10px 0px 0px 15px;
+ }
+
+ .tableborder1 {
+   border-bottom: 1px solid #ddd;
+   border-top: 1px solid #ddd;
+ }
+
+ .forradiusborder {
+   border-radius: 5px !important;
+ }
+
+ .fifty h5 {
+   font-size: 16px !important;
+   text-align: left;
+   border-bottom: 2px solid #ddd;
+   padding-bottom: 10px;
+ }
+
+ .mainboxinriskresult {
+   color: #fff;
+   padding: 2px 7px 3px 7px;
+   border-radius: 20px;
+ }
+
+ .mediumintable {
+   background-color: #99CB34;
+   color: #fff;
+   padding: 2px 7px 3px 7px;
+   border-radius: 20px;
+ }
+
+ .minswhitefunds {
+   background: #fff;
+   float: left;
+ }
+
+ .newherar {
+   width: 17%;
+ }
+
+ .newspacsecuview {
+   margin: 0 15px;
+ }
+
+ .subgraycol {
+   color: #B4B3B3;
+ }
+
+ .centersearchbx input {
+   background-color: #FAFAFA !important;
+ }
+
+ .reversincell {
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+ }
+
+ .whitecolorbgrisk {
+   background: #fff;
+   width: 98%;
+   padding: 5px;
+   display: flex;
+   border-radius: 10px;
+   box-shadow: 0 2px 9px 1px rgba(44, 53, 66, .1);
+ }
+
+ .newfifty {
+   width: 49%;
+   float: left;
+ }
+
+ .nopadsinout {
+   padding: 0px 0px 0px 0px !important;
+ }
+
+ .nodsp {
+   display: none;
+ }
+
+ .dashadddel fieldset {
+   border: none !important
+ }
+
+ .dashadddel span,
+ .dashadddel svg {
+   display: none;
+ }
+
+ .curspoint {
+   cursor: pointer;
+ }
+
+ .filtersicons {
+   cursor: pointer;
+   font-size: 10px;
+   height: 24px;
+   color: #fff;
+   padding: 6px 0px 0px 5px;
+   font-size: 12px !important;
+   position: absolute;
+   right: 100px;
+   margin-top: 8px;
+   border-radius: 5px;
+ }
+
+ /* 28-1-25 */
+ .css-rizt0-MuiTypography-root,
+ button {
+   font-family: 'Poppins' !important;
+ }
+
+ /* 30-1-25 */
+ .nexprebutton {
+   background-color: #A35CFB !important
+ }
+
+ .gapsinuppericons .tpspacegp {
+   gap: 0px !important
+ }
+
+ .floleftfottransbtn {
+   float: left;
+ }
+
+ .transactdrp {
+   width: 120px;
+   background: #A35CFB;
+   color: #fff !important;
+   margin: 3px 3px 3px 40px;
+   height: 27px;
+ }
+
+ .contentsintab .MuiGrid2-root .MuiPaper-rounded {
+   --Paper-shadow: none !important;
+   text-align: left;
+   font-family: "Poppins", sans-serif !important;
+   font-size: 12px !important;
+   color: #A59696;
+   padding: 4px !important;
+ }
+
+ .contentsintab1 .MuiGrid2-root .MuiPaper-rounded {
+   --Paper-shadow: none !important;
+   text-align: left;
+   font-family: "Poppins", sans-serif !important;
+   font-size: 12px !important;
+   color: #A59696;
+   padding: 4px !important;
+ }
+
+ .whitewithpadding {
+   min-height: 30px;
+   border-bottom: 1px solid #ddd;
+   font-family: "Poppins", sans-serif !important;
+   font-size: 12px !important;
+ }
+
+ .bxshadods {
+   padding: 8px;
+   -webkit-box-shadow: 0px 0px 7px 0px rgba(230, 214, 230, 1);
+   -moz-box-shadow: 0px 0px 7px 0px rgba(230, 214, 230, 1);
+   box-shadow: 0px 0px 7px 0px rgba(230, 214, 230, 1);
+   border-radius: 5px;
+ }
+
+ .bxshadodsswp {
+   padding: 4px 6px 0px 5px;
+   -webkit-box-shadow: 0px 0px 7px 0px rgba(230, 214, 230, 1);
+   -moz-box-shadow: 0px 0px 7px 0px rgba(230, 214, 230, 1);
+   box-shadow: 0px 0px 7px 0px rgba(230, 214, 230, 1);
+   border-radius: 5px;
+ }
+
+ .css-19kzrtu {
+   padding: 8px !important;
+ }
+
+ .gapsdiveall {
+   height: 15px;
+   width: 100%;
+ }
+
+ .blacktxtstabs {
+   font-weight: 500 !important;
+   color: #000 !important
+ }
+
+ .aligmeleftsnew {
+   text-align: left !important;
+   padding: 5px !important;
+   font-family: "Poppins", sans-serif !important;
+   font-size: 12px !important;
+ }
+
+ .commonfilter .tpspacegp {
+   padding-top: 0px;
+   margin-top: 4px;
+   z-index: 999 !important;
+   display: block !important;
+   position: absolute;
+   right: 25px;
+ }
+
+ .extforuper {
+   padding: 0px;
+ }
+
+ .filterscancel {
+   background-color: #A35CFB !important;
+   font-size: 12px !important;
+   text-transform: capitalize !important;
+ }
+
+ .filtersapply {
+   background-color: #472D68 !important;
+   font-size: 12px !important;
+   text-transform: capitalize !important;
+ }
+
+ /* .padsforupicons1 {
+   padding: 0px 0px 0px 10px;
+ } */
+
+ /* 30-1-25 */
+ .nexprebutton {
+   background-color: #A35CFB !important
+ }
+
+ .gapsinuppericons .tpspacegp {
+   gap: 0px !important
+ }
+
+ .floleftfottransbtn {
+   float: left;
+ }
+
+ .transactdrp {
+   width: 120px;
+   background: #A35CFB;
+   color: #fff !important;
+   margin: 3px 3px 3px 3px;
+   height: 27px;
+ }
+
+ .contentsintab .MuiGrid2-root .MuiPaper-rounded {
+   --Paper-shadow: none !important;
+   text-align: left;
+   font-family: "Poppins", sans-serif !important;
+   font-size: 12px !important;
+   color: #A59696;
+   padding: 4px !important;
+ }
+
+ .contentsintab1 .MuiGrid2-root .MuiPaper-rounded {
+   --Paper-shadow: none !important;
+   text-align: left;
+   font-family: "Poppins", sans-serif !important;
+   font-size: 12px !important;
+   color: #A59696;
+   padding: 4px !important;
+ }
+
+ .whitewithpadding {
+   min-height: 30px;
+   border-bottom: 1px solid #ddd;
+   font-family: "Poppins", sans-serif !important;
+   font-size: 12px !important;
+ }
+
+ .bxshadods {
+   padding: 8px;
+   -webkit-box-shadow: 0px 0px 7px 0px rgba(230, 214, 230, 1);
+   -moz-box-shadow: 0px 0px 7px 0px rgba(230, 214, 230, 1);
+   box-shadow: 0px 0px 7px 0px rgba(230, 214, 230, 1);
+   border-radius: 5px;
+ }
+
+ .bxshadodsswp {
+   padding: 4px 8px 0px 8px;
+   -webkit-box-shadow: 0px 0px 7px 0px rgba(230, 214, 230, 1);
+   -moz-box-shadow: 0px 0px 7px 0px rgba(230, 214, 230, 1);
+   box-shadow: 0px 0px 7px 0px rgba(230, 214, 230, 1);
+   border-radius: 5px;
+ }
+
+ .css-19kzrtu {
+   padding: 8px !important;
+ }
+
+ .gapsdiveall {
+   height: 15px;
+   width: 100%;
+ }
+
+ .blacktxtstabs {
+   font-weight: 500 !important;
+   color: #000 !important
+ }
+
+ .aligmeleftsnew {
+   text-align: left !important;
+   padding: 5px !important;
+   font-family: "Poppins", sans-serif !important;
+   font-size: 12px !important;
+ }
+
+ .commonfilter .tpspacegp {
+   padding-top: 0px;
+   margin-top: 4px;
+   z-index: 999 !important;
+   display: block !important;
+   position: absolute;
+   right: 25px;
+ }
+
+ .extforuper {
+   padding: 0px;
+ }
+
+ .filterscancel {
+   background-color: #A35CFB !important;
+   font-size: 12px !important;
+   text-transform: capitalize !important;
+ }
+
+ .filtersapply {
+   background-color: #472D68 !important;
+   font-size: 12px !important;
+   text-transform: capitalize !important;
+ }
+
+ .darkcount {
+   background: #110438;
+   padding: 0px 5px 0px 5px;
+   border-radius: 50%;
+ }
+
+ .extdownspa {
+   padding: 0px 0px 0px 5px;
+   height: 10px;
+ }
+
+ .styfordrop {
+   padding: 0px !important;
+ }
+
+ .styfordrop li {
+   padding: 0px !important;
+ }
+
+ /* 28-1-25 */
+ .css-rizt0-MuiTypography-root,
+ button {
+   font-family: 'Poppins' !important;
+ }
+
+ /* -------------3-2-2025----Fund Explorer------------------ */
+
+ .padsforupicons {
+   padding: 0px 3px 0px 2px;
+   float: left;
+ }
+
+ .padsforupicons1 {
+   padding: 0px 0px 0px 10px;
+ }
+
+ .padsforupicons1 {
+   padding: 0px 5px 0px 50px;
+   float: left;
+ }
+
+ .countcsscode {
+   vertical-align: super;
+   padding: 5px 6px 5px 5px;
+   border-radius: 5px;
+   float: left;
+ }
+
+ .countcsscode button {
+   font-size: 12px !important;
+   margin-right: -40px !important;
+   margin-top: -10px !important;
+   display: block;
+   text-align: left;
+   padding: 5px 0px 0px 10px;
+   height: 30px;
+   border-radius: 5px;
+ }
+
+ .darkcount {
+   background: #110438;
+   padding: 0px 5px 0px 5px;
+   border-radius: 50%;
+ }
+
+ .extdownspa {
+   padding: 0px 0px 0px 5px;
+   height: 10px;
+ }
+
+ .compbtncss {
+   width: 120px
+ }
+
+ .countcsscode button span {
+   float: right;
+   padding: 1px 10px 0px 0px;
+ }
+
+ .sizandfont {
+   font-size: 12px;
+   padding: 0px 10px 0px 0px;
+ }
+
+ .fundlistcss {
+   padding: 5px 0px 0px 0px;
+ }
+
+ .styfordrop span {
+   padding: 5px;
+   font-size: 12px;
+ }
+
+ .styfordrop span svg {
+   width: 15px;
+ }
+
+ .footermain {
+   position: absolute;
+   text-align: center;
+   width: 100%;
+   padding: 20px 0px 20px 0px;
+   background: #fff;
+   font-size: 12px !important;
+   color: #8b8585 !important;
+ }
+
+ .centerindd {
+   text-align: center;
+   display: block !important;
+ }
+
+ .actualbtn {
+   background-color: #7351D5 !important;
+   font-size: 12px !important;
+   color: #fff !important;
+   border-radius: 5px !important;
+   padding: 3px 10px 3px 10px !important;
+ }
+
+ .arrow-downbottom {
+   width: 0;
+   height: 0;
+   border-left: 20px solid transparent;
+   border-right: 20px solid transparent;
+   border-top: 20px solid #715298;
+   max-width: fit-content;
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+ .darkcount {
+   background: #110438;
+   padding: 0px 5px 0px 5px;
+   border-radius: 50%;
+ }
+
+ .extdownspa {
+   padding: 0px 0px 0px 5px;
+   height: 10px;
+ }
+
+ .styfordrop {
+   padding: 0px !important;
+ }
+
+ .styfordrop li {
+   padding: 0px !important;
+ }
+
+ .wdith150 {
+   width: 120px;
+   margin-right: 5px;
+ }
+
+ .searchbxcenter1 {
+   width: 300px;
+   margin: 0 auto;
+ }
+
+ .searchbxcenter1 label {
+   display: none;
+ }
+
+ .searchbxcenter1 .MuiOutlinedInput-root {
+   padding: 0px !important;
+   border-bottom: 2px solid #ddd;
+   border-radius: 0px;
+ }
+
+ .searchbxcenter1 .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+   border: none !important;
+ }
+
+ .searchbxcenter1 button {
+   display: none;
+ }
+
+ .searchbxcenter1 .MuiInputAdornment-sizeMedium {
+   position: absolute;
+   right: 0;
+ }
+
+ .searchbxcenter1 svg {
+   color: #fff;
+   background: #7351D5;
+   border-radius: 50%;
+   padding: 3px 3px 3px 3px;
+ }
+
+ .searchbxcenter1 fieldset {
+   border: none;
+ }
+
+ .uppersear {
+   padding: 10px 0px 0px 0px;
+   min-height: 17px;
+ }
+
+ .sortcs {
+   margin-top: 2px;
+ }
+
+ .pagin {
+   margin: 0px auto;
+   text-align: center;
+ }
+
+ .tpsspacegp {
+   float: right;
+   padding-top: 5px;
+ }
+
+ .tpsspacegp2 {
+   padding-top: 5px;
+ }
+
+ .allwhitecolor {
+   color: #fff !important;
+ }
+
+ .othercssdetails {
+   font-size: 12px !important;
+   text-transform: capitalize !important;
+ }
+
+ .boxshads {
+   -webkit-box-shadow: 0px 0px 7px 0px rgba(230, 214, 230, 1) !important;
+   -moz-box-shadow: 0px 0px 7px 0px rgba(230, 214, 230, 1) !important;
+   box-shadow: 0px 0px 7px 0px rgba(230, 214, 230, 1) !important;
+ }
+
+ /* ---------------------Consumed on 10/2/25----------------------- */
+ /* ModelPortfolio 29-1-25 */
+ .backbtnmodalport {
+   margin: 0px !important;
+   padding: 4px !important;
+   width: 75px !important;
+   font-size: 12px !important;
+   top: -5px !important;
+ }
+
+ .uppersearport {
+   padding: 20px 0px 0px 0px;
+   min-height: 35px;
+ }
+
+ .basefortabels th,
+ .basefortabels td {
+   font-family: "Poppins", sans-serif !important;
+   font-size: 12px;
+   font-weight: 500;
+ }
+
+ .tabheadsinall th {
+   color: #9F8F8F;
+ }
+
+ .parentcss {
+   background-color: #7351D5;
+   color: #fff;
+   padding: 0px 8px 1px 8px;
+   float: left;
+   border-radius: 15px;
+   width: 40px
+ }
+
+ .childcss {
+   background-color: #A489F1;
+   color: #fff;
+   padding: 0px 8px 1px 8px;
+   float: left;
+   border-radius: 15px;
+   width: 40px
+ }
+
+ .exclaimgcss {
+   margin: 3px 0px 0px 5px;
+ }
+
+ .clitoedit {
+   color: #7351D5;
+ }
+
+ .modalcreatbtn {
+   background-color: #A35CFB !important;
+   border-radius: 5px !important;
+   color: #fff !important;
+   font-size: 12px !important;
+   padding: 3px 10px 3px 10px !important;
+   margin: -2px 10px 0px 0px !important;
+ }
+
+ .all12font {
+   font-size: 12px !important;
+ }
+
+ .newposicon {
+   top: 8px
+ }
+
+ .fortxtboxes {
+   padding: 15px 10px 15px 10px;
+   box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, -0.86), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+   border-radius: 10px;
+ }
+
+ .tabheadersgry {
+   background-color: #F4F2F2;
+ }
+
+ .tabheadersgry tr th {
+   padding: 0px 0px 0px 11px;
+ }
+
+ .popinfontimp {
+   font-family: "Poppins" !important;
+ }
+
+ .tabelsinsadd {
+   width: 47%;
+   float: left;
+   margin: 0px 0px 0px 00px !important;
+ }
+
+ .tabelsinsadd1 {
+   width: 80%;
+   float: left;
+   margin: 0px 0px 0px 00px !important;
+ }
+
+ .tabelsinsadd2 {
+   width: 82%;
+   float: left;
+   margin: 0px 0px 0px 00px !important;
+ }
+
+ .addtablerows {
+   width: 92%;
+   float: left;
+   padding: 0px 0px 0px 10px !important;
+ }
+
+ .addtablerows1 {
+   width: 81%;
+   float: left;
+   padding: 0px 0px 0px 10px !important;
+ }
+
+ .tabelsinsaddsingle {
+   width: 96%;
+   float: left;
+   margin: 0px 0px 0px 00px !important;
+ }
+
+ .marleftin {
+   margin: 0px 0px 0px 20px !important
+ }
+
+ .modeltabelcss th {
+   border-right: 1px solid #ddd !important;
+   padding: 5px 0px 0px 0px;
+   font-weight: 500;
+   font-family: "Poppins" !important;
+   font-size: 12px !important;
+ }
+
+ .modeltabelcss tbody tr td {
+   height: 45px;
+   border-right: 1px solid #ddd !important;
+   padding: 0px 0px 0px 10px;
+ }
+
+ .forallspacecss svg {
+   width: 15px !important;
+   height: 15px !important;
+   fill: #a35cfb !important;
+ }
+
+ .forallspacecss span {
+   font-family: "Poppins" !important;
+   font-size: 12px !important;
+   padding-top: 5px;
+ }
+
+ .mainL2select {
+   width: 92% !important;
+   margin-left: 10px !important;
+   font-family: "Poppins" !important;
+   height: 35px;
+   font-size: 12px !important;
+   font-weight: 500 !important;
+ }
+
+ .mainL2funds {
+   width: 200px !important;
+   margin-left: 10px !important;
+   margin-top: 30px;
+ }
+
+ .slectwithclose {
+   width: 46% !important;
+   margin-left: 10px !important;
+   margin-top: 30px;
+ }
+
+ .slectwithcloseinparent {
+   width: 80% !important;
+ }
+
+ .slectmaindd {
+   width: 220px !important;
+   margin-top: 3px !important;
+   float: left;
+ }
+
+ .slectmaindd1 {
+   width: 93% !important;
+   margin-top: 3px !important;
+   float: left;
+ }
+
+ .closico {
+   margin-top: -20px !important;
+ }
+
+ .paddingforheaders {
+   padding: 5px 10px 5px 10px !important;
+   font-size: 12px !important;
+   color: #8A8484 !important;
+ }
+
+ .paddingforheaderszero {
+   padding: 5px 0px 5px 0px !important;
+   font-size: 12px !important;
+   color: #8A8484 !important;
+ }
+
+ .tgswitch {
+   padding: 15px 10px 15px 10px;
+ }
+
+ .tgswitch div {
+   font-weight: normal !important;
+   padding: 0px;
+ }
+
+ .threebords {
+   border-bottom: 1px solid #ddd !important;
+   border-right: 1px solid #ddd;
+   border-top: 1px solid #ddd;
+   border-left: 1px solid #ddd;
+ }
+
+ .extbottomgray {
+   border-bottom: 1px solid #ddd;
+ }
+
+ .addrowbtns {
+   background-color: #fff !important;
+   font-family: "Poppins" !important;
+   font-size: 12px !important;
+   border: 1px solid #A35CFB !important;
+   color: #A35CFB !important;
+   border-radius: 5px !important;
+   font-size: 12px !important;
+   padding: 3px 3px 3px 3px !important;
+   box-shadow: none !important;
+ }
+
+ .l2labels {
+   font-family: "Poppins" !important;
+   font-size: 12px !important;
+   padding: 5px 0px 0px 10px;
+   color: #8A8484 !important;
+ }
+
+ .l2labels1 {
+   font-family: "Poppins" !important;
+   font-size: 12px !important;
+   padding: 55px 0px 0px 10px;
+   color: #8A8484 !important;
+ }
+
+ .borsleft {
+   border-left: 1px solid #ddd;
+ }
+
+ .disgray {
+   background-color: #EEE9E9;
+   width: 100% !important;
+   margin: 0px 0px 0px 0px !important;
+ }
+
+ .disgray80 {
+   background-color: #EEE9E9;
+   width: 82% !important;
+   margin: 0px 0px 0px 0px !important;
+ }
+
+ .changespans {
+   background-color: #fff;
+   padding: 3px 4px 4px 3px;
+   margin-left: 10px !important;
+   border-radius: 5px;
+   color: #000 !important;
+ }
+
+ .pergapstpnabove {
+   padding: 20px 0px 0px 0px;
+ }
+
+ .secondtabinmodel {
+   padding: 10px 0px 0px 15px;
+ }
+
+ .mainL2selectdropdown {
+   width: 92% !important;
+   margin-left: 10px !important;
+   font-family: "Poppins" !important;
+   height: 35px;
+   font-size: 12px !important;
+   font-weight: 500 !important;
+ }
+
+ .newposcss {
+   margin-left: 0px !important;
+ }
+
+ .tbrowhead {
+   padding: 15px 0px 15px 10px !important;
+   font-weight: 600 !important;
+   color: #8A8484 !important;
+   font-family: "Poppins" !important;
+   font-size: 12px !important;
+ }
+
+ .tbrowheadblack {
+   padding: 15px 0px 15px 10px !important;
+   font-weight: 600 !important;
+   color: #000000 !important;
+   font-family: "Poppins" !important;
+   font-size: 12px !important;
+ }
+
+ .Generatebtn {
+   font-family: "Poppins" !important;
+   font-size: 12px !important;
+   border-radius: 5px !important;
+   padding: 3px 9px 3px 9px !important;
+   box-shadow: none !important;
+ }
+
+ .lfroats {
+   margin-left: 10px !important;
+   float: left;
+   margin-bottom: 15px;
+ }
+
+ .extzeroallside {
+   padding: 5px 10px 5px 10px !important;
+ }
+
+ .changespans input {
+   padding: 4px 2px 2px 7px !important;
+   width: 35px;
+   text-align: center;
+   font-family: "Poppins", sans-serif !important;
+   font-weight: 600;
+ }
+
+ .slectwithclose input {
+   font-family: "Poppins", sans-serif !important;
+   font-weight: 600 !important;
+ }
+
+ .largepopcss {
+   width: 1000px !important
+ }
+
+ .newblaccol {
+   font-family: "Poppins", sans-serif !important;
+   font-size: 13px;
+   padding: 0px 0px 0px 7px;
+   color: #000;
+ }
+
+ .basefortabels1 th,
+ .basefortabels1 td {
+   font-family: "Poppins", sans-serif !important;
+   font-size: 12px;
+   font-weight: 500;
+   padding: 5px 5px 5px 5px;
+ }
+
+ .starpos {
+   padding: 0px 0px 0px 0px !important
+ }
+
+ .maxtabel500 {
+   height: 350px !important;
+   overflow-y: scroll;
+ }
+
+ .addmodelbtn {
+   margin-top: 15px !important;
+ }
+
+ .herarpop {
+   width: 100%;
+   text-align: right;
+   cursor: pointer;
+   padding-bottom: 10px;
+ }
+
+ .smallspaces {
+   padding: 10px 0px 0px 0px;
+ }
+
+ .floris {
+   float: right;
+   padding: 0px 0px 0px 0px;
+   margin-right: 20px;
+ }
+
+ .displaymodelfolio th,
+ .displaymodelfolio td {
+   font-family: "Poppins", sans-serif !important;
+   border: 1px solid #ddd;
+   font-size: 12px;
+   padding: 8px 5px 8px 10px;
+   font-weight: 500;
+ }
+
+ .lightgrcol {
+   color: #9F8F8F !important;
+ }
+
+ .intextbox input {
+   font-family: "Poppins", sans-serif !important;
+   font-size: 12px;
+   text-align: center !important;
+ }
+
+ .orangewhitebluemain {
+   color: #fff;
+   padding: 0px 10px 2px 10px;
+   border-radius: 50px;
+ }
+
+ .orangecss {
+   background-color: #FCD633;
+ }
+
+ .lightskycss {
+   background-color: #9E7FF6;
+ }
+
+ .skycss {
+   background-color: #2DB5BE;
+ }
+
+ /* 5-2-25 */
+ .bigfontblc {
+   font-size: 14px;
+   font-weight: 600;
+   padding: 0px 0px 0px 20px;
+ }
+
+ .Totalblctxt {
+   font-size: 16px;
+   font-weight: 600;
+   width: 100%;
+   text-align: center;
+ }
+
+ .exttopFund {
+   vertical-align: top !important;
+   padding-top: 20px !important;
+ }
+
+ .spaceheight {
+   width: 100%;
+   height: 5px;
+ }
+
+ .closiconright {
+   text-align: right;
+   padding-right: 20px;
+   cursor: pointer;
+ }
+
+ .noborderstotal {
+   border: none !important
+ }
+
+ .topzeroimp {
+   padding-top: 0px !important;
+   padding-left: 0px;
+ }
+
+ .gpfromtops {
+   margin-top: 20px !important;
+ }
+
+ .riskquestions {
+   text-align: left;
+   padding: 5px 0px 5px 0px;
+ }
+
+ .incheckb svg {
+   width: 20px !important;
+   height: 20px !important;
+   fill: #a35cfb !important;
+ }
+
+ .nextbtninrisk {
+   font-size: 12px !important;
+   text-transform: capitalize !important;
+   background-color: #A35CFB !important;
+   color: #fff !important
+ }
+
+ .capitalizebtncss {
+   text-transform: capitalize !important;
+ }
+
+ label.riskquestions {
+   display: flex;
+   align-items: baseline;
+ }
+
+ label.riskquestions span {
+   position: relative;
+   top: 5px;
+ }
+
+ .pointerClass {
+   cursor: pointer;
+ }
+
+ .cssforborders th,
+ .cssforborders td {
+   border: none !important;
+   border-bottom: 1px solid #ddd !important;
+   font-family: "Poppins", sans-serif !important;
+   padding: 6px 10px 6px 10px;
+ }
+
+ .cssforborders th {
+   border-top: 1px solid #ddd !important;
+ }
+
+ .showinmiddle {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ /* 12-2-25      */
+ .changewids {
+   padding: 5px 10px 5px 10px;
+ }
+
+ .addbrnscss {
+   background-color: #853FDC !important;
+ }
+
+ .pluscol svg,
+ .tabsborder svg {
+   color: #853FDC;
+ }
+
+ .darkblackclr {
+   color: #000 !important
+ }
+
+ .tbsizewid33 {
+   width: 33%;
+ }
+
+ .tbsizewid25 {
+   width: 25%;
+ }
+
+ .botsgrayborder {
+   border-top: 1px solid #ddd !important;
+ }
+
+ .fixheiflexwidth {
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+   gap: 10px;
+ }
+
+ .textLowerCase {
+   text-transform: capitalize !important;
+ }
+
+
+ .Mui-disabled{color:#fff !important;opacity: .3;}
+.cancelfilters{margin-top: 20px;
+  border: 1px solid #A35CFB !important;
+  background: #fff !important;
+  color: #A35CFB !important;}
+  .skiprowbtns {
+    background-color: #fff !important;
+    font-family: "Poppins" !important;
+    font-size: 12px !important;
+    border: 1px solid #A35CFB !important;
+    color: #A35CFB !important;
+    border-radius: 5px !important;
+    font-size: 12px !important;
+    padding: 5px 3px 5px 3px !important;
+    box-shadow: none !important;
+    text-transform: capitalize;
+  }
+
+  button{text-transform: capitalize !important;}
+  .resendbtn{color: #A35CFB !important;}
+
+ .Mui-disabled {
+   color: #fff !important;
+   opacity: .3;
+ }
+  /* Use <StyledBadge /> component in FundExplorer section */
+  .css-n95g7-MuiBadge-root .MuiBadge-badge{
+    margin-right: -5px !important;  
+  }
+  /* End */
+ .cancelfilters {
+   margin-top: 20px;
+   border: 1px solid #A35CFB !important;
+   background: #fff !important;
+   color: #A35CFB !important;
+ }
+
+ .skiprowbtns {
+   background-color: #fff !important;
+   font-family: "Poppins" !important;
+   font-size: 12px !important;
+   border: 1px solid #A35CFB !important;
+   color: #A35CFB !important;
+   border-radius: 5px !important;
+   font-size: 12px !important;
+   padding: 5px 3px 5px 3px !important;
+   box-shadow: none !important;
+   text-transform: capitalize;
+ }
+
+ .marginTopView {
+   margin-top: 30px;
+ }
+  
+  /* Use <StyledBadge /> component in FundExplorer section */
+  .css-n95g7-MuiBadge-root .MuiBadge-badge{
+    margin-right: -5px !important;  
+  }
+  /* End */
+
+  button{text-transform: capitalize !important;}
+  .resendbtn{color: #A35CFB !important;}
+
+
+  .marginTopView {
+    margin-top: 30px;
+  }
+
+/* 5-3-25 */

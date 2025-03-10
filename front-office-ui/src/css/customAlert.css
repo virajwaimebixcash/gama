@@ -1,0 +1,53 @@
+/* General dialog style */
+.custom-alert-dialog {
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center; /* Center content in the dialog */
+  }
+  
+  /* Title styling for the dialog */
+  .custom-alert-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  /* Icon styling */
+  .custom-alert-icon {
+    font-size: 4rem; /* Increase icon size */
+    color: #007bff; /* Default color, can be modified */
+  }
+  
+  /* Button container alignment */
+  .custom-alert-actions {
+    display: flex;
+    justify-content: center; /* Center align both buttons */
+    gap: 10px; /* Add space between buttons */
+  }
+  
+  /* Style for the confirmation button */
+  .custom-alert-button {
+    padding: 5px 10px;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    background-color: #A35CFB;
+    border-radius: 4px;
+    transition: background-color 0.3s ease; text-transform: none;
+  }
+  
+  .custom-alert-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style for the cancel button */
+  .custom-alert-button.cancel {
+    background-color: #6c757d;
+  }
+  
+  .custom-alert-button.cancel:hover {
+    background-color: #5a6268;
+  }
+  

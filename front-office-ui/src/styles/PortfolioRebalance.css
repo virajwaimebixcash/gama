@@ -1,0 +1,177 @@
+  /* Portfolio Rebalancing */
+  .redbacksrebalance{background-color: #E24B4B;
+    font-size: 12px;
+    padding: 3px 5px 3px 5px;
+    border-radius: 8px;
+    color: #fff;}
+    .greenredbacksrebalance {
+      background-color: #169E2C;
+      font-size: 12px;
+      padding: 3px 5px 3px 5px;
+      border-radius: 8px;
+      color: #fff;
+    }
+    .lavendercolor{color: #7351D5 !important;}
+    .neg5up{margin: -.6rem 13px 0px 0px;}
+    .neg5up div{width:140px !important}
+    .fullblcspan{color: #000000;}
+    .spacebetw{padding: 0px 5px 0px 0px;font-family: "Poppins", sans-serif !important;}
+    .fon13nrllatest{font-family: "Poppins", sans-serif !important;font-size: 13px;  color: #AB9D9D;     font-weight: normal;}
+    .left30pix{padding-left: 5px;}
+    .tgswitch11{padding: 0px 0px 0px 15px;}
+    .tgswitch11 div{font-weight: normal !important;padding: 0px;}
+    .rebalorange{padding: 0px 5px 0px 5px;
+      color: #fff;
+      background-color: #FFAC13;
+      border-radius: 5px;}
+      .uppersearport20 {
+        padding: 20px 0px 20px 0px;
+        min-height: 35px;
+    }
+    .texttranssmal1 button {background-color: #E1E1E1;color: #8d8d8d;
+      border-radius: 10px;;margin: 0px 6px 0px 0px;text-transform: capitalize !important;padding:4px 4px;     font-size: 13px;}
+    .texttranssmal1 .css-19kzrtu{padding: 0px 0px 10px 0px !important;}
+    .texttranssmal1 button.Mui-selected{color: #fff !important;
+      background-color: #7351D5;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;color: #fff;}
+    .texttranssmal1 .MuiTabs-root{min-height: 30px !important;height: 30px !important;}
+    .texttranssmal1 button.Mui-selected div{margin-top: -15px !important;}
+    .texttranssmal1 button div {
+      margin-top: -15px !important;
+  }
+  .texttranssmal1 button.Mui-selected span{color: #fff !important;}
+  .texttranssmal1 svg{width: 15px !important;
+    height: 15px !important;
+    fill: #a35cfb !important;}
+  .tabheadsinalltable th{color: #9F8F8F;padding: 7px 5px 7px 5px !important;border-top: 1px solid #D4D4D4;}
+  .tabheadsinalltable1 th{color: #9F8F8F;padding: 14px 10px 14px 10px !important;border-top: 1px solid #D4D4D4;}  
+  .basefortabels1 th , .basefortabels1 td{font-family: "Poppins", sans-serif !important;
+    font-size: 12px;font-weight: 500; padding: 7px 5px 7px 5px;} 
+  .basefortabels1{margin: 0px 0px 0px 0px}  
+  .fon13nrlnew{font-size: 12px;  color: #9F8F8F;     font-weight: 500;}
+  .fon13nrlnew button{background-color: transparent !important;}
+  .forsvgico svg{width: 25px !important;
+    height: 25px !important;}
+  .basefortabels1 td{border-bottom: 1px solid #F7F7F7 !important;}   
+  .leftforview{padding-left: 10px;}
+  .excelfiltertab{margin-top: -3px;}
+  .excelfiltertabneg{margin-top: -15px;}
+  .excelfiltertab td{padding: 0px 5px 0px 5px;}
+  .rebalbox .MuiBox-root{padding: 0px;border: none;}
+  .whitcolbg{background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 9px 1px rgba(44, 53, 66, .1);}
+  .searchbxleft{width:300px;}    
+  .searchbxleft label{display: none;}
+  .searchbxleft .MuiOutlinedInput-root{padding: 0px !important;border-bottom: 2px solid #ddd;
+    border-radius: 0px;}
+  .searchbxleft .css-1d3z3hw-MuiOutlinedInput-notchedOutline{border: none !important;}
+  .searchbxleft button{display: none;}
+  .searchbxleft .MuiInputAdornment-sizeMedium{position: absolute;
+    right: 0;}
+  .searchbxleft svg{color: #fff;
+    background: #7351D5;
+    border-radius: 50%;padding: 3px 3px 3px 3px;}  
+   .searchbxleft fieldset{border: none;} 
+   button{font-family: "Poppins", sans-serif !important;}
+   .rebalbox button{font-size: 12px;}
+   .rebalbox svg{width: 20px !important;
+    height: 20px !important;}
+   .tententwenty{padding: 10px 0px 0px 0px;} 
+   .opcthalf{width: 110px;
+    opacity: .4;margin-top: 8px;}
+    .fundnamecss{font-size: 14px;
+      vertical-align: top;
+      padding: 0px 15px 0px 0px;
+      font-weight: 500;}
+    .valigbottom{vertical-align: bottom;}  
+    .font500{font-weight: 500;}  
+    .perinpbox{width: auto;
+      float: left;
+      max-width: 40px;}
+    .perinpboxfull{width: auto;
+        float: left;
+        }
+    .perinpbox input{height: auto;
+      padding: 3px 3px 3px 3px;
+      text-align: center;}
+    .gapsintrs{padding: 0px 5px 0px 5px !important;font-family: "Poppins", sans-serif !important;}
+    .forupperspac{float: right;
+      padding: 30px 0px 0px 0px;}
+    .fontforallcomponent .aligmelefts{font-family: "Poppins", sans-serif !important;}  
+    .chboxsvg svg{width: 15px !important;
+      height: 15px !important;
+      fill: #a35cfb !important;}
+    .forsubheas{font-family: "Poppins", sans-serif !important;
+      font-size: 12px;}  
+      .forsubheasnew{font-family: "Poppins", sans-serif !important;
+        font-size: 12px;padding-left: 7px;}  
+    .scrolltabwith{width:1700px !important}
+    .spaceintwotab{margin-top: 20px;}
+    .foric .forsvgico svg{width: 25px !important;
+      height: 25px !important;}
+    .fivepadss{padding-top: 5px;}  
+    .exclnewpos{padding: 2px 0px 0px 5px;}
+    .top17{padding-top: 15px !important;}
+    .zercss{padding: 0px !important;}
+    .basefortabels2 th , .basefortabels2 td{font-family: "Poppins", sans-serif !important;
+      font-size: 12px;font-weight: 500; padding: 5px 10px 5px 10px;} 
+    .darkplaceorder{position: absolute !important;
+      margin-right: 12px !important;z-index: 99;
+      margin-top: -8px !important;right: 0;background-color: #472D68 !important;cursor: pointer;}  
+     .twentyfromtop{padding: 10px 0px 0px 0px;}
+     .tenfromtop{padding: 0px 0px 0px 0px;}
+     .gnorder{padding: 13px 0px 0px 0px;
+      text-align: right;}
+      .genbtns {margin-top: 5px;}
+      .excelfiltertabext{margin-top: 5px;}
+      @media screen and (min-width: 800px ) and (max-width: 1190px) {
+       
+      
+      }
+      @media (max-width:800px){
+        .tententwenty{height: 30px;}
+        .tgswitch11{padding: 0px 0px 0px 0px;}
+        .marginsmall{margin-top: 15px;}
+        .genbtns{position: absolute;
+          position: absolute;
+          top: 60px;
+          text-align: right;
+          float: right;
+          right: 70px;width: 140px !important;}
+          .actgen{position: absolute;
+            top: 60px;
+            left: 80%;}
+      }
+      
+      .flxright{display: flex;
+        justify-content: flex-end; /* Pushes text to the right */
+        width: 100%;padding: 20px 0px 0px 0px;}
+
+        .Generatebtn {
+          font-family: "Poppins" !important;
+          font-size: 12px !important;
+          border-radius: 5px !important;
+          padding: 3px 9px 3px 9px !important;
+          box-shadow: none !important;
+          background-color: #A35CFB !important;
+        }
+
+        .Darkbtn {
+          font-family: "Poppins" !important;
+          font-size: 12px !important;
+          border-radius: 5px !important;
+          padding: 3px 9px 3px 9px !important;
+          box-shadow: none !important;
+         
+        }
+        .newspacesinblock1 .width50{font-size: 13px; font-weight: 600;}
+        .font600{font-weight: 600;}
+        .fon60012{font-size: 12px;
+          font-weight: 600;}
+          .lemeright{display: flex ;
+                justify-content: flex-end;
+                padding-top: 30px;
+                padding-right: 10px;}

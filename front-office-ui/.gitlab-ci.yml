@@ -1,0 +1,103 @@
+stages:
+  - build
+  - deploy
+  - stopDevService
+  - startDevService
+
+ 
+# Define variables for your deployment
+variables:
+  MAVEN_OPTS: "-Xms256m -Xmx512m"
+  GITLAB_CI_ARTIFACT_DOWNLOAD_TIMEOUT: "60"  # Timeout in seconds
+  GIT_DEPTH: "50"  # Git depth
+  RETRY: "3"  # Number of retries
+  TIMEOUT: "600"  # Increase timeout if needed
+ 
+# Build job for Dev environment
+build-job-dev:
+  stage: build
+  tags:
+    - npm
+  script:
+    - echo "Building the FrontOffice-UI project for Dev environment"
+    - echo "Started installation for node_modules"
+    - node -v
+    - npm -v
+    - npm install
+    - echo "Started Build Process on Dev environment"
+    - npm run build
+    - echo "Build completed, dist folder created"
+  artifacts:
+    paths:
+      - dist/*
+  when: manual  # Allow manual triggering if rules match
+ 
+# Build job for QA environment
+build-job-qa:
+  stage: build
+  tags:
+    - npm
+  script:
+    - echo "Building the FrontOffice-UI project for QA environment"
+    - echo "Started installation for node_modules"
+    - node -v
+    - npm -v
+    - npm install
+    - echo "Started Build Process on QA environment"
+    - npm run build-staging
+    - echo "Build completed, dist folder created"
+  artifacts:
+    paths:
+      - dist/*
+  when: manual  # Allow manual triggering if rules match
+ 
+# Deploy job for Dev environment
+deploy-dev:
+  stage: deploy
+  tags:
+    - npm
+  script:
+    - echo "Deploying to Tomcat server on Dev environment..."
+    - $DEPLOY_FILE="D:\GitLab_Runner\builds\2yChH3zg\0\ebix-product-stack\front-office\frontoffice-ui\dist\*"
+    - $TOMCAT_SERVER_PATH="C:\Program Files\Apache Software Foundation\Tomcat 10.1_Tomcat10_Dev\webapps\react\"
+    - xcopy "$DEPLOY_FILE" "$TOMCAT_SERVER_PATH" /s /e /i /y
+
+  when: manual  # Allow manual triggering if rules match
+  
+stop-dev-service:
+  stage: stopDevService
+  tags:
+    - npm
+
+  script:
+    - echo "Stop Tomcate dev Service"
+    - |
+    - net stop "Tomcat10_Dev"    
+  when: manual  # Allow manual triggering if rules match
+
+start-dev-service:
+  stage: startDevService
+  tags:
+    - npm
+
+  script:
+    - echo "Start Tomcate dev Service"
+    - |
+    - net start "Tomcat10_Dev"
+    
+  when: manual  # Allow manual triggering if rules match
+
+ 
+# Deploy job for QA environment
+deploy-qa:
+  stage: deploy
+  tags:
+    - npm
+  script:
+    - echo "Deploying to Tomcat server on QA environment..."
+    - $DEPLOY_FILE="D:\GitLab_Runner\builds\2yChH3zg\0\ebix-product-stack\front-office\frontoffice-ui\dist\*"
+    - $TOMCAT_SERVER_PATH="C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\react\"
+    - xcopy "$DEPLOY_FILE" "$TOMCAT_SERVER_PATH" /s /e /i /y
+    - net stop "Tomcat10_Dev"
+    - net start "Tomcat10_Dev"
+  when: manual  # Allow manual triggering if rules match

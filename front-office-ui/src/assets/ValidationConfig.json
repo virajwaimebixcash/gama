@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Select",
+    "value": "",
+    "message": "Please select a validation type"
+  },
+  {
+    "name": "Alphanumeric",
+    "value": "^[\\p{L}\\p{N}]*$",
+    "message": "Only alphanumeric characters are allowed."
+  },
+  {
+    "name": "Alphabets with Spaces",
+    "value": "^[\\p{L}\\p{M}\\s]+$",
+    "message": "Only alphabets with spaces are allowed."
+  },
+  {
+    "name": "Alphanumeric with Spaces",
+    "value": "^[\\p{L}\\p{N}\\s]*$",
+    "message": "Only alphanumeric characters with spaces are allowed."
+  },
+  {
+    "name": "Numeric",
+    "value": "^\\d*$",
+    "message": "Only numeric characters are allowed."
+  },
+  {
+    "name": "Email",
+    "value": "^[\\p{L}\\p{N}._%+-]+@[\\p{L}\\p{N}.-]+\\.[a-zA-Z]{2,}$",
+    "message": "Please enter a valid email address."
+  },
+  {
+    "name": "Alphanumeric with Symbols",
+    "value": "^[\\p{L}\\p{M}\\p{N}\\p{P}\\p{S}\\s]+$",
+    "message": "Alphanumeric characters with symbols are allowed."
+  },
+  {
+    "name": "Mobile",
+    "value": "^[5-9][0-9]{9}$",
+    "message": "Only digits are allowed."
+  },
+  {
+    "name": "Zipcode",
+    "value": "^[1-9][0-9]{5}$",
+    "message": "Only digits are allowed."
+  },
+  {
+    "name": "Password",
+    "value": "(?=.*\\d)(?=.*[a-z])(?=.*[A-Z]).{8,}",
+    "message": "Password must be at least 8 characters long and include uppercase, lowercase, and a number."
+  }
+]
