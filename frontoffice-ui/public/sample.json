@@ -1,0 +1,1626 @@
+{
+    "getGroup": [
+        {
+            "pvgroupId": 100,
+            "groupName": "Group 1",
+            "groupHeader": "Header 1",
+            "isHide": false,
+            "groupViewType": "List",
+            "groupSequenceNo": 100,
+            "dataGroup": "Bank Detils"
+        },
+        {
+            "pvgroupId": 104,
+            "groupName": "Nomniee",
+            "groupHeader": "Header 2",
+            "isHide": true,
+            "groupViewType": "List",
+            "groupSequenceNo": 102,
+            "dataGroup": "Nomniee"
+        },
+        {
+            "pvgroupId": 103,
+            "groupName": "Group 3",
+            "groupHeader": "Header 3",
+            "isHide": false,
+            "groupViewType": "List",
+            "groupSequenceNo": 103
+        },
+        {
+            "pvgroupId": 106,
+            "groupName": "Group 4",
+            "groupHeader": "Header 4",
+            "isHide": true,
+            "groupViewType": "List",
+            "groupSequenceNo": 104
+        },
+        {
+            "pvgroupId": 105,
+            "groupName": "Group 5",
+            "groupHeader": "Header 5",
+            "isHide": false,
+            "groupViewType": "List",
+            "groupSequenceNo": 105
+        }
+    ],
+    "fields": [
+        {
+            "fieldId": 1,
+            "fieldName": "field_1",
+            "displayName": "Field 1",
+            "isHide": false,
+            "pvgroupId": 100,
+            "fieldSequenceNo": 1
+        },
+        {
+            "fieldId": 2,
+            "fieldName": "field_2",
+            "displayName": "Field 2",
+            "isHide": false,
+            "pvgroupId": 100,
+            "fieldSequenceNo": 2
+        },
+        {
+            "fieldId": 3,
+            "fieldName": "field_3",
+            "displayName": "Field 3",
+            "isHide": true,
+            "pvgroupId": 100,
+            "fieldSequenceNo": 3
+        },
+        {
+            "fieldId": 4,
+            "fieldName": "field_4",
+            "displayName": "Field 4",
+            "isHide": false,
+            "pvgroupId": 100,
+            "fieldSequenceNo": 4
+        },
+        {
+            "fieldId": 5,
+            "fieldName": "field_5",
+            "displayName": "Field 5",
+            "isHide": true,
+            "pvgroupId": 101,
+            "fieldSequenceNo": 5
+        },
+        {
+            "fieldId": 6,
+            "fieldName": "field_6",
+            "displayName": "Field 6",
+            "isHide": false,
+            "pvgroupId": 101,
+            "fieldSequenceNo": 6
+        },
+        {
+            "fieldId": 7,
+            "fieldName": "field_7",
+            "displayName": "Field 7",
+            "isHide": true,
+            "pvgroupId": 101,
+            "fieldSequenceNo": 7
+        },
+        {
+            "fieldId": 8,
+            "fieldName": "field_8",
+            "displayName": "Field 8",
+            "isHide": false,
+            "pvgroupId": 104,
+            "fieldSequenceNo": 8
+        },
+        {
+            "fieldId": 9,
+            "fieldName": "field_9",
+            "displayName": "Field 9",
+            "isHide": false,
+            "pvgroupId": 101,
+            "fieldSequenceNo": 9
+        },
+        {
+            "fieldId": 10,
+            "fieldName": "field_10",
+            "displayName": "Field 10",
+            "isHide": true,
+            "pvgroupId": 102,
+            "fieldSequenceNo": 10
+        },
+        {
+            "fieldId": 11,
+            "fieldName": "field_11",
+            "displayName": "Field 11",
+            "isHide": false,
+            "pvgroupId": 102,
+            "fieldSequenceNo": 11
+        },
+        {
+            "fieldId": 12,
+            "fieldName": "field_12",
+            "displayName": "Field 12",
+            "isHide": true,
+            "pvgroupId": 102,
+            "fieldSequenceNo": 12
+        },
+        {
+            "fieldId": 13,
+            "fieldName": "field_13",
+            "displayName": "Field 13",
+            "isHide": false,
+            "pvgroupId": 102,
+            "fieldSequenceNo": 13
+        },
+        {
+            "fieldId": 14,
+            "fieldName": "field_14",
+            "displayName": "Field 14",
+            "isHide": false,
+            "pvgroupId": 104,
+            "fieldSequenceNo": 14
+        },
+        {
+            "fieldId": 15,
+            "fieldName": "field_15",
+            "displayName": "Field 15",
+            "isHide": true,
+            "pvgroupId": 103,
+            "fieldSequenceNo": 15
+        },
+        {
+            "fieldId": 16,
+            "fieldName": "field_16",
+            "displayName": "Field 16",
+            "isHide": false,
+            "pvgroupId": 103,
+            "fieldSequenceNo": 16
+        },
+        {
+            "fieldId": 17,
+            "fieldName": "field_17",
+            "displayName": "Field 17",
+            "isHide": true,
+            "pvgroupId": 103,
+            "fieldSequenceNo": 17
+        },
+        {
+            "fieldId": 18,
+            "fieldName": "field_18",
+            "displayName": "Field 18",
+            "isHide": false,
+            "pvgroupId": 103,
+            "fieldSequenceNo": 18
+        },
+        {
+            "fieldId": 19,
+            "fieldName": "field_19",
+            "displayName": "Field 19",
+            "isHide": false,
+            "pvgroupId": 103,
+            "fieldSequenceNo": 19
+        },
+        {
+            "fieldId": 20,
+            "fieldName": "field_20",
+            "displayName": "Field 20",
+            "isHide": true,
+            "pvgroupId": 104,
+            "fieldSequenceNo": 20
+        }
+    ],
+    "data": {
+        "headerField":  [
+            {
+              "portfolioRebalancingHeaderFieldId": 1,
+              "productClassId": 1,
+              "pageType": "Summary",
+              "dispatcherName": "deviationGenerationDate",
+              "displayName": "Deviation Generation Date",
+              "fieldType": "F",
+              "isEditable": "N",
+              "defaultValue": null,
+              "isHide": "N"
+            },
+            {
+              "portfolioRebalancingHeaderFieldId": 2,
+              "productClassId": 1,
+              "pageType": "Summary",
+              "dispatcherName": "modelName",
+              "displayName": "Model Name",
+              "fieldType": "F",
+              "isEditable": "N",
+              "defaultValue": null,
+              "isHide": "N"
+            },
+            {
+              "portfolioRebalancingHeaderFieldId": 3,
+              "productClassId": 1,
+              "pageType": "Summary",
+              "dispatcherName": "modelType",
+              "displayName": "Model type",
+              "fieldType": "F",
+              "isEditable": "N",
+              "defaultValue": null,
+              "isHide": "N"
+            },
+            {
+              "portfolioRebalancingHeaderFieldId": 4,
+              "productClassId": 1,
+              "pageType": "Summary",
+              "dispatcherName": "viewType",
+              "displayName": "View Type",
+              "fieldType": "F",
+              "isEditable": "Y",
+              "defaultValue": "Security",
+              "isHide": "N"
+            },
+            {
+              "portfolioRebalancingHeaderFieldId": 5,
+              "productClassId": 1,
+              "pageType": "Summary",
+              "dispatcherName": "orderType",
+              "displayName": "Order Type",
+              "fieldType": "F",
+              "isEditable": "Y",
+              "defaultValue": "Buy",
+              "isHide": "N"
+            },
+            {
+              "portfolioRebalancingHeaderFieldId": 6,
+              "productClassId": 1,
+              "pageType": "Summary",
+              "dispatcherName": "portfolioType",
+              "displayName": "Portfolio type",
+              "fieldType": "F",
+              "isEditable": "Y",
+              "defaultValue": "Executionary",
+              "isHide": "N"
+            }
+          ],
+        "tabDetails": [
+            {
+                "tabName": "Mutual Fund",
+                "productClassId": 1,
+                "productSubClassId": "1",
+                "productSubClass": "MutualFund",
+                "orderTypeId": 2,
+                "orderType": "Buy",
+                "portfolioType": "Executionary",
+                "portfolioTypeId": 1,
+                "fixedFieldConfigToApply":[
+                    {
+                        "orderConfigId": 5,
+                        "orderConfigDtlId": 57,
+                        "productSubClassId": [
+                            3
+                        ],
+                        "orderTypeId": 2,
+                        "portfolioTypeId": [
+                            1
+                        ],
+                        "fieldName": "MF Scheme",
+                        "isHide": false,
+                        "defaultValue": "Scheme",
+                        "displayLabel": "Scheme Name",
+                        "fieldValues": [],
+                        "isList": false,
+                        "isReadOnly": true,
+                        "dispatcherName": "",
+                        "isMandatory": false
+                    },
+                    {
+                        "orderConfigId": 6,
+                        "orderConfigDtlId": 58,
+                        "productSubClassId": [
+                            3
+                        ],
+                        "orderTypeId": 2,
+                        "portfolioTypeId": [
+                            1
+                        ],
+                        "fieldName": "Folio",
+                        "isHide": false,
+                        "defaultValue": "New Folio",
+                        "displayLabel": "Folio",
+                        "fieldValues": [
+                            {
+                                "id": 6,
+                                "orderConfigId": 6,
+                                "values": "New Folio"
+                            },
+                            {
+                                "id": 7,
+                                "orderConfigId": 6,
+                                "values": "Latest Folio"
+                            },
+                            {
+                                "id": 8,
+                                "orderConfigId": 6,
+                                "values": "Oldest Folio"
+                            }
+                        ],
+                        "isList": true,
+                        "isReadOnly": false,
+                        "dispatcherName": "",
+                        "isMandatory": false
+                    },
+                    {
+                        "orderConfigId": 7,
+                        "orderConfigDtlId": 59,
+                        "productSubClassId": [
+                            3
+                        ],
+                        "orderTypeId": 2,
+                        "portfolioTypeId": [
+                            1
+                        ],
+                        "fieldName": "Order By",
+                        "isHide": true,
+                        "defaultValue": "Amount",
+                        "displayLabel": "Order By",
+                        "fieldValues": [
+                            {
+                                "id": 9,
+                                "orderConfigId": 7,
+                                "values": "Amount"
+                            },
+                            {
+                                "id": 10,
+                                "orderConfigId": 7,
+                                "values": "Unit"
+                            }
+                        ],
+                        "isList": true,
+                        "isReadOnly": true,
+                        "dispatcherName": "",
+                        "isMandatory": false
+                    },
+                    {
+                        "orderConfigId": 8,
+                        "orderConfigDtlId": 60,
+                        "productSubClassId": [
+                            3
+                        ],
+                        "orderTypeId": 2,
+                        "portfolioTypeId": [
+                            1
+                        ],
+                        "fieldName": "Order Amount",
+                        "isHide": false,
+                        "defaultValue": "Min. Investment Amount",
+                        "displayLabel": "Order Amount",
+                        "fieldValues": [
+                            {
+                                "id": 55,
+                                "orderConfigId": 8,
+                                "values": "Min. Investment Amount"
+                            },
+                            {
+                                "id": 56,
+                                "orderConfigId": 8,
+                                "values": "No Default"
+                            }
+                        ],
+                        "isList": true,
+                        "isReadOnly": false,
+                        "dispatcherName": "",
+                        "isMandatory": false
+                    },
+                    {
+                        "orderConfigId": 9,
+                        "orderConfigDtlId": 61,
+                        "productSubClassId": [
+                            3
+                        ],
+                        "orderTypeId": 2,
+                        "portfolioTypeId": [
+                            1
+                        ],
+                        "fieldName": "SIP Frequency",
+                        "isHide": false,
+                        "defaultValue": "Monthly",
+                        "displayLabel": "SIP Frequency",
+                        "fieldValues": [
+                            {
+                                "id": 11,
+                                "orderConfigId": 9,
+                                "values": "Monthly"
+                            }
+                        ],
+                        "isList": true,
+                        "isReadOnly": false,
+                        "dispatcherName": "",
+                        "isMandatory": false
+                    },
+                    {
+                        "orderConfigId": 10,
+                        "orderConfigDtlId": 62,
+                        "productSubClassId": [
+                            3
+                        ],
+                        "orderTypeId": 2,
+                        "portfolioTypeId": [
+                            1
+                        ],
+                        "fieldName": "SIP Date",
+                        "isHide": false,
+                        "defaultValue": "0",
+                        "displayLabel": "SIP Date",
+                        "fieldValues": [],
+                        "isList": false,
+                        "isReadOnly": true,
+                        "dispatcherName": "",
+                        "isMandatory": false
+                    },
+                    {
+                        "orderConfigId": 11,
+                        "orderConfigDtlId": 63,
+                        "productSubClassId": [
+                            3
+                        ],
+                        "orderTypeId": 2,
+                        "portfolioTypeId": [
+                            1
+                        ],
+                        "fieldName": "SIP Tenor Basis",
+                        "isHide": false,
+                        "defaultValue": "Perpetual",
+                        "displayLabel": "SIP Tenor Basis",
+                        "fieldValues": [
+                            {
+                                "id": 12,
+                                "orderConfigId": 11,
+                                "values": "Perpetual"
+                            },
+                            {
+                                "id": 13,
+                                "orderConfigId": 11,
+                                "values": "Months"
+                            },
+                            {
+                                "id": 14,
+                                "orderConfigId": 11,
+                                "values": "Years"
+                            },
+                            {
+                                "id": 15,
+                                "orderConfigId": 11,
+                                "values": "No of Transactions"
+                            }
+                        ],
+                        "isList": true,
+                        "isReadOnly": false,
+                        "dispatcherName": "",
+                        "isMandatory": false
+                    },
+                    {
+                        "orderConfigId": 12,
+                        "orderConfigDtlId": 64,
+                        "productSubClassId": [
+                            3
+                        ],
+                        "orderTypeId": 2,
+                        "portfolioTypeId": [
+                            1
+                        ],
+                        "fieldName": "SIP Period or SIP Transactions",
+                        "isHide": false,
+                        "defaultValue": "",
+                        "displayLabel": "SIP Period ",
+                        "fieldValues": [],
+                        "isList": false,
+                        "isReadOnly": false,
+                        "dispatcherName": "",
+                        "isMandatory": false
+                    },
+                    {
+                        "orderConfigId": 13,
+                        "orderConfigDtlId": 65,
+                        "productSubClassId": [
+                            3
+                        ],
+                        "orderTypeId": 2,
+                        "portfolioTypeId": [
+                            1
+                        ],
+                        "fieldName": "SIP End Date",
+                        "isHide": false,
+                        "defaultValue": "0",
+                        "displayLabel": "SIP End Date",
+                        "fieldValues": [],
+                        "isList": false,
+                        "isReadOnly": true,
+                        "dispatcherName": "",
+                        "isMandatory": false
+                    },
+                    {
+                        "orderConfigId": 45,
+                        "orderConfigDtlId": 153,
+                        "productSubClassId": [
+                            3
+                        ],
+                        "orderTypeId": 2,
+                        "portfolioTypeId": [
+                            1
+                        ],
+                        "fieldName": "Order Units",
+                        "isHide": false,
+                        "defaultValue": null,
+                        "displayLabel": "Order Units",
+                        "fieldValues": [],
+                        "isList": true,
+                        "isReadOnly": false,
+                        "dispatcherName": "",
+                        "isMandatory": false
+                    }
+                ],
+                "udfFieldConfigToApply": [
+                    
+                        {
+                            "entityName": "valuedate",
+                            "entityDatatype": "",
+                            "component": "date",
+                            "properties": {},
+                            "isFromAPI": false,
+                            "isHide": false,
+                            "dispatchername": "valuedate",
+                            "label": "Value Date",
+                            "validation": {
+                                "required": {
+                                    "value": true,
+                                    "message": "value date is required"
+                                }
+                            },
+                            "action": true,
+                            "isReadOnly": false
+                        },
+                        {
+                            "entityName": "platform",
+                            "entityDatatype": "",
+                            "component": "dropdown",
+                            "properties": {},
+                            "isFromAPI": false,
+                            "isHide": false,
+                            "dispatchername": "platform",
+                            "label": "Platform",
+                            "fetchdataapiurl": "http://frontoffice.milessoft.com:8080/api/udfConfigurator/entityMaster",
+                            "options": [],
+                            "defaultValue": 1,
+                            "validation": {
+                                "required": {
+                                    "value": false,
+                                    "message": "Platform is required"
+                                }
+                            },
+                            "action": true,
+                            "isReadOnly": false
+                        },
+                        {
+                            "entityName": "fee",
+                            "entityDatatype": "",
+                            "component": "featuredtext",
+                            "properties": {},
+                            "isFromAPI": false,
+                            "isHide": false,
+                            "dispatchername": "fee",
+                            "label": "Fee",
+                            "placeholder": "Transaction Fee",
+                            "type": "decimal",
+                            "decimalPrecision": "2",
+                            "thousandSeparator": false,
+                            "prefix": "Rs. ",
+                            "suffix": "",
+                            "validation": {
+                                "required": {
+                                    "value": false,
+                                    "message": "fee is required"
+                                },
+                                "minLength": {
+                                    "value": "1",
+                                    "message": "Minimum length is 1 characters"
+                                },
+                                "maxLength": {
+                                    "value": "100",
+                                    "message": "Maximum length is 100 characters"
+                                }
+                            },
+                            "action": true,
+                            "isReadOnly": false
+                        },
+                        {
+                            "entityName": "physicalformnumber",
+                            "entityDatatype": "",
+                            "component": "text",
+                            "properties": {},
+                            "isFromAPI": false,
+                            "isHide": false,
+                            "dispatchername": "physicalformnumber",
+                            "label": "Physical Form Number",
+                            "placeholder": "Physical Form Number",
+                            "validation": {
+                                "required": {
+                                    "value": false,
+                                    "message": "physical form number is required"
+                                },
+                                "minLength": {
+                                    "value": "1",
+                                    "message": "Minimum length is 1 characters"
+                                },
+                                "maxLength": {
+                                    "value": "256",
+                                    "message": "Maximum length is 256 characters"
+                                },
+                                "pattern": {
+                                    "value": "^[\\p{L}\\p{M}\\p{N}\\p{P}\\p{S}\\s]+$",
+                                    "message": "Alphanumeric characters with symbols are allowed."
+                                }
+                            },
+                            "action": true
+                        },
+                        {
+                            "entityName": "ordersourcedby",
+                            "entityDatatype": "",
+                            "component": "autoSuggestion",
+                            "properties": {},
+                            "isFromAPI": false,
+                            "isHide": false,
+                            "dispatchername": "ordersourcedby",
+                            "label": "Order Sourced by",
+                            "placeholder": "Order Sourced by",
+                            "validation": {
+                                "required": {
+                                    "value": true,
+                                    "message": "Select order sourced by"
+                                }
+                            },
+                            "action": true,
+                            "fetchdataapiurl": "http://frontoffice.milessoft.com:8090/api/common/getThirdPartyMasterData",
+                            "minCharsToSearch": 2,
+                            "requestParam": [
+                                {
+                                    "fieldName": "SearchKeyword",
+                                    "defaultValue": "",
+                                    "fieldNametoBindValue": "",
+                                    "IsSearchDropDownField": "Y"
+                                }
+                            ],
+                            "responseParam": {
+                                "Value": "ManagerCode",
+                                "Text": "ManagerName"
+                            },
+                            "relativeTPAPIUrl": "Order/PrimaryRMList",
+                            "dynamicBehavior": {
+                                "disable": null,
+                                "reset": null,
+                                "mandatory": null
+                            }
+                        },
+                        {
+                            "entityName": "introducedby",
+                            "entityDatatype": "",
+                            "component": "text",
+                            "properties": {},
+                            "isFromAPI": false,
+                            "isHide": false,
+                            "dispatchername": "introducedby",
+                            "label": "Introduced By",
+                            "placeholder": "Introduced By",
+                            "defaultValue": "Introduced By",
+                            "validation": {
+                                "required": {
+                                    "value": false,
+                                    "message": "introduced by is required"
+                                },
+                                "minLength": {
+                                    "value": "1",
+                                    "message": "Minimum length is 1 characters"
+                                },
+                                "maxLength": {
+                                    "value": "256",
+                                    "message": "Maximum length is 256 characters"
+                                },
+                                "pattern": {
+                                    "value": "^[\\p{L}\\p{M}\\s]+$",
+                                    "message": "Only alphabets with spaces are allowed."
+                                }
+                            },
+                            "action": true
+                        },
+                        {
+                            "entityName": "executionmode",
+                            "entityDatatype": "",
+                            "component": "dropdown",
+                            "properties": {},
+                            "isFromAPI": false,
+                            "isHide": false,
+                            "dispatchername": "executionmode",
+                            "label": "Execution Mode",
+                            "fetchdataapiurl": "http://frontoffice.milessoft.com:8080/api/udfConfigurator/entityMaster",
+                            "options": [],
+                            "defaultValue": 1,
+                            "validation": {
+                                "required": {
+                                    "message": "Execution Mode is required"
+                                }
+                            },
+                            "action": true
+                        },
+                        {
+                            "entityName": "communicationtype",
+                            "entityDatatype": "",
+                            "component": "dropdown",
+                            "properties": {},
+                            "isFromAPI": false,
+                            "isHide": false,
+                            "dispatchername": "communicationtype",
+                            "label": "Communication Tpe",
+                            "fetchdataapiurl": "http://frontoffice.milessoft.com:8090/api/common/getThirdPartyMasterData",
+                            "options": [],
+                            "validation": {
+                                "required": {
+                                    "value": false,
+                                    "message": "Communication Tpe is required"
+                                }
+                            },
+                            "action": true,
+                            "requestParam": [
+                                {
+                                    "fieldName": "ProductType",
+                                    "defaultValue": "MF",
+                                    "fieldNametoBindValue": "",
+                                    "IsSearchDropDownField": ""
+                                },
+                                {
+                                    "fieldName": "ClientCode",
+                                    "defaultValue": "35",
+                                    "fieldNametoBindValue": "",
+                                    "IsSearchDropDownField": ""
+                                }
+                            ],
+                            "responseParam": {
+                                "Value": "ModeId",
+                                "Text": "Mode"
+                            },
+                            "relativeTPAPIUrl": "Order/CommunicationType",
+                            "dynamicBehavior": {
+                                "disable": null,
+                                "reset": null,
+                                "mandatory": null
+                            }
+                        },
+                        {
+                            "entityName": "gender",
+                            "entityDatatype": "",
+                            "component": "staticDropdown",
+                            "properties": {},
+                            "isFromAPI": false,
+                            "isHide": false,
+                            "isReadOnly": false,
+                            "dispatchername": "gender",
+                            "label": "Gender",
+                            "options": [
+                                {
+                                    "value": "male",
+                                    "text": "Male",
+                                    "isDefaultOption": false
+                                },
+                                {
+                                    "value": "female",
+                                    "text": "Female",
+                                    "isDefaultOption": false
+                                },
+                                {
+                                    "value": "others",
+                                    "text": "Others",
+                                    "isDefaultOption": true
+                                }
+                            ],
+                            "validation": {
+                                "required": {
+                                    "value": false,
+                                    "message": "Gender is required"
+                                }
+                            },
+                            "dynamicBehavior": {
+                                "disable": null,
+                                "reset": null,
+                                "mandatory": null
+                            },
+                            "action": true
+                        }
+                    
+                ],
+                 "gridColumnFields": {
+                    "FixedField": [
+                        {
+                            "orderConfigId": 5,
+                            "orderConfigDtlId": 57,
+                            "productSubClassId": [
+                                3
+                            ],
+                            "orderTypeId": 2,
+                            "portfolioTypeId": [
+                                1
+                            ],
+                            "fieldName": "MF Scheme",
+                            "isHide": false,
+                            "defaultValue": "Scheme",
+                            "displayLabel": "Scheme Name",
+                            "fieldValues": [],
+                            "isList": false,
+                            "isReadOnly": true,
+                            "dispatcherName": "",
+                            "isMandatory": false
+                        },
+                        {
+                            "orderConfigId": 6,
+                            "orderConfigDtlId": 58,
+                            "productSubClassId": [
+                                3
+                            ],
+                            "orderTypeId": 2,
+                            "portfolioTypeId": [
+                                1
+                            ],
+                            "fieldName": "Folio",
+                            "isHide": false,
+                            "defaultValue": "New Folio",
+                            "displayLabel": "Folio",
+                            "fieldValues": [
+                                {
+                                    "id": 6,
+                                    "orderConfigId": 6,
+                                    "values": "New Folio"
+                                },
+                                {
+                                    "id": 7,
+                                    "orderConfigId": 6,
+                                    "values": "Latest Folio"
+                                },
+                                {
+                                    "id": 8,
+                                    "orderConfigId": 6,
+                                    "values": "Oldest Folio"
+                                }
+                            ],
+                            "isList": true,
+                            "isReadOnly": false,
+                            "dispatcherName": "",
+                            "isMandatory": false
+                        },
+                        {
+                            "orderConfigId": 11,
+                            "orderConfigDtlId": 63,
+                            "productSubClassId": [
+                                3
+                            ],
+                            "orderTypeId": 2,
+                            "portfolioTypeId": [
+                                1
+                            ],
+                            "fieldName": "SIP Tenor Basis",
+                            "isHide": false,
+                            "defaultValue": "Perpetual",
+                            "displayLabel": "SIP Tenor Basis",
+                            "fieldValues": [
+                                {
+                                    "id": 12,
+                                    "orderConfigId": 11,
+                                    "values": "Perpetual"
+                                },
+                                {
+                                    "id": 13,
+                                    "orderConfigId": 11,
+                                    "values": "Months"
+                                },
+                                {
+                                    "id": 14,
+                                    "orderConfigId": 11,
+                                    "values": "Years"
+                                },
+                                {
+                                    "id": 15,
+                                    "orderConfigId": 11,
+                                    "values": "No of Transactions"
+                                }
+                            ],
+                            "isList": true,
+                            "isReadOnly": false,
+                            "dispatcherName": "",
+                            "isMandatory": false
+                        }
+                    ],
+                    "UDFfield": [
+                        {
+                            "entityName": "valuedate",
+                            "entityDatatype": "",
+                            "component": "date",
+                            "properties": {},
+                            "isFromAPI": false,
+                            "isHide": false,
+                            "dispatchername": "valuedate",
+                            "label": "Value Date",
+                            "validation": {
+                                "required": {
+                                    "value": true,
+                                    "message": "value date is required"
+                                }
+                            },
+                            "action": true,
+                            "isReadOnly": false
+                        },
+                        {
+                            "entityName": "platform",
+                            "entityDatatype": "",
+                            "component": "dropdown",
+                            "properties": {},
+                            "isFromAPI": false,
+                            "isHide": false,
+                            "dispatchername": "platform",
+                            "label": "Platform",
+                            "fetchdataapiurl": "http://frontoffice.milessoft.com:8080/api/udfConfigurator/entityMaster",
+                            "options": [],
+                            "defaultValue": 1,
+                            "validation": {
+                                "required": {
+                                    "value": false,
+                                    "message": "Platform is required"
+                                }
+                            },
+                            "action": true,
+                            "isReadOnly": false
+                        },
+                        {
+                            "entityName": "fee",
+                            "entityDatatype": "",
+                            "component": "featuredtext",
+                            "properties": {},
+                            "isFromAPI": false,
+                            "isHide": false,
+                            "dispatchername": "fee",
+                            "label": "Fee",
+                            "placeholder": "Transaction Fee",
+                            "type": "decimal",
+                            "decimalPrecision": "2",
+                            "thousandSeparator": false,
+                            "prefix": "Rs. ",
+                            "suffix": "",
+                            "validation": {
+                                "required": {
+                                    "value": false,
+                                    "message": "fee is required"
+                                },
+                                "minLength": {
+                                    "value": "1",
+                                    "message": "Minimum length is 1 characters"
+                                },
+                                "maxLength": {
+                                    "value": "100",
+                                    "message": "Maximum length is 100 characters"
+                                }
+                            },
+                            "action": true,
+                            "isReadOnly": false
+                        },
+                        {
+                            "entityName": "physicalformnumber",
+                            "entityDatatype": "",
+                            "component": "text",
+                            "properties": {},
+                            "isFromAPI": false,
+                            "isHide": false,
+                            "dispatchername": "physicalformnumber",
+                            "label": "Physical Form Number",
+                            "placeholder": "Physical Form Number",
+                            "validation": {
+                                "required": {
+                                    "value": false,
+                                    "message": "physical form number is required"
+                                },
+                                "minLength": {
+                                    "value": "1",
+                                    "message": "Minimum length is 1 characters"
+                                },
+                                "maxLength": {
+                                    "value": "256",
+                                    "message": "Maximum length is 256 characters"
+                                },
+                                "pattern": {
+                                    "value": "^[\\p{L}\\p{M}\\p{N}\\p{P}\\p{S}\\s]+$",
+                                    "message": "Alphanumeric characters with symbols are allowed."
+                                }
+                            },
+                            "action": true
+                        }
+            
+            
+                    ]
+                }
+            }, 
+            {
+                "tabName": "Equity",
+                "productClassId": 2,
+                "productSubClassId": "1",
+                "productSubClass": "Equity",
+                "orderTypeId": 2,
+                "orderType": "Buy",
+                "portfolioType": "Executionary",
+                "portfolioTypeId": 1,
+                "fixedFieldConfigToApply":[
+                    {
+                        "orderConfigId": 5,
+                        "orderConfigDtlId": 57,
+                        "productSubClassId": [
+                            3
+                        ],
+                        "orderTypeId": 2,
+                        "portfolioTypeId": [
+                            1
+                        ],
+                        "fieldName": "MF Scheme",
+                        "isHide": false,
+                        "defaultValue": "Scheme",
+                        "displayLabel": "Scheme Name",
+                        "fieldValues": [],
+                        "isList": false,
+                        "isReadOnly": true,
+                        "dispatcherName": "",
+                        "isMandatory": false
+                    },
+                    {
+                        "orderConfigId": 6,
+                        "orderConfigDtlId": 58,
+                        "productSubClassId": [
+                            3
+                        ],
+                        "orderTypeId": 2,
+                        "portfolioTypeId": [
+                            1
+                        ],
+                        "fieldName": "Folio",
+                        "isHide": false,
+                        "defaultValue": "New Folio",
+                        "displayLabel": "Folio",
+                        "fieldValues": [
+                            {
+                                "id": 6,
+                                "orderConfigId": 6,
+                                "values": "New Folio"
+                            },
+                            {
+                                "id": 7,
+                                "orderConfigId": 6,
+                                "values": "Latest Folio"
+                            },
+                            {
+                                "id": 8,
+                                "orderConfigId": 6,
+                                "values": "Oldest Folio"
+                            }
+                        ],
+                        "isList": true,
+                        "isReadOnly": false,
+                        "dispatcherName": "",
+                        "isMandatory": false
+                    },
+                    {
+                        "orderConfigId": 7,
+                        "orderConfigDtlId": 59,
+                        "productSubClassId": [
+                            3
+                        ],
+                        "orderTypeId": 2,
+                        "portfolioTypeId": [
+                            1
+                        ],
+                        "fieldName": "Order By",
+                        "isHide": true,
+                        "defaultValue": "Amount",
+                        "displayLabel": "Order By",
+                        "fieldValues": [
+                            {
+                                "id": 9,
+                                "orderConfigId": 7,
+                                "values": "Amount"
+                            },
+                            {
+                                "id": 10,
+                                "orderConfigId": 7,
+                                "values": "Unit"
+                            }
+                        ],
+                        "isList": true,
+                        "isReadOnly": true,
+                        "dispatcherName": "",
+                        "isMandatory": false
+                    },
+                    {
+                        "orderConfigId": 8,
+                        "orderConfigDtlId": 60,
+                        "productSubClassId": [
+                            3
+                        ],
+                        "orderTypeId": 2,
+                        "portfolioTypeId": [
+                            1
+                        ],
+                        "fieldName": "Order Amount",
+                        "isHide": false,
+                        "defaultValue": "Min. Investment Amount",
+                        "displayLabel": "Order Amount",
+                        "fieldValues": [
+                            {
+                                "id": 55,
+                                "orderConfigId": 8,
+                                "values": "Min. Investment Amount"
+                            },
+                            {
+                                "id": 56,
+                                "orderConfigId": 8,
+                                "values": "No Default"
+                            }
+                        ],
+                        "isList": true,
+                        "isReadOnly": false,
+                        "dispatcherName": "",
+                        "isMandatory": false
+                    },
+                    {
+                        "orderConfigId": 9,
+                        "orderConfigDtlId": 61,
+                        "productSubClassId": [
+                            3
+                        ],
+                        "orderTypeId": 2,
+                        "portfolioTypeId": [
+                            1
+                        ],
+                        "fieldName": "SIP Frequency",
+                        "isHide": false,
+                        "defaultValue": "Monthly",
+                        "displayLabel": "SIP Frequency",
+                        "fieldValues": [
+                            {
+                                "id": 11,
+                                "orderConfigId": 9,
+                                "values": "Monthly"
+                            }
+                        ],
+                        "isList": true,
+                        "isReadOnly": false,
+                        "dispatcherName": "",
+                        "isMandatory": false
+                    },
+                    {
+                        "orderConfigId": 10,
+                        "orderConfigDtlId": 62,
+                        "productSubClassId": [
+                            3
+                        ],
+                        "orderTypeId": 2,
+                        "portfolioTypeId": [
+                            1
+                        ],
+                        "fieldName": "SIP Date",
+                        "isHide": false,
+                        "defaultValue": "0",
+                        "displayLabel": "SIP Date",
+                        "fieldValues": [],
+                        "isList": false,
+                        "isReadOnly": true,
+                        "dispatcherName": "",
+                        "isMandatory": false
+                    },
+                    {
+                        "orderConfigId": 11,
+                        "orderConfigDtlId": 63,
+                        "productSubClassId": [
+                            3
+                        ],
+                        "orderTypeId": 2,
+                        "portfolioTypeId": [
+                            1
+                        ],
+                        "fieldName": "SIP Tenor Basis",
+                        "isHide": false,
+                        "defaultValue": "Perpetual",
+                        "displayLabel": "SIP Tenor Basis",
+                        "fieldValues": [
+                            {
+                                "id": 12,
+                                "orderConfigId": 11,
+                                "values": "Perpetual"
+                            },
+                            {
+                                "id": 13,
+                                "orderConfigId": 11,
+                                "values": "Months"
+                            },
+                            {
+                                "id": 14,
+                                "orderConfigId": 11,
+                                "values": "Years"
+                            },
+                            {
+                                "id": 15,
+                                "orderConfigId": 11,
+                                "values": "No of Transactions"
+                            }
+                        ],
+                        "isList": true,
+                        "isReadOnly": false,
+                        "dispatcherName": "",
+                        "isMandatory": false
+                    },
+                    {
+                        "orderConfigId": 12,
+                        "orderConfigDtlId": 64,
+                        "productSubClassId": [
+                            3
+                        ],
+                        "orderTypeId": 2,
+                        "portfolioTypeId": [
+                            1
+                        ],
+                        "fieldName": "SIP Period or SIP Transactions",
+                        "isHide": false,
+                        "defaultValue": "",
+                        "displayLabel": "SIP Period ",
+                        "fieldValues": [],
+                        "isList": false,
+                        "isReadOnly": false,
+                        "dispatcherName": "",
+                        "isMandatory": false
+                    },
+                    {
+                        "orderConfigId": 13,
+                        "orderConfigDtlId": 65,
+                        "productSubClassId": [
+                            3
+                        ],
+                        "orderTypeId": 2,
+                        "portfolioTypeId": [
+                            1
+                        ],
+                        "fieldName": "SIP End Date",
+                        "isHide": false,
+                        "defaultValue": "0",
+                        "displayLabel": "SIP End Date",
+                        "fieldValues": [],
+                        "isList": false,
+                        "isReadOnly": true,
+                        "dispatcherName": "",
+                        "isMandatory": false
+                    },
+                    {
+                        "orderConfigId": 45,
+                        "orderConfigDtlId": 153,
+                        "productSubClassId": [
+                            3
+                        ],
+                        "orderTypeId": 2,
+                        "portfolioTypeId": [
+                            1
+                        ],
+                        "fieldName": "Order Units",
+                        "isHide": false,
+                        "defaultValue": null,
+                        "displayLabel": "Order Units",
+                        "fieldValues": [],
+                        "isList": true,
+                        "isReadOnly": false,
+                        "dispatcherName": "",
+                        "isMandatory": false
+                    }
+                ],
+                "udfFieldConfigToApply": [
+                    
+                        {
+                            "entityName": "valuedate",
+                            "entityDatatype": "",
+                            "component": "date",
+                            "properties": {},
+                            "isFromAPI": false,
+                            "isHide": false,
+                            "dispatchername": "valuedate",
+                            "label": "Value Date",
+                            "validation": {
+                                "required": {
+                                    "value": true,
+                                    "message": "value date is required"
+                                }
+                            },
+                            "action": true,
+                            "isReadOnly": false
+                        },
+                        {
+                            "entityName": "platform",
+                            "entityDatatype": "",
+                            "component": "dropdown",
+                            "properties": {},
+                            "isFromAPI": false,
+                            "isHide": false,
+                            "dispatchername": "platform",
+                            "label": "Platform",
+                            "fetchdataapiurl": "http://frontoffice.milessoft.com:8080/api/udfConfigurator/entityMaster",
+                            "options": [],
+                            "defaultValue": 1,
+                            "validation": {
+                                "required": {
+                                    "value": false,
+                                    "message": "Platform is required"
+                                }
+                            },
+                            "action": true,
+                            "isReadOnly": false
+                        },
+                        {
+                            "entityName": "fee",
+                            "entityDatatype": "",
+                            "component": "featuredtext",
+                            "properties": {},
+                            "isFromAPI": false,
+                            "isHide": false,
+                            "dispatchername": "fee",
+                            "label": "Fee",
+                            "placeholder": "Transaction Fee",
+                            "type": "decimal",
+                            "decimalPrecision": "2",
+                            "thousandSeparator": false,
+                            "prefix": "Rs. ",
+                            "suffix": "",
+                            "validation": {
+                                "required": {
+                                    "value": false,
+                                    "message": "fee is required"
+                                },
+                                "minLength": {
+                                    "value": "1",
+                                    "message": "Minimum length is 1 characters"
+                                },
+                                "maxLength": {
+                                    "value": "100",
+                                    "message": "Maximum length is 100 characters"
+                                }
+                            },
+                            "action": true,
+                            "isReadOnly": false
+                        },
+                        {
+                            "entityName": "physicalformnumber",
+                            "entityDatatype": "",
+                            "component": "text",
+                            "properties": {},
+                            "isFromAPI": false,
+                            "isHide": false,
+                            "dispatchername": "physicalformnumber",
+                            "label": "Physical Form Number",
+                            "placeholder": "Physical Form Number",
+                            "validation": {
+                                "required": {
+                                    "value": false,
+                                    "message": "physical form number is required"
+                                },
+                                "minLength": {
+                                    "value": "1",
+                                    "message": "Minimum length is 1 characters"
+                                },
+                                "maxLength": {
+                                    "value": "256",
+                                    "message": "Maximum length is 256 characters"
+                                },
+                                "pattern": {
+                                    "value": "^[\\p{L}\\p{M}\\p{N}\\p{P}\\p{S}\\s]+$",
+                                    "message": "Alphanumeric characters with symbols are allowed."
+                                }
+                            },
+                            "action": true
+                        },
+                        {
+                            "entityName": "ordersourcedby",
+                            "entityDatatype": "",
+                            "component": "autoSuggestion",
+                            "properties": {},
+                            "isFromAPI": false,
+                            "isHide": false,
+                            "dispatchername": "ordersourcedby",
+                            "label": "Order Sourced by",
+                            "placeholder": "Order Sourced by",
+                            "validation": {
+                                "required": {
+                                    "value": true,
+                                    "message": "Select order sourced by"
+                                }
+                            },
+                            "action": true,
+                            "fetchdataapiurl": "http://frontoffice.milessoft.com:8090/api/common/getThirdPartyMasterData",
+                            "minCharsToSearch": 2,
+                            "requestParam": [
+                                {
+                                    "fieldName": "SearchKeyword",
+                                    "defaultValue": "",
+                                    "fieldNametoBindValue": "",
+                                    "IsSearchDropDownField": "Y"
+                                }
+                            ],
+                            "responseParam": {
+                                "Value": "ManagerCode",
+                                "Text": "ManagerName"
+                            },
+                            "relativeTPAPIUrl": "Order/PrimaryRMList",
+                            "dynamicBehavior": {
+                                "disable": null,
+                                "reset": null,
+                                "mandatory": null
+                            }
+                        },
+                        {
+                            "entityName": "introducedby",
+                            "entityDatatype": "",
+                            "component": "text",
+                            "properties": {},
+                            "isFromAPI": false,
+                            "isHide": false,
+                            "dispatchername": "introducedby",
+                            "label": "Introduced By",
+                            "placeholder": "Introduced By",
+                            "defaultValue": "Introduced By",
+                            "validation": {
+                                "required": {
+                                    "value": false,
+                                    "message": "introduced by is required"
+                                },
+                                "minLength": {
+                                    "value": "1",
+                                    "message": "Minimum length is 1 characters"
+                                },
+                                "maxLength": {
+                                    "value": "256",
+                                    "message": "Maximum length is 256 characters"
+                                },
+                                "pattern": {
+                                    "value": "^[\\p{L}\\p{M}\\s]+$",
+                                    "message": "Only alphabets with spaces are allowed."
+                                }
+                            },
+                            "action": true
+                        },
+                        {
+                            "entityName": "executionmode",
+                            "entityDatatype": "",
+                            "component": "dropdown",
+                            "properties": {},
+                            "isFromAPI": false,
+                            "isHide": false,
+                            "dispatchername": "executionmode",
+                            "label": "Execution Mode",
+                            "fetchdataapiurl": "http://frontoffice.milessoft.com:8080/api/udfConfigurator/entityMaster",
+                            "options": [],
+                            "defaultValue": 1,
+                            "validation": {
+                                "required": {
+                                    "message": "Execution Mode is required"
+                                }
+                            },
+                            "action": true
+                        },
+                        {
+                            "entityName": "communicationtype",
+                            "entityDatatype": "",
+                            "component": "dropdown",
+                            "properties": {},
+                            "isFromAPI": false,
+                            "isHide": false,
+                            "dispatchername": "communicationtype",
+                            "label": "Communication Tpe",
+                            "fetchdataapiurl": "http://frontoffice.milessoft.com:8090/api/common/getThirdPartyMasterData",
+                            "options": [],
+                            "validation": {
+                                "required": {
+                                    "value": false,
+                                    "message": "Communication Tpe is required"
+                                }
+                            },
+                            "action": true,
+                            "requestParam": [
+                                {
+                                    "fieldName": "ProductType",
+                                    "defaultValue": "MF",
+                                    "fieldNametoBindValue": "",
+                                    "IsSearchDropDownField": ""
+                                },
+                                {
+                                    "fieldName": "ClientCode",
+                                    "defaultValue": "35",
+                                    "fieldNametoBindValue": "",
+                                    "IsSearchDropDownField": ""
+                                }
+                            ],
+                            "responseParam": {
+                                "Value": "ModeId",
+                                "Text": "Mode"
+                            },
+                            "relativeTPAPIUrl": "Order/CommunicationType",
+                            "dynamicBehavior": {
+                                "disable": null,
+                                "reset": null,
+                                "mandatory": null
+                            }
+                        },
+                        {
+                            "entityName": "gender",
+                            "entityDatatype": "",
+                            "component": "staticDropdown",
+                            "properties": {},
+                            "isFromAPI": false,
+                            "isHide": false,
+                            "isReadOnly": false,
+                            "dispatchername": "gender",
+                            "label": "Gender",
+                            "options": [
+                                {
+                                    "value": "male",
+                                    "text": "Male",
+                                    "isDefaultOption": false
+                                },
+                                {
+                                    "value": "female",
+                                    "text": "Female",
+                                    "isDefaultOption": false
+                                },
+                                {
+                                    "value": "others",
+                                    "text": "Others",
+                                    "isDefaultOption": true
+                                }
+                            ],
+                            "validation": {
+                                "required": {
+                                    "value": false,
+                                    "message": "Gender is required"
+                                }
+                            },
+                            "dynamicBehavior": {
+                                "disable": null,
+                                "reset": null,
+                                "mandatory": null
+                            },
+                            "action": true
+                        }
+                    
+                ],
+                 "gridColumnFields": {
+                    "FixedField": [
+                        {
+                            "orderConfigId": 1,
+                            "orderConfigDtlId": null,
+                            "productSubClassId": [],
+                            "orderTypeId": null,
+                            "portfolioTypeId": [],
+                            "fieldName": "MF Scheme",
+                            "isHide": false,
+                            "defaultValue": "",
+                            "displayLabel": "",
+                            "fieldValues": [],
+                            "isList": false,
+                            "isReadOnly": false,
+                            "dispatcherName": "",
+                            "isMandatory": false
+                        }
+                    ],
+                    "UDFfield": [
+                        {
+                            "label": "city",
+                            "component": "dropdown",
+                            "fetchdataapiurl": "http://localhost:5173/city",
+                            "dispatchername": "city",
+                            "validation": {
+                                "required": {
+                                    "value": true,
+                                    "message": "Select city"
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

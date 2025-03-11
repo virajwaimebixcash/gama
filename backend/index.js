@@ -52,7 +52,7 @@ app.get("/api/translations/:lng", (req, res) => {
 
 app.get("/api/lng", (req, res) => {
   return res.json({
-    lng: "th",
+    lng: "vi",
   });
 });
 
