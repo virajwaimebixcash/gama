@@ -1,9 +1,8 @@
 import express from "express";
 import cors from "cors";
 import { fileURLToPath } from "url";
-import { readFileSync, writeFileSync } from "fs";
+import { readFileSync } from "fs";
 import { join } from "path";
-import dotenv from "dotenv/config";
 
 const app = express();
 const PORT = "8000";
@@ -14,76 +13,46 @@ app.use(express.json());
 const __dirname = fileURLToPath(new URL(".", import.meta.url));
 const languages = ["ar", "en", "id", "vi", "th"];
 
-console.log(process.env.DEFAULT_LANG, "language");
-
-const loadTranslation = (lang) => {
+const loadTranslations = () => {
   let filePath;
 
   try {
-    filePath = join(__dirname, "translations", `${lang}.json`);
+    filePath = join(__dirname, "translations", "translations.json");
 
     const translations = JSON.parse(readFileSync(filePath, "utf8"));
-
     return translations;
   } catch (err) {
     console.error(err);
   }
 };
 
-const saveTranslation = (lang, translations) => {
-  try {
-    const filePath = join(__dirname, "translations", `${lang}.json`);
-
-    writeFileSync(filePath, JSON.stringify(translations, null, 2), "utf8");
-  } catch (err) {
-    console.error("Error saving translation file:", err);
-  }
-};
-
+// Endpoint to fetch the translations for a specific language
 app.get("/api/translations/:lng", (req, res) => {
   let { lng } = req?.params;
 
-  if (!languages.includes(lng)) lng = "ar";
+  if (!languages.includes(lng)) lng = "en";
 
-  const translations = loadTranslation(lng);
-
-  return res.json(translations);
-});
-
-app.get("/api/lng", (req, res) => {
-  return res.json({
-    lng: "vi",
-  });
-});
-
-// POST route to add new translation keys
-app.post("/api/addTranslation", (req, res) => {
-  const { lang, groupName, groupHeader } = req.body;
-
-  if (!languages.includes(lang)) {
-    return res.status(400).json({ error: "Unsupported language" });
-  }
-
-  // Load the current translations for the specified language
-  const translations = loadTranslation(lang);
+  const translations = loadTranslations();
 
   if (!translations) {
-    return res.status(500).json({ error: "Error loading translation file" });
+    return res.status(500).json({ error: "Error loading translations" });
   }
 
-  // Check if the groupName and groupHeader keys already exist
-  if (translations[groupName] || translations[groupHeader]) {
-    return res.status(400).json({ error: "Translation keys already exist" });
+  // Return the translated keys for the requested language
+  const response = {};
+
+  for (const key in translations) {
+    response[key] = translations[key][lng] || translations[key]["en"];
   }
 
-  // Add the new translation keys
-  translations[groupName] = groupName; // or provide a default translation
-  translations[groupHeader] = groupHeader; // or provide a default translation
+  return res.json(response);
+});
 
-  // Save the updated translation file
-  saveTranslation(lang, translations);
-
-  return res.status(200).json({ message: "Translation added successfully" });
+// Endpoint to get the default language
+app.get("/api/lng", (req, res) => {
+  return res.json({
+    lng: "ar",
+  });
 });
 
 app.listen(PORT, () => {

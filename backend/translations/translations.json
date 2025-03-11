@@ -1,0 +1,548 @@
+{
+  "welcome": {
+    "en": "Welcome Distribution Portal",
+    "id": "Selamat Datang di Portal Distribusi",
+    "ar": "مرحبا بكم في بوابة التوزيع",
+    "vi": "Chào mừng đến Cổng thông tin phân phối",
+    "th": "ยินดีต้อนรับสู่พอร์ทัลการจัดจำหน่าย"
+  },
+  "loginMobileNo": {
+    "en": "Login with Phone Number",
+    "id": "Masuk dengan Nomor Telepon",
+    "ar": "تسجيل الدخول باستخدام رقم الهاتف",
+    "vi": "Đăng nhập bằng số điện thoại",
+    "th": "เข้าสู่ระบบด้วยหมายเลขโทรศัพท์"
+  },
+  "enterMobile": {
+    "en": "Enter Mobile No",
+    "id": "Masukkan Nomor Telepon",
+    "ar": "أدخل رقم الهاتف",
+    "vi": "Nhập số điện thoại",
+    "th": "กรอกหมายเลขโทรศัพท์"
+  },
+  "sendOTP": {
+    "en": "Send OTP",
+    "id": "Kirim OTP",
+    "ar": "إرسال OTP",
+    "vi": "Gửi OTP",
+    "th": "ส่ง OTP"
+  },
+  "loginWithUserId": {
+    "en": "Login With User ID",
+    "id": "Masuk dengan ID Pengguna",
+    "ar": "تسجيل الدخول باستخدام معرف المستخدم",
+    "vi": "Đăng nhập bằng ID người dùng",
+    "th": "เข้าสู่ระบบด้วยรหัสผู้ใช้"
+  },
+  "loginUserId": {
+    "en": "Login with User ID",
+    "id": "Masuk dengan ID Pengguna",
+    "ar": "تسجيل الدخول باستخدام معرف المستخدم",
+    "vi": "Đăng nhập bằng ID người dùng",
+    "th": "เข้าสู่ระบบด้วยรหัสผู้ใช้"
+  },
+  "forgetPassword": {
+    "en": "Forgot Password?",
+    "id": "Lupa Kata Sandi?",
+    "ar": "نسيت كلمة المرور؟",
+    "vi": "Quên mật khẩu?",
+    "th": "ลืมรหัสผ่าน?"
+  },
+  "dontHaveAccount": {
+    "en": "Don't have an account? Sign Up",
+    "id": "Tidak memiliki akun? Daftar",
+    "ar": "لا تملك حساب؟ سجل",
+    "vi": "Chưa có tài khoản? Đăng ký",
+    "th": "ยังไม่มีบัญชีใช่ไหม? ลงทะเบียน"
+  },
+  "clientLogin": {
+    "en": "Customer Login",
+    "id": "Login Pelanggan",
+    "ar": "تسجيل دخول العميل",
+    "vi": "Đăng nhập khách hàng",
+    "th": "เข้าสู่ระบบลูกค้า"
+  },
+  "firstStep": {
+    "en": "Take the first step on the path to wealth.",
+    "id": "Ambil langkah pertama menuju kekayaan.",
+    "ar": "خذ الخطوة الأولى نحو الثراء.",
+    "vi": "Bước đầu tiên trên con đường đến sự giàu có.",
+    "th": "ก้าวแรกสู่ความมั่งคั่ง"
+  },
+  "portfolioConfigurator": {
+    "en": "Portfolio Configurator",
+    "id": "Pengonfigurasi Portofolio",
+    "ar": "منظم الحافظة",
+    "vi": "Trình cấu hình danh mục đầu tư",
+    "th": "ตัวกำหนดพอร์ตโฟลิโอ"
+  },
+  "selectViewType": {
+    "en": "Select View Type",
+    "id": "Pilih Jenis Tampilan",
+    "ar": "اختر نوع العرض",
+    "vi": "Chọn loại chế độ xem",
+    "th": "เลือกประเภทมุมมอง"
+  },
+  "detailedView": {
+    "en": "Detailed View",
+    "id": "Tampilan Detail",
+    "ar": "عرض تفصيلي",
+    "vi": "Chế độ xem chi tiết",
+    "th": "มุมมองรายละเอียด"
+  },
+  "quickView": {
+    "en": "Quick View",
+    "id": "Tampilan Cepat",
+    "ar": "عرض سريع",
+    "vi": "Xem nhanh",
+    "th": "มุมมองด่วน"
+  },
+  "addGroup": {
+    "en": "Add Group",
+    "id": "Tambah Grup",
+    "ar": "إضافة مجموعة",
+    "vi": "Thêm nhóm",
+    "th": "เพิ่มกลุ่ม"
+  },
+  "groupName": {
+    "en": "Group Name",
+    "id": "Nama Grup",
+    "ar": "اسم المجموعة",
+    "vi": "Tên nhóm",
+    "th": "ชื่อกลุ่ม"
+  },
+  "groupNameHeader": {
+    "en": "Group Name Header",
+    "id": "Header Nama Grup",
+    "ar": "رأس اسم المجموعة",
+    "vi": "Tiêu đề tên nhóm",
+    "th": "หัวชื่อกลุ่ม"
+  },
+  "groupHide": {
+    "en": "Group Hide",
+    "id": "Sembunyikan Grup",
+    "ar": "إخفاء المجموعة",
+    "vi": "Ẩn nhóm",
+    "th": "ซ่อนกลุ่ม"
+  },
+  "actions": {
+    "en": "Actions",
+    "id": "Tindakan",
+    "ar": "الإجراءات",
+    "vi": "Hành động",
+    "th": "การกระทำ"
+  },
+  "visible": {
+    "en": "Visible",
+    "id": "Terlihat",
+    "ar": "مرئي",
+    "vi": "Hiển thị",
+    "th": "มองเห็น"
+  },
+  "fieldName": {
+    "en": "Field Name",
+    "id": "Nama Kolom",
+    "ar": "اسم الحقل",
+    "vi": "Tên trường",
+    "th": "ชื่อฟิลด์"
+  },
+  "displayName": {
+    "en": "Display Name",
+    "id": "Nama Tampilan",
+    "ar": "اسم العرض",
+    "vi": "Tên hiển thị",
+    "th": "ชื่อที่แสดง"
+  },
+  "groupingUnder": {
+    "en": "Grouping Under",
+    "id": "Pengelompokan Dibawah",
+    "ar": "التجميع تحت",
+    "vi": "Nhóm dưới",
+    "th": "การจัดกลุ่มใต้"
+  },
+  "bankDetails": {
+    "en": "Bank Details",
+    "id": "Detail Bank",
+    "ar": "تفاصيل البنك",
+    "vi": "Chi tiết ngân hàng",
+    "th": "รายละเอียดธนาคาร"
+  },
+  "nomineeDetails": {
+    "en": "Nominee Details",
+    "id": "Detail Penerima",
+    "ar": "تفاصيل المستفيد",
+    "vi": "Chi tiết người thụ hưởng",
+    "th": "รายละเอียดผู้ได้รับผลประโยชน์"
+  },
+  "personalDetails": {
+    "en": "Personal Details",
+    "id": "Detail Pribadi",
+    "ar": "التفاصيل الشخصية",
+    "vi": "Chi tiết cá nhân",
+    "th": "รายละเอียดส่วนตัว"
+  },
+  "updateGroupsSequence": {
+    "en": "Update Groups Sequence",
+    "id": "Perbarui Urutan Grup",
+    "ar": "تحديث ترتيب المجموعات",
+    "vi": "Cập nhật thứ tự nhóm",
+    "th": "อัปเดตลำดับกลุ่ม"
+  },
+  "fieldMapped": {
+    "en": "Field Mapped",
+    "id": "Kolom Dipetakan",
+    "ar": "الحقل المعين",
+    "vi": "Trường được ánh xạ",
+    "th": "ฟิลด์ที่แมป"
+  },
+  "saveConfiguration": {
+    "en": "Save Configuration",
+    "id": "Simpan Konfigurasi",
+    "ar": "حفظ الإعدادات",
+    "vi": "Lưu cấu hình",
+    "th": "บันทึกการตั้งค่า"
+  },
+  "backToQuickView": {
+    "en": "Back to Quick View",
+    "id": "Kembali ke Tampilan Cepat",
+    "ar": "الرجوع إلى العرض السريع",
+    "vi": "Quay lại chế độ xem nhanh",
+    "th": "กลับไปที่มุมมองด่วน"
+  },
+  "portfolioView": {
+    "en": "Portfolio View",
+    "id": "Tampilan Portofolio",
+    "ar": "عرض الحافظة",
+    "vi": "Chế độ xem danh mục đầu tư",
+    "th": "มุมมองพอร์ตโฟลิโอ"
+  },
+  "PAN": {
+    "en": "PAN",
+    "id": "PAN",
+    "ar": "PAN",
+    "vi": "PAN",
+    "th": "PAN"
+  },
+  "Nominee PAN": {
+    "en": "Nominee PAN",
+    "id": "PAN Penerima",
+    "ar": "PAN المستفيد",
+    "vi": "PAN người thụ hưởng",
+    "th": "PAN ผู้รับผลประโยชน์"
+  },
+  "Guardian Relationship With Nominee": {
+    "en": "Guardian Relationship With Nominee",
+    "id": "Hubungan Wali dengan Penerima",
+    "ar": "علاقة الوصي بالمستفيد",
+    "vi": "Mối quan hệ người giám hộ với người thụ hưởng",
+    "th": "ความสัมพันธ์ผู้ปกครองกับผู้รับผลประโยชน์"
+  },
+  "Guardian Date Of Birth": {
+    "en": "Guardian Date Of Birth",
+    "id": "Tanggal Lahir Wali",
+    "ar": "تاريخ ميلاد الوصي",
+    "vi": "Ngày sinh của người giám hộ",
+    "th": "วันเกิดของผู้ปกครอง"
+  },
+  "Guardian PAN": {
+    "en": "Guardian PAN",
+    "id": "PAN Wali",
+    "ar": "PAN الوصي",
+    "vi": "PAN của người giám hộ",
+    "th": "PAN ของผู้ปกครอง"
+  },
+  "Guardian Mobile Number": {
+    "en": "Guardian Mobile Number",
+    "id": "Nomor Telepon Wali",
+    "ar": "رقم هاتف الوصي",
+    "vi": "Số điện thoại người giám hộ",
+    "th": "หมายเลขโทรศัพท์ผู้ปกครอง"
+  },
+  "Guardian Email Id": {
+    "en": "Guardian Email Id",
+    "id": "ID Email Wali",
+    "ar": "البريد الإلكتروني للوصي",
+    "vi": "ID Email của người giám hộ",
+    "th": "อีเมลผู้ปกครอง"
+  },
+  "RM Mobile Number": {
+    "en": "RM Mobile Number",
+    "id": "Nomor Telepon RM",
+    "ar": "رقم هاتف RM",
+    "vi": "Số điện thoại RM",
+    "th": "หมายเลขโทรศัพท์ RM"
+  },
+  "RM Email Id": {
+    "en": "RM Email Id",
+    "id": "ID Email RM",
+    "ar": "البريد الإلكتروني لـ RM",
+    "vi": "ID Email của RM",
+    "th": "อีเมล RM"
+  },
+  "Fund Accounting": {
+    "en": "Fund Accounting",
+    "id": "Akuntansi Dana",
+    "ar": "محاسبة الأموال",
+    "vi": "Kế toán quỹ",
+    "th": "บัญชีเงินทุน"
+  },
+  "Goals Linked": {
+    "en": "Goals Linked",
+    "id": "Tujuan Terkait",
+    "ar": "الأهداف المرتبطة",
+    "vi": "Mục tiêu liên kết",
+    "th": "เป้าหมายที่เชื่อมโยง"
+  },
+  "ucc Of Client L3": {
+    "en": "UCC Of Client L3",
+    "id": "UCC Klien L3",
+    "ar": "UCC للعميل L3",
+    "vi": "UCC của khách hàng L3",
+    "th": "UCC ของลูกค้า L3"
+  },
+  "Account L4 Portfolio Code": {
+    "en": "Account L4 Portfolio Code",
+    "id": "Kode Portofolio Akun L4",
+    "ar": "رمز محفظة الحساب L4",
+    "vi": "Mã danh mục tài khoản L4",
+    "th": "รหัสพอร์ตโฟลิโอบัญชี L4"
+  },
+  "Portfolio Type": {
+    "en": "Portfolio Type",
+    "id": "Tipe Portofolio",
+    "ar": "نوع المحفظة",
+    "vi": "Loại danh mục đầu tư",
+    "th": "ประเภทพอร์ตโฟลิโอ"
+  },
+  "FACTA Status": {
+    "en": "FACTA Status",
+    "id": "Status FACTA",
+    "ar": "حالة FACTA",
+    "vi": "Trạng thái FACTA",
+    "th": "สถานะ FACTA"
+  },
+  "Risk Profile": {
+    "en": "Risk Profile",
+    "id": "Profil Risiko",
+    "ar": "الملف الشخصي للمخاطر",
+    "vi": "Hồ sơ rủi ro",
+    "th": "โปรไฟล์ความเสี่ยง"
+  },
+  "Mobile Number": {
+    "en": "Mobile Number",
+    "id": "Nomor Telepon Seluler",
+    "ar": "رقم الهاتف المحمول",
+    "vi": "Số điện thoại di động",
+    "th": "หมายเลขโทรศัพท์มือถือ"
+  },
+  "Currency": {
+    "en": "Currency",
+    "id": "Mata Uang",
+    "ar": "العملة",
+    "vi": "Tiền tệ",
+    "th": "สกุลเงิน"
+  },
+  "Nominee Gender": {
+    "en": "Nominee Gender",
+    "id": "Jenis Kelamin Penerima",
+    "ar": "جنس المستفيد",
+    "vi": "Giới tính người thụ hưởng",
+    "th": "เพศผู้รับผลประโยชน์"
+  },
+  "Nominee Name": {
+    "en": "Nominee Name",
+    "id": "Nama Penerima",
+    "ar": "اسم المستفيد",
+    "vi": "Tên người thụ hưởng",
+    "th": "ชื่อผู้รับผลประโยชน์"
+  },
+  "RM Name": {
+    "en": "RM Name",
+    "id": "Nama RM",
+    "ar": "اسم RM",
+    "vi": "Tên RM",
+    "th": "ชื่อ RM"
+  },
+  "RMARN Number": {
+    "en": "RMARN Number",
+    "id": "Nomor RMARN",
+    "ar": "رقم RMARN",
+    "vi": "Số RMARN",
+    "th": "หมายเลข RMARN"
+  },
+  "Kyc Complaince Status": {
+    "en": "KYC Compliance Status",
+    "id": "Status Kepatuhan KYC",
+    "ar": "حالة امتثال KYC",
+    "vi": "Trạng thái tuân thủ KYC",
+    "th": "สถานะการปฏิบัติตาม KYC"
+  },
+  "Client Tax Status": {
+    "en": "Client Tax Status",
+    "id": "Status Pajak Klien",
+    "ar": "حالة ضريبة العميل",
+    "vi": "Trạng thái thuế của khách hàng",
+    "th": "สถานะภาษีของลูกค้า"
+  },
+  "Mode Of Operations": {
+    "en": "Mode Of Operations",
+    "id": "Mode Operasi",
+    "ar": "وضع العمليات",
+    "vi": "Chế độ hoạt động",
+    "th": "โหมดการดำเนินงาน"
+  },
+  "Date Of Birth": {
+    "en": "Date Of Birth",
+    "id": "Tanggal Lahir",
+    "ar": "تاريخ الميلاد",
+    "vi": "Ngày sinh",
+    "th": "วันเกิด"
+  },
+  "Gender": {
+    "en": "Gender",
+    "id": "Jenis Kelamin",
+    "ar": "الجنس",
+    "vi": "Giới tính",
+    "th": "เพศ"
+  },
+  "Marital Status": {
+    "en": "Marital Status",
+    "id": "Status Perkawinan",
+    "ar": "الحالة الاجتماعية",
+    "vi": "Tình trạng hôn nhân",
+    "th": "สถานภาพสมรส"
+  },
+  "Occupation": {
+    "en": "Occupation",
+    "id": "Pekerjaan",
+    "ar": "المهنة",
+    "vi": "Nghề nghiệp",
+    "th": "อาชีพ"
+  },
+  "Nationality": {
+    "en": "Nationality",
+    "id": "Kewarganegaraan",
+    "ar": "الجنسية",
+    "vi": "Quốc tịch",
+    "th": "สัญชาติ"
+  },
+  "Aadhaar": {
+    "en": "Aadhaar",
+    "id": "Aadhaar",
+    "ar": "Aadhaar",
+    "vi": "Aadhaar",
+    "th": "Aadhaar"
+  },
+  "Wedding Date": {
+    "en": "Wedding Date",
+    "id": "Tanggal Pernikahan",
+    "ar": "تاريخ الزواج",
+    "vi": "Ngày cưới",
+    "th": "วันแต่งงาน"
+  },
+  "Bank Name": {
+    "en": "Bank Name",
+    "id": "Nama Bank",
+    "ar": "اسم البنك",
+    "vi": "Tên ngân hàng",
+    "th": "ชื่อธนาคาร"
+  },
+  "IFSC Code": {
+    "en": "Bank IFSC Code",
+    "id": "Kode IFSC Bank",
+    "ar": "رمز IFSC للبنك",
+    "vi": "Mã IFSC ngân hàng",
+    "th": "รหัส IFSC ธนาคาร"
+  },
+  "Bank Branch": {
+    "en": "Bank Branch",
+    "id": "Cabang Bank",
+    "ar": "فرع البنك",
+    "vi": "Chi nhánh ngân hàng",
+    "th": "สาขาธนาคาร"
+  },
+  "Account Number": {
+    "en": "Account Number",
+    "id": "Nomor Rekening",
+    "ar": "رقم الحساب",
+    "vi": "Số tài khoản",
+    "th": "หมายเลขบัญชี"
+  },
+  "MICR Code": {
+    "en": "MICR Code",
+    "id": "Kode MICR",
+    "ar": "رمز MICR",
+    "vi": "Mã MICR",
+    "th": "รหัส MICR"
+  },
+  "Permanent Address": {
+    "en": "Permanent Address",
+    "id": "Alamat Permanen",
+    "ar": "العنوان الدائم",
+    "vi": "Địa chỉ thường trú",
+    "th": "ที่อยู่ถาวร"
+  },
+  "Correspondence Address": {
+    "en": "Correspondence Address",
+    "id": "Alamat Surat Menyurat",
+    "ar": "عنوان المراسلة",
+    "vi": "Địa chỉ thư tín",
+    "th": "ที่อยู่ติดต่อ"
+  },
+  "Email Id": {
+    "en": "Email Id",
+    "id": "ID Email",
+    "ar": "البريد الإلكتروني",
+    "vi": "ID Email",
+    "th": "อีเมล"
+  },
+  "Nominee Relationship": {
+    "en": "Nominee Relationship",
+    "id": "Hubungan Penerima",
+    "ar": "علاقة المستفيد",
+    "vi": "Mối quan hệ người thụ hưởng",
+    "th": "ความสัมพันธ์ผู้รับผลประโยชน์"
+  },
+  "Nominee Date Of Birth": {
+    "en": "Nominee Date Of Birth",
+    "id": "Tanggal Lahir Penerima",
+    "ar": "تاريخ ميلاد المستفيد",
+    "vi": "Ngày sinh của người thụ hưởng",
+    "th": "วันเกิดของผู้รับผลประโยชน์"
+  },
+  "Nominee Sharing Percentage": {
+    "en": "Nominee Sharing Percentage",
+    "id": "Persentase Pembagian Penerima",
+    "ar": "نسبة مشاركة المستفيد",
+    "vi": "Tỷ lệ chia sẻ của người thụ hưởng",
+    "th": "เปอร์เซ็นต์การแบ่งปันของผู้รับผลประโยชน์"
+  },
+  "Nominee Mobile Number": {
+    "en": "Nominee Mobile Number",
+    "id": "Nomor Telepon Seluler Penerima",
+    "ar": "رقم هاتف المستفيد",
+    "vi": "Số điện thoại di động của người thụ hưởng",
+    "th": "หมายเลขโทรศัพท์มือถือผู้รับผลประโยชน์"
+  },
+  "Nominee Email Id": {
+    "en": "Nominee Email Id",
+    "id": "ID Email Penerima",
+    "ar": "البريد الإلكتروني للمستفيد",
+    "vi": "ID Email của người thụ hưởng",
+    "th": "อีเมลผู้รับผลประโยชน์"
+  },
+  "Guardian Name Of Minor Nominee": {
+    "en": "Guardian Name Of Minor Nominee",
+    "id": "Nama Wali Penerima Minor",
+    "ar": "اسم الوصي للمستفيد القاصر",
+    "vi": "Tên người giám hộ của người thụ hưởng chưa đủ tuổi",
+    "th": "ชื่อผู้ปกครองของผู้รับผลประโยชน์ที่ยังไม่บรรลุนิติภาวะ"
+  },
+  "Additional Details": {
+    "en": "Additional Details",
+    "id": "Detail Tambahan",
+    "ar": "تفاصيل إضافية",
+    "vi": "Chi tiết bổ sung",
+    "th": "รายละเอียดเพิ่มเติม"
+  }
+}
